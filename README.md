@@ -21,7 +21,10 @@ I may do this in Python or in C++
 
 ### C++ Links
 * [SDL Library](https://www.libsdl.org/index.php)
-* [Codeblock IDE](http://www.codeblocks.org/)
+* [Codeblocks IDE](http://www.codeblocks.org/)
+* [MiniGW](http://www.mingw.org/)
+* [SDL Tutorials](http://lazyfoo.net/SDL_tutorials/)
+* [SDL and Codeblocks](http://wiki.codeblocks.org/index.php/Using_SDL_with_Code::Blocks)
 
 
 ## Licence 
