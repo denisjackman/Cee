@@ -1,6 +1,7 @@
 # Game
 ======
-This holds the code and notes for a rough game idea I have 
+This holds the code and notes for a rough game idea I have.
+I may do this in Python or in C++ 
 
 ## Version History 
 |Date |Author|Version|Reason|
@@ -9,6 +10,19 @@ This holds the code and notes for a rough game idea I have
 
 ## Links
 * [Game Programming](http://gameprogrammingpatterns.com/)
+* [Genetic Algorithims](http://www.ai-junkie.com/ga/intro/gat1.html)
+
+### Tools 
+* [Github](https://github.com/)
+
+### Python Links 
+* [Pygame](http://pygame.org/hifi.html)
+* [Pycharm](https://www.jetbrains.com/pycharm/)
+
+### C++ Links
+* [SDL Library](https://www.libsdl.org/index.php)
+* [Codeblock IDE](http://www.codeblocks.org/)
+
 
 ## Licence 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
