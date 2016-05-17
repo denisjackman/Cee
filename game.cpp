@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <cmath>
 #include <iostream>
-#include <string>
+#include <cstring>
 #include "include/gamefunction.h"
 
 using namespace std;
