@@ -1,3 +1,5 @@
+#include <ctime>
+#include <cmath>
 #include <iostream>
 #include "include/gamefunction.h"
 
