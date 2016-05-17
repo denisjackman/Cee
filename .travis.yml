@@ -6,6 +6,9 @@ compiler:
 os:
 - linux
 before_install:
+- echo $LANG
+- echo $LC_ALL
+- apt-get install libsdl2-dev
 before_script:
 script: make
 after_success:
