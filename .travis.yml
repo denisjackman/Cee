@@ -1,0 +1,12 @@
+language: cpp
+sudo: required
+dist: trusty
+compiler:
+- gcc
+os:
+- linux
+before_install:
+before_script:
+script:
+after_success:
+
