@@ -5,7 +5,9 @@
 #include "include/gamefunction.h"
 
 using namespace std;
-
+/*
+	This is an ongoing project 
+*/
 int main ()
 {
   	cout << " -- Game Version 1.0 (Test) -- " << endl;
