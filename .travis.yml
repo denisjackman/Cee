@@ -5,9 +5,8 @@ compiler:
 - gcc
 os:
 - linux
-build: make
 before_install:
 before_script:
-script:
+script: make
 after_success:
 
