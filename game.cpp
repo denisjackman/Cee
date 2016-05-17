@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <cmath>
 #include <iostream>
+#include <string>
 #include "include/gamefunction.h"
 
 using namespace std;
