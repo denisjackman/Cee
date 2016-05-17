@@ -12,7 +12,7 @@ I will do this in C++
 ## Links
 * [Game Programming](http://gameprogrammingpatterns.com/)
 * [Genetic Algorithims](http://www.ai-junkie.com/ga/intro/gat1.html)
-* [GIT Tutoorials](https://www.atlassian.com/git/tutorials/what-is-version-control)
+* [GIT Tutorials](https://www.atlassian.com/git/tutorials/what-is-version-control)
 
 ### Tools 
 * [Github](https://github.com/)
