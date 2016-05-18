@@ -15,6 +15,7 @@ const char  *SCREEN_TITLE   = "Game Project";
 const int   PROGRAM_TIMER   = 2000;
 const char  *VERSION        = "V1.01.00";
 const char  *NAME_PROGRAM   = "Game";
+uint32_t WHITE = NULL;
 
 //The window we'll be rendering to
 SDL_Window* gWindow = NULL;
@@ -47,7 +48,7 @@ bool GameInit()
         {
             //Get window surface
             gScreenSurface = SDL_GetWindowSurface( gWindow );
-            uint32_t WHITE = SDL_MapRGB( gScreenSurface->format, 0xFF, 0xFF, 0xFF );
+            WHITE = SDL_MapRGB( gScreenSurface->format, 0xFF, 0xFF, 0xFF );
         }
     }
     return result;
