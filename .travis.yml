@@ -5,6 +5,8 @@ compiler:
 - gcc
 os:
 - linux
+notifications:
+  slack: marsysteam:kR5O6wXobf3Ze1by5cMPsFcG
 #notifications:
 #  email: denis.jackman@paddypowerbetfair.com
 #    on_success: always
