@@ -68,7 +68,7 @@ void GameTerminate()
 /*
 	This is an ongoing project 
 */
-int ma in (int argc, char* args[] )
+int main (int argc, char* args[] )
 {
     if (!GameInit())
     {
