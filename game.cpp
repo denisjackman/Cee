@@ -72,7 +72,7 @@ bool LoadMedia()
         cout << "Unable to load image " << SDL_GetError() << "SDL Error " << endl;
         result = false;
     }
-    return result
+    return result;
 }
 /*
 	This is an ongoing project
