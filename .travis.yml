@@ -5,6 +5,17 @@ compiler:
 - gcc
 os:
 - linux
+notifications:
+  email: denis.jackman@paddypowerbetfair.com
+    on_success: always
+    on_failure: always
+    on_start: always
+  slack:
+    rooms:
+      - marsysteam:kR5O6wXobf3Ze1by5cMPsFcG#devarea
+    on_success: always
+    on_failure: always
+    on_start: always
 before_install:
 - echo $LANG
 - echo $LC_ALL
