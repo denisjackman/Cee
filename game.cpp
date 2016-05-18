@@ -11,10 +11,10 @@ using namespace std;
 
 const int   SCREEN_WIDTH    = 640;
 const int   SCREEN_HEIGHT   = 480;
-const char  *SCREEN_TITLE   = "Game Project Template";
+const char  *SCREEN_TITLE   = "Game Project";
 const int   PROGRAM_TIMER   = 2000;
-const char  *VERSION        = "V1.00.00";
-const char  *NAME_PROGRAM   = "Functions";
+const char  *VERSION        = "V1.01.00";
+const char  *NAME_PROGRAM   = "Game";
 
 //The window we'll be rendering to
 SDL_Window* gWindow = NULL;

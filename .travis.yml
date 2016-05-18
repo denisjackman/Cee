@@ -5,6 +5,8 @@ compiler:
 - gcc
 os:
 - linux
+notifications:
+- slack: marsysteam:9S6FyvIJ9nnuMXJLeZa9DAws
 before_install:
 - echo $LANG
 - echo $LC_ALL
