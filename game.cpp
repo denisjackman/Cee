@@ -82,8 +82,15 @@ int main (int argc, char* args[] )
     if (GameInit())
     {
        //Fill the surface white
-       //SDL_FillRect( gScreenSurface, NULL, WHITE );
-       SDL_BlitSurface( gHelloWorld, NULL, gScreenSurface, NULL);
+       SDL_FillRect( gScreenSurface, NULL, WHITE );
+       if (LoadMedia())
+       {
+            SDL_BlitSurface( gHelloWorld, NULL, gScreenSurface, NULL);
+       }
+       else
+       {
+            cout << "Unable to load media " << endl;
+       }
        //Update the surface
        SDL_UpdateWindowSurface( gWindow );
        //Wait two seconds
