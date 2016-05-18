@@ -17,14 +17,11 @@ const char  *VERSION        = "V2.01.00";
 const char  *NAME_PROGRAM   = "Game";
 uint32_t WHITE = NULL;
 
-//The window we'll be rendering to
 SDL_Window* gWindow = NULL;
-//The surface contained by the window
 SDL_Surface* gScreenSurface = NULL;
-/* This not needed yet
-//The image we will load and show on the screen
 SDL_Surface* gHelloWorld = NULL;
-*/
+
+
 bool GameInit()
 {
     //Initialization flag
@@ -57,8 +54,8 @@ bool GameInit()
 void GameTerminate()
 {
     //Deallocate surface
-    //SDL_FreeSurface( gHelloWorld );
-    //gHelloWorld = NULL;
+    SDL_FreeSurface( gHelloWorld );
+    gHelloWorld = NULL;
     //Destroy window
     SDL_DestroyWindow( gWindow );
     gWindow = NULL;
@@ -66,8 +63,19 @@ void GameTerminate()
     SDL_Quit();
 }
 
+bool LoadMedia()
+{
+    bool result = true;
+    gHelloWorld = SDL_LoadBMP("files/preview.png");
+    if (gHelloWorld == NULL)
+    {
+        cout << "Unable to load image " << SDL_GetError() << "SDL Error " << endl;
+        result = false;
+    }
+    return result
+}
 /*
-	This is an ongoing project 
+	This is an ongoing project
 */
 int main (int argc, char* args[] )
 {
@@ -75,6 +83,7 @@ int main (int argc, char* args[] )
     {
        //Fill the surface white
        SDL_FillRect( gScreenSurface, NULL, WHITE );
+       SDL_BlitSurface( gHelloWorld, NULL. gScreenSurface, NULL);
        //Update the surface
        SDL_UpdateWindowSurface( gWindow );
        //Wait two seconds
