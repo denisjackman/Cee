@@ -20,9 +20,10 @@ const char  *NAME_PROGRAM   = "Game";
 SDL_Window* gWindow = NULL;
 //The surface contained by the window
 SDL_Surface* gScreenSurface = NULL;
+/* This not needed yet
 //The image we will load and show on the screen
 SDL_Surface* gHelloWorld = NULL;
-
+*/
 bool GameInit()
 {
     //Initialization flag
@@ -54,8 +55,8 @@ bool GameInit()
 void GameTerminate()
 {
     //Deallocate surface
-    SDL_FreeSurface( gHelloWorld );
-    gHelloWorld = NULL;
+    //SDL_FreeSurface( gHelloWorld );
+    //gHelloWorld = NULL;
     //Destroy window
     SDL_DestroyWindow( gWindow );
     gWindow = NULL;
