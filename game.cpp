@@ -4,6 +4,7 @@
 #include <cmath>
 #include <iostream>
 #include <cstring>
+#include <stdint>
 #include "include/gamefunction.h"
 
 using namespace std;
@@ -22,6 +23,7 @@ int main (int argc, char* args[] )
 {
 	SDL_Window* window = NULL;
 	SDL_Surface* screenSurface = NULL;
+    unsigned long int WHITE = SDL_MapRGB(screenSurface->format, 0xFF, 0xFF, 0xFF);
 	if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
 	{
 		cout << "SDL could not initialize! SDL_Error: " << SDL_GetError() << endl;
