@@ -38,7 +38,7 @@ bool GameInit()
     else
     {
         //Create window
-        gWindow = SDL_CreateWindow( "SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
+        gWindow = SDL_CreateWindow( SCREEN_TITLE, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
         if( gWindow == NULL )
         {
             cout << "Window could not be created! SDL_Error: " <<  SDL_GetError() << endl;
@@ -71,11 +71,19 @@ void GameTerminate()
 */
 int main (int argc, char* args[] )
 {
-    if (!GameInit())
+    if (GameInit())
+    {
+       //Fill the surface white
+       SDL_FillRect( gScreenSurface, NULL, WHITE );
+       //Update the surface
+       SDL_UpdateWindowSurface( gWindow );
+       //Wait two seconds
+       SDL_Delay( PROGRAM_TIMER );
+    }
+    else
     {
         cout << "Game failed to initialise !" << endl;
     }
-
   	cout << " -- Game Version 1.0 (Test) -- " << endl;
 	cout << " --- Starting ---" << endl;
 	cout << " One Dice roll only Vasily -- " << Dice() << endl;
