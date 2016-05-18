@@ -4,7 +4,7 @@
 #include <cmath>
 #include <iostream>
 #include <cstring>
-#include <stdint>
+#include <stdint.h>
 #include "include/gamefunction.h"
 
 using namespace std;
