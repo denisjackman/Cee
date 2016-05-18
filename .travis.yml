@@ -20,9 +20,15 @@ after_success:
 - ./game
 
 notifications:
+  email:
+    - denis.jackman@paddypowerbetfair.com
+   on_success: always
+   on_failure: always
+   on_start: always
+
   slack:
-   on_success:
-   on_failure:
-   on_start:
+   on_success: always
+   on_failure: always
+   on_start: always
    rooms:
      - marsysteam:9S6FyvIJ9nnuMXJLeZa9DAws#devarea
