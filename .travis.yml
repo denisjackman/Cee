@@ -6,7 +6,12 @@ compiler:
 os:
 - linux
 notifications:
-- slack: marsysteam:9S6FyvIJ9nnuMXJLeZa9DAws
+  slack:
+   rooms:
+     - marsysteam:9S6FyvIJ9nnuMXJLeZa9DAws#devarea
+   on_success:
+   on_failure:
+   on_start:
 before_install:
 - echo $LANG
 - echo $LC_ALL
