@@ -8,6 +8,7 @@ I will do this in C++
 |----------|-------------|-----|--------------------------------------|
 |2016-05-12|Denis Jackman|01.00|Original Version |
 |2016-05-17|Denis Jackman|02.00|Converted to CPP only project |
+|2016-05-18|Denis Jackman|02.01|Added SDL libraries and Slack notification |
 
 ## Links
 * [Game Programming](http://gameprogrammingpatterns.com/)
