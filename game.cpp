@@ -4,7 +4,7 @@
 #include <cmath>
 #include <iostream>
 #include <cstring>
-#include <stdint.h>
+#include <cstdint>
 #include "include/gamefunction.h"
 
 using namespace std;
@@ -67,7 +67,7 @@ void GameTerminate()
 /*
 	This is an ongoing project 
 */
-int main (int argc, char* args[] )
+int ma in (int argc, char* args[] )
 {
     if (!GameInit())
     {
