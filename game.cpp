@@ -16,6 +16,13 @@ const int   PROGRAM_TIMER   = 2000;
 const char  *VERSION        = "V1.00.00";
 const char  *NAME_PROGRAM   = "Functions";
 
+//The window we'll be rendering to
+SDL_Window* gWindow = NULL;
+//The surface contained by the window
+SDL_Surface* gScreenSurface = NULL;
+//The image we will load and show on the screen
+SDL_Surface* gHelloWorld = NULL;
+
 bool GameInit()
 {
     //Initialization flag
@@ -42,6 +49,18 @@ bool GameInit()
         }
     }
     return result;
+}
+
+void GameTerminate()
+{
+    //Deallocate surface
+    SDL_FreeSurface( gHelloWorld );
+    gHelloWorld = NULL;
+    //Destroy window
+    SDL_DestroyWindow( gWindow );
+    gWindow = NULL;
+    //Quit SDL subsystems
+    SDL_Quit();
 }
 
 /*
