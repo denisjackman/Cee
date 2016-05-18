@@ -66,7 +66,7 @@ void GameTerminate()
 bool LoadMedia()
 {
     bool result = true;
-    gHelloWorld = SDL_LoadBMP("files/preview.png");
+    gHelloWorld = SDL_LoadBMP("files/hello_world.bmp");
     if (gHelloWorld == NULL)
     {
         cout << "Unable to load image " << SDL_GetError() << "SDL Error " << endl;
