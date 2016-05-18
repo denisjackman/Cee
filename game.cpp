@@ -83,7 +83,7 @@ int main (int argc, char* args[] )
     {
        //Fill the surface white
        SDL_FillRect( gScreenSurface, NULL, WHITE );
-       SDL_BlitSurface( gHelloWorld, NULL. gScreenSurface, NULL);
+       SDL_BlitSurface( gHelloWorld, NULL, gScreenSurface, NULL);
        //Update the surface
        SDL_UpdateWindowSurface( gWindow );
        //Wait two seconds
