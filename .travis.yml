@@ -13,4 +13,5 @@ before_install:
 before_script:
 script: make
 after_success:
+- ./game
 
