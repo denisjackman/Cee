@@ -16,6 +16,34 @@ const int   PROGRAM_TIMER   = 2000;
 const char  *VERSION        = "V1.00.00";
 const char  *NAME_PROGRAM   = "Functions";
 
+bool GameInit()
+{
+    //Initialization flag
+    bool result = true;
+    //Initialize SDL
+    if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
+    {
+        printf( "SDL could not initialize! SDL_Error: %s\n", SDL_GetError() );
+        result = false;
+    }
+    else
+    {
+        //Create window
+        gWindow = SDL_CreateWindow( "SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
+        if( gWindow == NULL )
+        {
+            printf( "Window could not be created! SDL_Error: %s\n", SDL_GetError() );
+            result = false;
+        }
+        else
+        {
+            //Get window surface
+            gScreenSurface = SDL_GetWindowSurface( gWindow );
+        }
+    }
+    return result;
+}
+
 /*
 	This is an ongoing project 
 */
@@ -23,7 +51,6 @@ int main (int argc, char* args[] )
 {
 	SDL_Window* window = NULL;
 	SDL_Surface* screenSurface = NULL;
-    uint32_t WHITE = SDL_MapRGB(screenSurface->format, 0xFF, 0xFF, 0xFF);
 	if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
 	{
 		cout << "SDL could not initialize! SDL_Error: " << SDL_GetError() << endl;
