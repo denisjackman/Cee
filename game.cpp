@@ -47,6 +47,7 @@ bool GameInit()
         {
             //Get window surface
             gScreenSurface = SDL_GetWindowSurface( gWindow );
+            uint32_t WHITE = SDL_MapRGB( screenSurface->format, 0xFF, 0xFF, 0xFF );
         }
     }
     return result;
