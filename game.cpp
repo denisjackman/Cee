@@ -79,6 +79,7 @@ int main (int argc, char* args[] )
 	cout << " --- Starting ---" << endl;
 	cout << " One Dice roll only Vasily -- " << Dice() << endl;
 	cout << " Distance to target Vasily -- " << Distance(1,0,10,0) << endl;
+	cout << " Got a Colour >" << WHITE << "< " << endl;
 	cout << " --- Ending ---" << endl;
 
 	GameTerminate();
