@@ -15,6 +15,7 @@ const char  *SCREEN_TITLE   = "Game Project";
 const int   PROGRAM_TIMER   = 2000;
 const char  *VERSION        = "V2.01.00";
 const char  *NAME_PROGRAM   = "Game";
+const char  *MEDIAFILE = "files/hello_world.bmp"
 uint32_t WHITE = NULL;
 
 SDL_Window* gWindow = NULL;
@@ -63,10 +64,10 @@ void GameTerminate()
     SDL_Quit();
 }
 
-bool LoadMedia()
+bool LoadMedia(char *loadMedia)
 {
     bool result = true;
-    gHelloWorld = SDL_LoadBMP("files/hello_world.bmp");
+    gHelloWorld = SDL_LoadBMP(loadMedia);
     if (gHelloWorld == NULL)
     {
         cout << "Unable to load image " << SDL_GetError() << "SDL Error " << endl;
@@ -82,7 +83,7 @@ int main (int argc, char* args[] )
     if (GameInit())
     {
        SDL_FillRect( gScreenSurface, NULL, WHITE );
-       if (LoadMedia())
+       if (LoadMedia(MEDIAFILE))
        {
             SDL_BlitSurface( gHelloWorld, NULL, gScreenSurface, NULL);
        }
