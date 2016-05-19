@@ -2,6 +2,10 @@
 ======
 This holds the code and notes for a rough game idea I have.
 I will do this in C++ 
+# Badges
+========
+* [![Coverage Status](https://coveralls.io/repos/github/denisjackman/game/badge.svg?branch=master)](https://coveralls.io/github/denisjackman/game?branch=master)
+* [![Build Status](https://travis-ci.org/denisjackman/game.svg?branch=master)](https://travis-ci.org/denisjackman/game)
 
 ## Version History 
 |Date |Author|Version|Reason|
