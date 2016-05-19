@@ -20,8 +20,7 @@ uint32_t WHITE = NULL;
 
 SDL_Window* gWindow = NULL;
 SDL_Surface* gScreenSurface = NULL;
-SDL_Surface* gHelloWorld = NULL;
-
+SDL_Surface* gDisplaySurface = NULL;
 
 bool GameInit()
 {
@@ -55,8 +54,8 @@ bool GameInit()
 void GameTerminate()
 {
     //Deallocate surface
-    SDL_FreeSurface( gHelloWorld );
-    gHelloWorld = NULL;
+    SDL_FreeSurface( gDisplaySurface );
+    gDisplaySurface = NULL;
     //Destroy window
     SDL_DestroyWindow( gWindow );
     gWindow = NULL;
@@ -67,19 +66,19 @@ void GameTerminate()
 bool LoadMedia(char *loadMedia)
 {
     bool result = true;
-    gHelloWorld = SDL_LoadBMP(loadMedia);
-    if (gHelloWorld == NULL)
+    gDisplaySurface = SDL_LoadBMP(loadMedia);
+    if (gDisplaySurface == NULL)
     {
         cout << "Unable to load image " << SDL_GetError() << "SDL Error " << endl;
         result = false;
     }
     return result;
 }
-/*
-	This is an ongoing project
-*/
+
 int main (int argc, char* args[] )
 {
+  	cout << " -- Game Version 1.0 (Test) -- " << endl;
+	cout << " --- Starting ---" << endl;
     if (!GameInit())
     {
     }
@@ -89,7 +88,6 @@ int main (int argc, char* args[] )
     }
 	//Main loop flag
 	bool gameLoop = true;
-
 	//Event handler
 	SDL_Event gameEvent;
     int loopCount = 0;
@@ -114,7 +112,6 @@ int main (int argc, char* args[] )
                 cout << "Unable to load media " << endl;
             }
         }
-
 		if (loopCount == 2000)
 		{
 		    loopCount = 0;
@@ -123,21 +120,12 @@ int main (int argc, char* args[] )
                 cout << "Unable to load media " << endl;
             }
         }
-
-
 		//Apply the image
-		SDL_BlitSurface( gHelloWorld, NULL, gScreenSurface, NULL );
-
+		SDL_BlitSurface( gDisplaySurface, NULL, gScreenSurface, NULL );
 		//Update the surface
 		SDL_UpdateWindowSurface( gWindow );
 	}
-  	cout << " -- Game Version 1.0 (Test) -- " << endl;
-	cout << " --- Starting ---" << endl;
-	cout << " One Dice roll only Vasily -- " << Dice() << endl;
-	cout << " Distance to target Vasily -- " << Distance(1,0,10,0) << endl;
-	cout << " Got a Colour >" << WHITE << "< " << endl;
-	cout << " --- Ending ---" << endl;
-
 	GameTerminate();
+	cout << " --- Ending ---" << endl;
   	return 0;
 }
