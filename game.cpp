@@ -111,7 +111,7 @@ int main (int argc, char* args[] )
 			//User requests quit
 			if( gameEvent.type == SDL_QUIT )
 			{
-				gameLoop = true;
+				gameLoop = false;
 			}
 		}
 
