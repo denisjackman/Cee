@@ -106,7 +106,7 @@ int main (int argc, char* args[] )
 			}
 		}
         SDL_FillRect( gScreenSurface, NULL, WHITE );
-		loopcount += 1;
+		loopCount += 1;
 		if (loopCount == 1000)
 		{
 		    if (!LoadMedia("files/hello_world.bmp"))
