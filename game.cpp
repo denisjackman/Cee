@@ -80,17 +80,8 @@ bool LoadMedia(char *loadMedia)
 */
 int main (int argc, char* args[] )
 {
-    if (GameInit())
+    if (!GameInit())
     {
-       SDL_FillRect( gScreenSurface, NULL, WHITE );
-       if (LoadMedia(MEDIAFILE))
-       {
-            SDL_BlitSurface( gHelloWorld, NULL, gScreenSurface, NULL);
-       }
-       else
-       {
-            cout << "Unable to load media " << endl;
-       }
     }
     else
     {
@@ -101,7 +92,7 @@ int main (int argc, char* args[] )
 
 	//Event handler
 	SDL_Event gameEvent;
-
+    int loopCount = 0;
 	//While application is running
 	while( gameLoop )
 	{
@@ -114,6 +105,25 @@ int main (int argc, char* args[] )
 				gameLoop = false;
 			}
 		}
+        SDL_FillRect( gScreenSurface, NULL, WHITE );
+		loopcount += 1;
+		if (loopCount == 1000)
+		{
+		    if (!LoadMedia("files/hello_world.bmp"))
+            {
+                cout << "Unable to load media " << endl;
+            }
+        }
+
+		if (loopCount == 2000)
+		{
+		    loopCount = 0;
+		    if (!LoadMedia("files/x.bmp"))
+            {
+                cout << "Unable to load media " << endl;
+            }
+        }
+
 
 		//Apply the image
 		SDL_BlitSurface( gHelloWorld, NULL, gScreenSurface, NULL );
