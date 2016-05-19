@@ -81,7 +81,6 @@ int main (int argc, char* args[] )
 {
     if (GameInit())
     {
-       //Fill the surface white
        SDL_FillRect( gScreenSurface, NULL, WHITE );
        if (LoadMedia())
        {
@@ -91,15 +90,36 @@ int main (int argc, char* args[] )
        {
             cout << "Unable to load media " << endl;
        }
-       //Update the surface
-       SDL_UpdateWindowSurface( gWindow );
-       //Wait two seconds
-       SDL_Delay( PROGRAM_TIMER );
     }
     else
     {
         cout << "Game failed to initialise !" << endl;
     }
+	//Main loop flag
+	bool gameLoop = true;
+
+	//Event handler
+	SDL_Event gameEvent;
+
+	//While application is running
+	while( gameLoop )
+	{
+	    //Handle events on queue
+		while( SDL_PollEvent( &gameEvent ) != 0 )
+		{
+			//User requests quit
+			if( gameEvent.type == SDL_QUIT )
+			{
+				gameLoope = true;
+			}
+		}
+
+		//Apply the image
+		SDL_BlitSurface( gHelloWorld, NULL, gScreenSurface, NULL );
+
+		//Update the surface
+		SDL_UpdateWindowSurface( gWindow );
+	}
   	cout << " -- Game Version 1.0 (Test) -- " << endl;
 	cout << " --- Starting ---" << endl;
 	cout << " One Dice roll only Vasily -- " << Dice() << endl;
