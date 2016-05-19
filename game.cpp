@@ -15,7 +15,7 @@ const char  *SCREEN_TITLE   = "Game Project";
 const int   PROGRAM_TIMER   = 2000;
 const char  *VERSION        = "V2.01.00";
 const char  *NAME_PROGRAM   = "Game";
-const char  *MEDIAFILE = "files/hello_world.bmp"
+char  *MEDIAFILE = "files/hello_world.bmp";
 uint32_t WHITE = NULL;
 
 SDL_Window* gWindow = NULL;
