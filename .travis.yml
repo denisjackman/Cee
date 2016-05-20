@@ -12,6 +12,7 @@ before_install:
 - echo $LC_ALL
 - sudo apt-get update -qq
 - sudo apt-get install libsdl2-dev -y
+- sudo apt-get install libcppunit-dev
 - pip install --user cpp-coveralls
 before_script:
 script: make
