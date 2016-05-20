@@ -2,7 +2,7 @@
 #include <ctime>
 #include <cmath>
 
-int Dice(int rolls = 1, int sides = 6)
+int DiceRoll(int rolls = 1, int sides = 6)
 {
 	int result = 0;
 	srand(time(NULL));
@@ -13,7 +13,7 @@ int Dice(int rolls = 1, int sides = 6)
 	return result;
 }
 
-int Distance(double oX0, double oY0, double tX1, double tY1)
+int DistanceToTarget(double oX0, double oY0, double tX1, double tY1)
 {
     double result = 0;
     result = sqrt((tX1 - oX0)*(tX1 - oX0) + (tY1 - oY0)*(tY1 - oY0));

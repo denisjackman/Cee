@@ -9,20 +9,19 @@
 
 using namespace std;
 
-const int   SCREEN_WIDTH    = 640;
-const int   SCREEN_HEIGHT   = 480;
-const char  *SCREEN_TITLE   = "Game Project";
-const int   PROGRAM_TIMER   = 2000;
-const char  *VERSION        = "V2.02.00";
-const char  *NAME_PROGRAM   = "Game";
-char  *MEDIAFILE = "files/hello_world.bmp";
-uint32_t WHITE = NULL;
+const int       SCREEN_WIDTH    = 640;
+const int       SCREEN_HEIGHT   = 480;
+const char      *SCREEN_TITLE   = "Game Project";
+const int       PROGRAM_TIMER   = 2000;
+const char      *VERSION        = "V2.02.00";
+const char      *NAME_PROGRAM   = "Game";
+char            *MEDIAFILE      = "files/hello_world.bmp";
+uint32_t        WHITE           = NULL;
+SDL_Window*     gWindow         = NULL;
+SDL_Surface*    gScreenSurface  = NULL;
+SDL_Surface*    gDisplaySurface = NULL;
 
-SDL_Window* gWindow = NULL;
-SDL_Surface* gScreenSurface = NULL;
-SDL_Surface* gDisplaySurface = NULL;
-
-bool GameInit()
+bool GameInitialise()
 {
     //Initialization flag
     bool result = true;
@@ -79,10 +78,7 @@ int main (int argc, char* args[] )
 {
   	cout << " -- Game Version 1.0 (Test) -- " << endl;
 	cout << " --- Starting ---" << endl;
-    if (!GameInit())
-    {
-    }
-    else
+    if (GameInitialise() == false)
     {
         cout << "Game failed to initialise !" << endl;
     }
@@ -107,7 +103,7 @@ int main (int argc, char* args[] )
 		loopCount += 1;
 		if (loopCount == 1000)
 		{
-		    if (!LoadMedia("files/hello_world.bmp"))
+		    if (LoadMedia("files/hello_world.bmp")==false)
             {
                 cout << "Unable to load media " << endl;
             }
@@ -115,7 +111,7 @@ int main (int argc, char* args[] )
 		if (loopCount == 2000)
 		{
 		    loopCount = 0;
-		    if (!LoadMedia("files/x.bmp"))
+		    if (LoadMedia("files/x.bmp")==false)
             {
                 cout << "Unable to load media " << endl;
             }
