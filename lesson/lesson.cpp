@@ -116,7 +116,7 @@ int main (int argc, char* args[] )
         cout << "Choose a game to play " << endl;
         cout << "    (1) Guess the Number " << endl;
         cout << "    (2) Rock Paper Scissor " << endl;
-        cout << "    (3) Exit " << endl;
+        cout << "    (0) Exit " << endl;
         cin >> ChooseGame;
         switch(ChooseGame)
         {
@@ -126,7 +126,7 @@ int main (int argc, char* args[] )
             case 2:
                 RockPaperScissor();
                 break;
-            case 3:
+            case 0:
                 cout << "Thanks for playing " << endl;
                 PlayLoop = false;
                 break;
