@@ -129,6 +129,7 @@ int main (int argc, char* args[] )
         cout << "Choose a game to play " << endl;
         cout << "    (1) Guess the Number " << endl;
         cout << "    (2) Rock Paper Scissor " << endl;
+        cout << "    (3) Insult " << endl;
         cout << "    (0) Exit " << endl;
         cin >> ChooseGame;
         switch(ChooseGame)
@@ -138,6 +139,9 @@ int main (int argc, char* args[] )
                 break;
             case 2:
                 RockPaperScissor();
+                break;
+            case 3:
+                cout << InsultGenerator() << endl;
                 break;
             case 0:
                 ClearScreen();
