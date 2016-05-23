@@ -2,8 +2,18 @@
 #include "../include/gamefunction.h"
 
 using namespace std;
+
+void ClearScreen()
+{
+    /*
+    This will clear the screen
+    */
+    cout << "\033[2J\033[1;1H";
+}
+
 void GuessGame()
 {
+    ClearScreen();
     cout << "---------------------------------------------------" << endl;
     cout << "Welcome to the Guess a number game " << endl;
     cout << "I will choose a number between one and one hundred " << endl;
@@ -49,6 +59,7 @@ void GuessGame()
 
 void RockPaperScissor()
 {
+    ClearScreen();
     cout << "---------------------------------------------------" << endl;
     cout << "Welcome to the Rock,Paper,Scissors game " << endl;
     cout << "Good Luck " << endl;
@@ -104,11 +115,13 @@ void RockPaperScissor()
 
 }
 
+
 int main (int argc, char* args[] )
 {
     cout << "---------------------------------------------------" << endl;
     cout << "Welcome to the Game player "<< endl;
     cout << "---------------------------------------------------" << endl;
+
     bool PlayLoop = true;
     while (PlayLoop)
     {
@@ -127,6 +140,7 @@ int main (int argc, char* args[] )
                 RockPaperScissor();
                 break;
             case 0:
+                ClearScreen();
                 cout << "Thanks for playing " << endl;
                 PlayLoop = false;
                 break;
@@ -134,7 +148,5 @@ int main (int argc, char* args[] )
                 cout << "Really you cannot choose ? " << endl;
         }
     }
-
-
     return 0;
 }
