@@ -39,7 +39,7 @@ void gameloop()
        // Processing Phase goes here
        // Erase the player
        erase(nPlayerY, nPlayerX);
-       // process the key press 
+       // process the key press
        switch(nPlayerInput)
        {
             case 'q':

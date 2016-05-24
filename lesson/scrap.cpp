@@ -1,18 +1,13 @@
-#include <string>
-#include <iostream>
-#include "../include/gamefunction.h"
-
-using namespace std;
-
-
-int main(int argc, char *argv[])
+#include <ncurses.h>
+int main()
 {
-    cout << "Win  (1000) :  1400 " << Rating(1000,1,0,1) << endl; 
-    cout << "Draw (1000) : 1000 " << Rating(1000,0,0,1) << endl;
-    cout << "Win 2 * 1000 : 1400 " << Rating(2000,2,0,2) << endl;
-    cout << "----" << endl;
-    cout << "player 1 (1000 wins) "  << Rating(1000,1,0,1) << endl;
-    cout << "player 2 (1000 loses) "  << Rating(1000,0,1,1) << endl;
-    cout << "player 1 (600 wins again) "  << Rating(600,1,0,1) << endl;
+    initscr();
+    start_color();
+    init_pair(1,COLOR_GREEN,COLOR_BLUE);
+    attrset (COLOR_PAIR(1));
+    move(12,30);
+    printw("My first color prog");
+    getch();
+    endwin();
     return 0;
 }

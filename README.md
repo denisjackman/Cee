@@ -27,6 +27,7 @@ I will do this in C++
 * [Rogue Like Tutorial](http://www.kathekonta.com/rlguide/)
 * [Rogue Like Tutorial](https://solarianprogrammer.com/2012/07/12/roguelike-game-cpp-11-part-0/)
 * [Source to look at](https://github.com/sol-prog/roguelike)
+* [Roguelike DEV](http://www.roguebasin.com/index.php?title=Roguelike_Dev_FAQ)
 
 ### Tools 
 * [Github](https://github.com/)

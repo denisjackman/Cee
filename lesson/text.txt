@@ -1,0 +1,3 @@
+#include int main() { initscr(); start_color();                                                               //to add color effect init_pair(1,COLOR_GREEN,COLOR_BLUE);        //declaring color(,,                                                                                                )                                                                         attrset (COLOR_PAIR(1));                                     //set the colors move(12,30); printw("My first color prog"); getch(); endwin(); return 0; }
+
+Make Money Online : http://ow.ly/KNICZ
