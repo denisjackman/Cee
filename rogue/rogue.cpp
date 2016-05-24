@@ -15,6 +15,7 @@ void erase( int y, int x)
     // displays a '#' is the player trail
     // can be change to a ' ' if needed
     mvaddch(y,x,'#');
+    mvaddch(y,x,' ');
 }
 
 void initialise()
@@ -25,11 +26,15 @@ void initialise()
 	noecho();
 	cbreak();
 	keypad(stdscr, TRUE);
-	curs_set(0);
+	if (curs_set(0) == ERR)
+	{
+	    cout << "ERR-cur_set error " << endl;
+	}
 }
 
 void gameloop()
 {
+
     while (wGameLoop)
     {
        // Output Phase goes here
@@ -64,18 +69,16 @@ void gameloop()
                 break;
         }
     }
+
 }
 
 int main( void)
 {
     initialise();
-
     printw("Welcome to Rogue\nPress any key to continue\nPress 'q' or 'Q' to quit at any time\n");
     nPlayerInput = getch();
     clear();
-
     gameloop();
-
     endwin();
 
     return 0;
