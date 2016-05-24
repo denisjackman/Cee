@@ -24,6 +24,9 @@ I will do this in C++
 * [Game Programming](http://gameprogrammingpatterns.com/)
 * [Genetic Algorithims](http://www.ai-junkie.com/ga/intro/gat1.html)
 * [GIT Tutorials](https://www.atlassian.com/git/tutorials/what-is-version-control)
+* [Rogue Like Tutorial](http://www.kathekonta.com/rlguide/)
+* [Rogue Like Tutorial](https://solarianprogrammer.com/2012/07/12/roguelike-game-cpp-11-part-0/)
+* [Source to look at](https://github.com/sol-prog/roguelike)
 
 ### Tools 
 * [Github](https://github.com/)

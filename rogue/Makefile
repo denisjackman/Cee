@@ -10,8 +10,8 @@ COMPILER_FLAGS = -w -std=gnu++0x --coverage -fprofile-arcs -ftest-coverage
 MAC_COMPILER_FLAGS = -w
 
 #LINKER_FLAGS specifies the libraries we're linking against
-LINKER_FLAGS = -lSDL2 -lcppunit -fprofile-arcs -lgcov
-MAC_LINKER_FLAGS =
+LINKER_FLAGS = -lSDL2 -lcppunit -fprofile-arcs -lgcov -lncurses
+MAC_LINKER_FLAGS =  -lncurses
 
 #OBJ_NAME specifies the name of our exectuable
 OBJ_NAME = rogue

@@ -1,51 +1,82 @@
-#include <conio.h>
-#include "Console.h"
+#include <ncurses.h>
+#include <string>
+#include <iostream>
 #include "../include/gamefunction.h"
 
-int main( void)
+using namespace std;
+int nPlayerX = 10;
+int nPlayerY = 10;
+int nPlayerInput = 0;
+char nPlayer = '@';
+bool wGameLoop = true;
+
+void erase( int y, int x)
 {
-    console.Clear();
-    int nPlayerX = 40;
-    int nPlayerY = 12;
-    bool wGameLoop = true;
+    // displays a '#' is the player trail
+    // can be change to a ' ' if needed
+    mvaddch(y,x,'#');
+}
+
+void initialise()
+{
+    // Initialise
+    initscr();
+    clear();
+	noecho();
+	cbreak();
+	keypad(stdscr, TRUE);
+	curs_set(0);
+}
+
+void gameloop()
+{
     while (wGameLoop)
     {
-        // Output Phase goes here
-        console.Clear();
-        console.Position(nPlayerX, nPlayerY);
-        console << '@';
-
-        // Input phase goes here
-        KEYPRESS    sKeyPress = console.WaitForKeypress();
-
-        // Processing Phase goes here
-        switch( sKeyPress.eCode )
-        {
-            // Move down
-            case CONSOLE_KEY_DOWN:
-                nPlayerY++;
+       // Output Phase goes here
+       mvaddch(nPlayerY, nPlayerX, nPlayer);
+       // Input phase goes here
+       nPlayerInput = getch();
+       // Processing Phase goes here
+       // Erase the player
+       erase(nPlayerY, nPlayerX);
+       // process the key press 
+       switch(nPlayerInput)
+       {
+            case 'q':
+                wGameLoop = false;
                 break;
-
-            // Move left
-            case CONSOLE_KEY_LEFT:
-                nPlayerX--;
+            case 'Q':
+                wGameLoop = false;
                 break;
-            // Move right
-            case CONSOLE_KEY_RIGHT:
-                nPlayerX++;
+            case KEY_RIGHT:
+                nPlayerX += 1;
                 break;
-
-            // Move up
-            case CONSOLE_KEY_UP:
-                nPlayerY--;
+            case KEY_LEFT:
+                nPlayerX -= 1;
                 break;
-            // Quit
-            case CONSOLE_KEY_ESCAPE:
-                return 0;
-            // Ignore any other key
+            case KEY_UP:
+                nPlayerY -= 1;
+                break;
+            case KEY_DOWN:
+                nPlayerY += 1;
+                break;
             default:
                 break;
         }
     }
+}
+
+int main( void)
+{
+    initialise();
+
+    printw("Welcome to Rogue\nPress any key to continue\nPress 'q' or 'Q' to quit at any time\n");
+    nPlayerInput = getch();
+    clear();
+
+    gameloop();
+
+    endwin();
+
     return 0;
 }
