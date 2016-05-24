@@ -11,7 +11,7 @@ MAC_COMPILER_FLAGS = -w
 
 #LINKER_FLAGS specifies the libraries we're linking against
 LINKER_FLAGS = -lSDL2 -lcppunit -fprofile-arcs -lgcov
-MAC_LINKER_FLAGS =
+MAC_LINKER_FLAGS = -lncurses
 
 #OBJ_NAME specifies the name of our exectuable
 OBJ_NAME = scrap
