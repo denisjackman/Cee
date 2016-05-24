@@ -33,3 +33,14 @@ string InsultGenerator()
     result += Column1[DiceRoll(1,23)] + " " + Column2[DiceRoll(1,24)] + " " +Column3[DiceRoll(1,23)] +"!";
     return result;
 }
+
+string IntegerToRoman(int number)
+{
+    string result = "";
+    return result;
+}
+int RomanToInteger(string roman)
+{
+    int result = 0;
+    return result;
+}
