@@ -135,6 +135,6 @@ if __name__ == "__main__":
     print "player 1 (600 wins again) " +str(rating(600,1,0,1))
     */
     int NewRating = 0;
-    NewRating = ((totalRating)+ 400 * (playerWins-playerLosses))/playerGames
-    return NewRating
+    NewRating = ((totalRating)+ 400 * (playerWins-playerLosses))/playerGames;
+    return NewRating;
 }
