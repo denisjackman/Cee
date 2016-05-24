@@ -34,6 +34,26 @@ void initialise()
 	}
 }
 
+void checkLimits()
+{
+    if (nPlayerX > gScreenWidth)
+    {
+        nPlayerX = gScreenWidth;
+    }
+    if (nPlayerX < 0)
+    {
+        nPlayerX = 0;
+    }
+    if (nPlayerY > gScreenHeight)
+    {
+        nPlayerY = gScreenHeight;
+    }
+    if (nPlayerY < 0)
+    {
+        nPlayerY = 0;
+    }
+}
+
 void gameloop()
 {
 
@@ -41,8 +61,10 @@ void gameloop()
     {
        // Output Phase goes here
        mvaddch(nPlayerY, nPlayerX, nPlayer);
+
        // Input phase goes here
        nPlayerInput = getch();
+
        // Processing Phase goes here
        // Erase the player
        erase(nPlayerY, nPlayerX);
@@ -70,22 +92,8 @@ void gameloop()
             default:
                 break;
         }
-        if (nPlayerX > gScreenWidth)
-        {
-            nPlayerX = gScreenWidth;
-        }
-        if (nPlayerX < 0)
-        {
-            nPlayerX = 0;
-        }
-        if (nPlayerY > gScreenHeight)
-        {
-            nPlayerY = gScreenHeight;
-        }
-        if (nPlayerY < 0)
-        {
-            nPlayerY = 0;
-        }
+
+       checkLimits();
     }
 
 }
