@@ -19,7 +19,10 @@ script:
 - make
 - cd lesson
 - make
-- make -f Makefile.scrap 
+- make -f Makefile.scrap
+- cd ..
+- cd rogue
+- make
 - cd ..
 after_success:
 - coveralls --exclude lib --exclude tests --gcov-options '\-lp'

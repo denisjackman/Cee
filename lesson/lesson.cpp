@@ -132,6 +132,7 @@ int main (int argc, char* args[] )
         cout << "    (2) Rock Paper Scissor " << endl;
         cout << "    (3) Insult " << endl;
         cout << "    (0) Exit " << endl;
+        cout << "Please choose : ";
         cin >> ChooseGame;
         switch(ChooseGame)
         {
