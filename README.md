@@ -28,6 +28,14 @@ I will do this in C++
 * [Rogue Like Tutorial](https://solarianprogrammer.com/2012/07/12/roguelike-game-cpp-11-part-0/)
 * [Source to look at](https://github.com/sol-prog/roguelike)
 * [Roguelike DEV](http://www.roguebasin.com/index.php?title=Roguelike_Dev_FAQ)
+* [Roguelike in 15 steps](http://www.roguebasin.com/index.php?title=How_to_Write_a_Roguelike_in_15_Steps)
+* [Map](http://www.roguebasin.com/index.php?title=Grid_Based_Dungeon_Generator)
+* [Angband](http://rephial.org/)
+* [Anmgband Source](https://github.com/angband/angband/tree/AngbandBase)
+
+## Forums/Groups 
+* [Temple of the Roguelike](http://forums.roguetemple.com/index.php)
+* [Angband Forum](http://angband.oook.cz/forum/index.php)
 
 ### Tools 
 * [Github](https://github.com/)
