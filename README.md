@@ -32,6 +32,7 @@ I will do this in C++
 * [Map](http://www.roguebasin.com/index.php?title=Grid_Based_Dungeon_Generator)
 * [Angband](http://rephial.org/)
 * [Anmgband Source](https://github.com/angband/angband/tree/AngbandBase)
+* [NetHack](http://www.nethack.org/)
 
 ## Forums/Groups 
 * [Temple of the Roguelike](http://forums.roguetemple.com/index.php)
