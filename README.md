@@ -34,6 +34,11 @@ I will do this in C++
 * [Anmgband Source](https://github.com/angband/angband/tree/AngbandBase)
 * [NetHack](http://www.nethack.org/)
 
+## Games Reference 
+* [Lists](http://roll1d12.blogspot.co.uk/)
+* [Lists](http://drumsofwar.wikia.com/wiki/Drums_of_War_Wiki)
+
+
 ## Forums/Groups 
 * [Temple of the Roguelike](http://forums.roguetemple.com/index.php)
 * [Angband Forum](http://angband.oook.cz/forum/index.php)
