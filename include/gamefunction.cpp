@@ -27,75 +27,13 @@ int DistanceToTarget(double oX0, double oY0, double tX1, double tY1)
 string InsultGenerator()
 {
     string result = "Thou ";
-    string Column1[]={"artless","bawdy","beslubbering","bootless","churlish","cockered","clouted","craven","currish","dankish","dissembling","droning","errant","fawning","fobbing","froward","frothy","gleeking","goatish","gorbellied","impertinent","jarring","loggerheaded","lumpish"};
-    string Column2[]={"base-court","bat-fowling","beef-witted","beetle-headed","boil-brained","clapper-clawed","clay-brained","common-kissing","crook-pated","dismal-dreaming","dizzy-eyed","doghearted","dread-bolted","earth-vexing","elf-skinned","fat-kidneyed","fen-sucked","flap-mouthed","fly-bitten","folly-fallen","fool-born","full-gorged","guts-griping","half-faced","hasty-witted"};
-    string Column3[]={"apple-john","baggage","barnacle","bladder","boar-pig","bugbear","bum-bailey","canker-blossom","clack-dish","clotpole","coxcomb","codpiece","death-token","dewberry","flap-dragon","flax-wench","flirt-gill","foot-licker","fustilarian","giglet","gudgeon","haggard","harpy","hedge-pig""horn-beast"};
-    result += Column1[DiceRoll(1,23)] + " " + Column2[DiceRoll(1,24)] + " " +Column3[DiceRoll(1,23)] +"!";
+    string Column1[]={"","artless","bawdy","beslubbering","bootless","churlish","cockered","clouted","craven","currish","dankish","dissembling","droning","errant","fawning","fobbing","froward","frothy","gleeking","goatish","gorbellied","impertinent","jarring","loggerheaded","lumpish"};
+    string Column2[]={"","base-court","bat-fowling","beef-witted","beetle-headed","boil-brained","clapper-clawed","clay-brained","common-kissing","crook-pated","dismal-dreaming","dizzy-eyed","doghearted","dread-bolted","earth-vexing","elf-skinned","fat-kidneyed","fen-sucked","flap-mouthed","fly-bitten","folly-fallen","fool-born","full-gorged","guts-griping","half-faced","hasty-witted"};
+    string Column3[]={"","apple-john","baggage","barnacle","bladder","boar-pig","bugbear","bum-bailey","canker-blossom","clack-dish","clotpole","coxcomb","codpiece","death-token","dewberry","flap-dragon","flax-wench","flirt-gill","foot-licker","fustilarian","giglet","gudgeon","haggard","harpy","hedge-pig""horn-beast"};
+    result += Column1[DiceRoll(1,24)] + " " + Column2[DiceRoll(1,25)] + " " +Column3[DiceRoll(1,24)] +"!";
     return result;
 }
 
-string IntegerToRoman(int number)
-{
-   /*
-    converts any given integer to Roman numerals.
-    accepts an integer as input and returns a string.
-
-    table = [['M', 1000],
-             ['CM', 900],
-             ['D', 500],
-             ['CD', 400],
-             ['C', 100],
-             ['XC', 90],
-             ['L', 50],
-             ['XL', 40],
-             ['X', 10],
-             ['IX', 9],
-             ['V', 5],
-             ['IV', 4],
-             ['I', 1]]
-    for pair in table:
-        while integer-pair[1] >= 0:
-            integer -= pair[1]
-            returnstring += pair[0]
-    */
-    string result = "";
-    return result;
-}
-int RomanToInteger(string roman)
-{
-    /*
-    converts a given string from Roman numerals to an integer
-    accepts a string as input and return an integer
-
-    table = [['M', 1000],
-             ['CM', 900],
-             ['D', 500],
-             ['CD', 400],
-             ['C', 100],
-             ['XC', 90],
-             ['L', 50],
-             ['XL', 40],
-             ['X', 10],
-             ['IX', 9],
-             ['V', 5],
-             ['IV', 4],
-             ['I', 1]]
-
-    for pair in table:
-        continual = True
-        while continual:
-            if len(string) >= len(pair[0]):
-                if string[0:len(pair[0])] == pair[0]:
-                    returnint += pair[1]
-                    string = string[len(pair[0]):]
-                else:
-                    continual = False
-            else:
-                continual = False
-    */
-    int result = 0;
-    return result;
-}
 int Rating(int totalRating, int playerWins, int playerLosses, int playerGames)
 {
     /*
