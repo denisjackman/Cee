@@ -10,4 +10,15 @@ string IntegerToRoman(int number);
 int RomanToInteger(string roman);
 int Rating(int totalRating, int playerWins, int playerLosses, int playerGames);
 
+string FoodChoice();
+string Gems();
+string Precious();
+string DesignChoice();
+string JewlleryChoice();
+string InterestingItem();
+string MadeOf();
+string ValuableItem();
+string UnwantedItem();
+string PickPocket();
+
 #endif

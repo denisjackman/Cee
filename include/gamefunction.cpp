@@ -138,3 +138,238 @@ if __name__ == "__main__":
     NewRating = ((totalRating)+ 400 * (playerWins-playerLosses))/playerGames;
     return NewRating;
 }
+
+string FoodChoice()
+{
+    /*
+    1.	1d4 strips of jerky
+    2.	bull testicles
+    3.	chicken breast
+    4.	cow tongue
+    5.	garlic
+    6.	pastry
+    7.	piece of fruit
+    8.	roll of bread
+    9.	vegetable
+    10.	wedge of cheese
+    */
+    string Result ="";
+    switch(DiceRoll(1,10))
+        {
+            case 1:
+                Result = to_string(DiceRoll(1,4)) + " Strips of Jerky";
+                break;
+            case 2:
+                Result = "Bull Testicles";
+                break;
+            case 3:
+                Result = "Chicken Breast";
+                break;
+            case 4:
+                Result = "Cow Tongue";
+                break;
+            case 5:
+                Result = "Garlic";
+                break;
+            case 6:
+                Result = "Pastry";
+                break;
+            case 7:
+                Result = "Piece of Fruit";
+                break;
+            case 8:
+                Result = "Roll of Bread";
+                break;
+            case 9:
+                Result = "Vegetable";
+                break;
+            case 10:
+                Result = "Wedge of Cheese";
+                break;
+            default:
+                cout << "Really you cannot choose ? " << endl;
+        }
+    return Result;
+}
+
+string Gems()
+{
+    string Result = "";
+    int Roll = DiceRoll(1,10);
+    string Gem[]={"","onyx","amethyst","tiger's eye","garnet","sapphire","jade","emerald","ruby","diamond"};
+    if (Roll == 10)
+    {
+        Result += Gem[DiceRoll(1,9)] + " & " + Gem[DiceRoll(1,9)];
+    }
+    else
+    {
+        Result += Gem[Roll];
+    }
+    return Result;
+}
+
+string Precious()
+{
+    string Result = "";
+    string Metal[]={"","copper","silver","electrum","gold","platimun"};
+    int Roll = DiceRoll();
+    if (Roll == 6)
+    {
+        Result += Metal[DiceRoll(1,5)] + " encrusted with "+Gems() ;
+    }
+    else
+    {
+        Result += Metal[Roll];
+    }
+    return Result;
+}
+
+string DesignChoice()
+{
+    string Result = "";
+    string Design[]={"","antlers","apples","arcane symbols","arenas","axes","bears","blackberries","boars","bones","bottles","bows","bulls","carnations","cathedrals","cats","chains","chariots","circles","cornstalks","crabs","crowns","crows","demons","dogs","dragons","dwarves","eagles","elements","elves","eye of terror","eyes","fish","flagons","flames","flutes","foxes","frogs","grapes","griffons","halflings","hammers","hands","hares","helms","holly","horses","knights","knotwork","krakens","lightning","lily pads","lions","lutes","maces","manta rays","melons","mermaids","mistletoe","moon","mosques","pegasi","pies","pipes","pots","pyramids","quill and ink","rams","religious symbols","roses","saints","scales","scorpions","scythes","serpents","sharks","shields","ships","skulls","spears","spirals","squares","stag","star","staves","sun","sun/moon","swords","teardrops","temples","towers","trees","triangles","tridents","trolls","turtles","unicorns","virgins","wheat","wizards","wolves"};
+    Result = Design[DiceRoll(1,100)];
+    return Result;
+}
+
+string JewlleryChoice()
+{
+    string Result = "";
+    string Jewellry[] = {"","anklet","armlet","bracelet","brooch","circlet","earring","hairpin","necklace","pendant","ring","toe ring"};
+    int Roll = DiceRoll(1,12);
+    if (Roll == 12 )
+    {
+        Result += Precious() + " "+ Jewellry[DiceRoll(1,11)] + " engraved with " + DesignChoice();
+    }
+    else
+    {
+        Result += Precious() + " " + Jewellry[Roll];
+    }
+    return Result;
+}
+
+string InterestingItem()
+{
+    string Result = "";
+    int Roll = DiceRoll();
+    string Interesting[]={"","candles","baby's rattle","bottle of perfume","child's doll","comb","dog collar","flask of oil","flint and steel","flute","handkerchief","herbal poultice","iron spike","lock","quill and ink pot","rabbit's foot","sheet of parchment","small mirror","spyglass","thieves' tools","vial of holy water"};
+    if (Roll == 1)
+    {
+        int NewRoll = DiceRoll(1,4);
+        if (NewRoll==1)
+        {
+            Result += to_string(DiceRoll(1,4)) + " Candle";
+        }
+        else
+        {
+            Result += to_string(DiceRoll(1,4)) + " Candles";
+        }
+    }
+    else
+    {
+            Result += Interesting[Roll];
+    }
+    return Result;
+}
+
+string MadeOf()
+{
+    string Result = "";
+    int Roll = DiceRoll();
+    string MadeOfMaterial[] ={"","Bone","Wood","Copper","Bronze","Brass"};
+    if (Roll == 6)
+    {
+        Result += Precious();
+    }
+    else
+    {
+        Result += MadeOfMaterial[Roll];
+    }
+    return Result;
+}
+
+string ValuableItem()
+{
+    string Result = "";
+    int NewRoll = 0;
+    int Roll = DiceRoll(1,12);
+    string Valuable[]={"","candlestick","flask","holy symbol","horn","key","letter opener","mug","set of dice","smoking pipe","trinket box"};
+    if (Roll == 11)
+    {
+        NewRoll = DiceRoll(1,11);
+        if (NewRoll == 11)
+        {
+            Result += MadeOf() + " " + Valuable[DiceRoll(1.,10)] + " engraved with " + DesignChoice() + " inlaid with " + Precious();
+        }
+        else
+        {
+            Result +=MadeOf() + " " + Valuable[DiceRoll(1.,10)] + " engraved with " + DesignChoice() ;
+
+        }
+    }
+    else if(Roll == 12)
+    {
+        NewRoll = DiceRoll(1,11);
+        if (NewRoll == 11)
+        {
+            Result +=MadeOf() + " " + Valuable[DiceRoll(1.,10)] + " engraved with " + DesignChoice() + " inlaid with " + Precious();
+        }
+        else
+        {
+            Result += MadeOf() + " " + Valuable[DiceRoll(1.,10)] + " engraved with " + DesignChoice() ;
+
+        }
+    }
+    else
+    {
+        Result += MadeOf()+" "+Valuable[Roll];
+    }
+    return Result;
+}
+
+string UnwantedItem()
+{
+    string Result = "";
+    int Roll=DiceRoll(1,20);
+    string Unwanted[]={"","15 fake gold coins","bag of goat eyes","bead necklace covered in feces","bloody glove","bundle of dog poo","clump of poison ivy","fingernail clippings wrapped in cloth","flag with standard of Xanne","flask of deer urine","folded paper with 'Death to the Duke!' written on it","grimy wooden dentures","head lice","holy symbol of Chaos and Destruction","maggoty pork wrapped in cloth","poisonous snake","severed finger inside a biscuit","small sack with dead kitten inside","soiled adult diaper","tobacco pouch made of tattooed human skin","vial of sour breast milk"};
+    Result += Unwanted[Roll];
+    return Result;
+}
+
+
+string PickPocket()
+{
+    /*
+    1.	Food
+    2.	Jewelry
+    3.	Gem
+    4.	Interesting Item
+    5.	Valuable Item
+    6.	Unwanted Item
+    */
+    string Result = "";
+    switch(DiceRoll())
+        {
+            case 1:
+                Result += "Food: " + FoodChoice();
+                break;
+            case 2:
+                Result += "Jewellry: " + JewlleryChoice();
+                break;
+            case 3:
+                Result += "Gem: "+ Gems();
+                break;
+            case 4:
+                Result += "Interesting Item: "+ InterestingItem();
+                break;
+            case 5:
+                Result += "Valuable Item: "+ValuableItem();
+                break;
+            case 6:
+                Result += "Unwanted Item :"+ UnwantedItem();
+                break;
+            default:
+                cout << "Really you cannot choose ? " << endl;
+        }
+    return Result;
+}
