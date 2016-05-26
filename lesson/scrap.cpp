@@ -59,12 +59,63 @@ string FoodChoice()
         }
     return Result;
 }
-string JewlleryChoice()
 
+string Gems()
 {
     string Result = "";
+    int Roll = DiceRoll(1,10);
+    string Gem[]={"","onyx","amethyst","tiger's eye","garnet","sapphire","jade","emerald","ruby","diamond"};
+    if (Roll == 10)
+    {
+        Result += Gem[DiceRoll(1,9)] + " & " + Gem[DiceRoll(1,9)];
+    }
+    else
+    {
+        Result += Gem[Roll];
+    }
     return Result;
 }
+
+string Precious()
+{
+    string Result = "";
+    string Metal[]={"","copper","silver","electrum","gold","platimun"};
+    int Roll = DiceRoll();
+    if (Roll == 6)
+    {
+        Result += Metal[DiceRoll(1,5)] + " encrusted with "+Gems() ;
+    }
+    else
+    {
+        Result += Metal[Roll];
+    }
+    return Result;
+}
+
+string DesignChoice()
+{
+    string Result = "";
+    string Design[]={"","antlers","apples","arcane symbols","arenas","axes","bears","blackberries","boars","bones","bottles","bows","bulls","carnations","cathedrals","cats","chains","chariots","circles","cornstalks","crabs","crowns","crows","demons","dogs","dragons","dwarves","eagles","elements","elves","eye of terror","eyes","fish","flagons","flames","flutes","foxes","frogs","grapes","griffons","halflings","hammers","hands","hares","helms","holly","horses","knights","knotwork","krakens","lightning","lily pads","lions","lutes","maces","manta rays","melons","mermaids","mistletoe","moon","mosques","pegasi","pies","pipes","pots","pyramids","quill and ink","rams","religious symbols","roses","saints","scales","scorpions","scythes","serpents","sharks","shields","ships","skulls","spears","spirals","squares","stag","star","staves","sun","sun/moon","swords","teardrops","temples","towers","trees","triangles","tridents","trolls","turtles","unicorns","virgins","wheat","wizards","wolves"};
+    Result = Design[DiceRoll(1,100)];
+    return Result;
+}
+
+string JewlleryChoice()
+{
+    string Result = "";
+    string Jewellry[] = {"","anklet","armlet","bracelet","brooch","circlet","earring","hairpin","necklace","pendant","ring","toe ring"};
+    int Roll = DiceRoll(1,12);
+    if (Roll == 12 )
+    {
+        Result += Precious() + " "+ Jewellry[DiceRoll(1,11)] + " engraved with " + DesignChoice();
+    }
+    else
+    {
+        Result += Precious() + " " + Jewellry[Roll];
+    }
+    return Result;
+}
+
 
 string PickPocket()
 {
@@ -83,7 +134,7 @@ string PickPocket()
                 Result += "Food: " + FoodChoice();
                 break;
             case 2:
-                Result += "Jewellry";
+                Result += "Jewellry: " + JewlleryChoice();
                 break;
             case 3:
                 Result += "Gem";
@@ -121,7 +172,8 @@ int main(int argc, char *argv[])
         cout << "Unable to open file";
     }
 
-    cout << "You have " << PickPocket() << " " << endl;
+    cout << "You have a " << FoodChoice() << endl;
+    cout << "You have a " << JewlleryChoice() << endl;
 
   return 0;
 }
