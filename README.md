@@ -14,11 +14,11 @@ I will do this in C++
 |2016-05-17|Denis Jackman|02.00|Converted to CPP only project |
 |2016-05-18|Denis Jackman|02.01|Added SDL libraries and Slack notification |
 |2016-05-20|Denis Jackman|02.02|Added ccppunit libraries and coverall |
+|2016-05-27|Denis Jackman|02.03|Added numerous functions to the library |
 
-## TODO 
-* Add cppunit to the build machine 
-* Work out how to add tests to the code 
+## TODO
 * start coding section 5 of the tutorials 
+ * Install Cmake and other things we need
 
 ## Links
 * [Game Programming](http://gameprogrammingpatterns.com/)
@@ -37,7 +37,6 @@ I will do this in C++
 ## Games Reference 
 * [Lists](http://roll1d12.blogspot.co.uk/)
 * [Lists](http://drumsofwar.wikia.com/wiki/Drums_of_War_Wiki)
-
 
 ## Forums/Groups 
 * [Temple of the Roguelike](http://forums.roguetemple.com/index.php)
@@ -67,9 +66,6 @@ I will do this in C++
 * Beginning C++ Game Programming
 * C++ For Game Programmers.
 * Design Patterns 
-
-## TODO 
-* Install Cmake and other things we need 
 
 ## Licence 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
