@@ -136,7 +136,7 @@ string Gems()
 {
     string Result = "";
     int Roll = DiceRoll(1,10);
-    string Gem[]={"","onyx","amethyst","tiger's eye","garnet","sapphire","jade","emerald","ruby","diamond"};
+    string Gem[]={"","Onyx","Amethyst","Tiger's Eye","Garnet","Sapphire","Jade","Emerald","Ruby","Diamond"};
     if (Roll == 10)
     {
         Result += Gem[DiceRoll(1,9)] + " & " + Gem[DiceRoll(1,9)];
@@ -151,7 +151,7 @@ string Gems()
 string Precious()
 {
     string Result = "";
-    string Metal[]={"","copper","silver","electrum","gold","platimun"};
+    string Metal[]={"","Copper","Silver","Electrum","Gold","Platimun"};
     int Roll = DiceRoll();
     if (Roll == 6)
     {
@@ -175,7 +175,17 @@ string DesignChoice()
 string JewlleryChoice()
 {
     string Result = "";
-    string Jewellry[] = {"","anklet","armlet","bracelet","brooch","circlet","earring","hairpin","necklace","pendant","ring","toe ring"};
+    string Jewellry[] = {"","Anklet", \
+                            "Armlet", \
+                            "Bracelet", \
+                            "Brooch", \
+                            "Circlet", \
+                            "Earring", \
+                            "Hairpin", \
+                            "Necklace", \
+                            "Pendant", \
+                            "Ring", \
+                            "Toe Ring"};
     int Roll = DiceRoll(1,12);
     if (Roll == 12 )
     {
@@ -191,8 +201,27 @@ string JewlleryChoice()
 string InterestingItem()
 {
     string Result = "";
-    int Roll = DiceRoll();
-    string Interesting[]={"","candles","baby's rattle","bottle of perfume","child's doll","comb","dog collar","flask of oil","flint and steel","flute","handkerchief","herbal poultice","iron spike","lock","quill and ink pot","rabbit's foot","sheet of parchment","small mirror","spyglass","thieves' tools","vial of holy water"};
+    int Roll = DiceRoll(1,20);
+    string Interesting[]={"","candles", \
+                             "Baby's Rattle", \
+                             "Bottle of Perfume", \
+                             "Child's Doll", \
+                             "Comb", \
+                             "Dog Collar", \
+                             "Flask of Oil", \
+                             "Flint and Steel", \
+                             "Flute", \
+                             "Handkerchief", \
+                             "Herbal Poultice", \
+                             "Iron Spike", \
+                             "lock", \
+                             "Quill and Ink Pot", \
+                             "Rabbit's Foot", \
+                             "Sheet of Parchment", \
+                             "Small Mirror", \
+                             "Spyglass", \
+                             "Thieves' Tools", \
+                             "Vial of Holy water"};
     if (Roll == 1)
     {
         int NewRoll = DiceRoll(1,4);
@@ -233,7 +262,8 @@ string ValuableItem()
     string Result = "";
     int NewRoll = 0;
     int Roll = DiceRoll(1,12);
-    string Valuable[]={"","candlestick","flask","holy symbol","horn","key","letter opener","mug","set of dice","smoking pipe","trinket box"};
+    string Valuable[]={"","Candlestick","Flask","Holy Symbol","Horn","Key","Letter Opener", \
+                          "Mug","Set of Dice","Smoking Pipe","Trinket Box"};
     if (Roll == 11)
     {
         NewRoll = DiceRoll(1,11);
@@ -313,7 +343,7 @@ string PickPocket()
     return Result;
 }
 
-string LootCrateList()
+string WHFRPLootCrateList()
 {
     string Result = "";
     int Roll = DiceRoll(1,21258);
@@ -21581,20 +21611,35 @@ string LootCrateList()
     return Result;
 }
 
-vector <vector <bool> > MazeGen(int x = 80, int y = 40)
+vector <vector <bool> > MazeGen(int mX = 80, int mY = 40)
 {
-   srand(time(0));
-   const int maze_size_x=x;
-   const int maze_size_y=y;
-   vector < vector < bool > > maze;
-   list < pair < int, int> > drillers;
-   maze.resize(maze_size_y);
-   for (size_t y=0;y<maze_size_y;y++)
-           maze[y].resize(maze_size_x);
+    /*
+    This maze generation is based totally on
+    "Simple Maze Generator in C++ by Jakub Debski '2006" from
+    http://www.roguebasin.com/index.php?title=Simple_maze
+    Change include turning into a function which accepts width and height as a param for building the maze.
 
-   for (size_t x=0;x<maze_size_x;x++)
-           for (size_t y=0;y<maze_size_y;y++)
-                   maze[y][x]=false;
+
+    */
+    srand(time(0));
+    const int maze_size_x=mX;
+    const int maze_size_y=mY;
+    vector < vector < bool > > maze;
+    list < pair < int, int> > drillers;
+    maze.resize(maze_size_y);
+
+    for (size_t y=0;y<maze_size_y;y++)
+    {
+        maze[y].resize(maze_size_x);
+    }
+
+    for (size_t x=0;x<maze_size_x;x++)
+    {
+        for (size_t y=0;y<maze_size_y;y++)
+        {
+            maze[y][x]=false;
+        }
+    }
 
    drillers.push_back(make_pair(maze_size_x/2,maze_size_y/2));
    while(drillers.size()>0)
@@ -21657,4 +21702,20 @@ vector <vector <bool> > MazeGen(int x = 80, int y = 40)
            }
    }
    return maze;
+}
+
+string SciFiShoutOut()
+{
+    string Result = "";
+    string Shout[] = {"","I have a pain in the diodes down my left side.", \
+                         "Gordon’s alive!", \
+                         "If I can just reverse the polarity of the neutron flow...", \
+                         "I need your clothes, your boots and your motorcycle.", \
+                         "I am not a number, I am a free man.", \
+                         "That information is not available.", \
+                         "KHAAAAAN!", \
+                         "Red thingy moving toward the green thingy. I think we’re the green thingy."};
+    int Roll= DiceRoll(1,8);
+    Result += Shout[Roll];
+    return Result;
 }

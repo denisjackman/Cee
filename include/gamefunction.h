@@ -18,7 +18,8 @@ string MadeOf();
 string ValuableItem();
 string UnwantedItem();
 string PickPocket();
-string LootCrateList();
-vector <vector <bool> > MazeGen(int x = 80, int y = 40);
+string WHFRPLootCrateList();
+vector <vector <bool> > MazeGen(int mX = 80, int mY = 40);
+string SciFiShoutOut();
 
 #endif

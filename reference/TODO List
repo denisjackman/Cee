@@ -1,0 +1,13 @@
+Item    Description
+001     Overlay the Maze array with rooms (create a function to do so )
+002     Make sure the Maze is sane (all rooms connect to each other)
+003     Add Maze furniture (Doors, Stairs (up and down)) or do we treat these as objects
+003     Display the Maze in the game
+004     Let the Character walk around the maze
+005     How do levels work
+006     Add monsters
+007     Add fighting
+008     Add treasure drops
+009     Add other objects
+010     Look at NetHack code - http://git.code.sf.net/p/nethack/NetHack - (maybe fork it )
+011     Look at Angbad code  - - (maybe fork it )
