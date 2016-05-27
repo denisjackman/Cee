@@ -18,5 +18,6 @@ string MadeOf();
 string ValuableItem();
 string UnwantedItem();
 string PickPocket();
+string LootCrateList();
 
 #endif

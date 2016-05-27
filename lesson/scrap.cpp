@@ -7,6 +7,8 @@
 
 using namespace std;
 
+
+
 int main(int argc, char *argv[])
 {
     vector<string> itemList;
@@ -25,6 +27,6 @@ int main(int argc, char *argv[])
         cout << "Unable to open file";
     }
 
-    cout << "You have a " << PickPocket() << endl;
+    cout << "You have a " << LootCrateList() << endl;
     return 0;
 }
