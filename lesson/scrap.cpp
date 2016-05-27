@@ -27,6 +27,20 @@ int main(int argc, char *argv[])
         cout << "Unable to open file";
     }
 
-    cout << "You have a " << LootCrateList() << endl;
+   vector <vector <bool> > bmaze = MazeGen();
+   // Done
+   for (size_t y=0;y<40;y++)
+   {
+           cout << endl;
+           for (size_t x=0;x<80;x++)
+           {
+                   if (bmaze[y][x]==true)
+                           cout << ".";
+                   else
+                           cout << "#";
+           }
+   }
+   cout << endl;
+
     return 0;
 }

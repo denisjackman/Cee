@@ -19,5 +19,6 @@ string ValuableItem();
 string UnwantedItem();
 string PickPocket();
 string LootCrateList();
+vector <vector <bool> > MazeGen(int x = 80, int y = 40);
 
 #endif
