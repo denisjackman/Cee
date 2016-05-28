@@ -20,7 +20,7 @@ script:
 - make
 - cd lesson
 - make
-- make -f Makefile.scrap Mac
+- make -f Makefile.scrap
 - cd ..
 - cd rogue
 - make Mac
