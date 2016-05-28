@@ -1,5 +1,8 @@
 #include <string>
 #include <iostream>
+#include <fstream>
+#include <vector>
+#include <ncurses.h>
 #include "../include/gamefunction.h"
 
 using namespace std;
