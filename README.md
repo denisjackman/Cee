@@ -18,7 +18,19 @@ I will do this in C++
 
 ## TODO
 * start coding section 5 of the tutorials 
- * Install Cmake and other things we need
+* Install Cmake and other things we need
+* Overlay the Maze array with rooms (create a function to do so )
+* Make sure the Maze is sane (all rooms connect to each other)
+* Add Maze furniture (Doors, Stairs (up and down)) or do we treat these as objects
+* Display the Maze in the game
+* Let the Character walk around the maze
+* How do levels work
+* Add monsters
+* Add fighting
+* Add treasure drops
+* Add other objects
+* Look at NetHack code - http://git.code.sf.net/p/nethack/NetHack - (maybe fork it )
+* Look at Angbad code  - - (maybe fork it )
 
 ## Links
 * [Game Programming](http://gameprogrammingpatterns.com/)

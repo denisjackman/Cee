@@ -1,4 +1,4 @@
-Orientation
+# Orientation
     NORTH   is always   UP      (X - 1)
     SOUTH   is always   DOWN    (X + 1)
     EAST    is always   RIGHT   (Y + 1)
