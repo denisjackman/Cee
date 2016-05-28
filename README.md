@@ -37,6 +37,10 @@ I will do this in C++
 ## Games Reference 
 * [Lists](http://roll1d12.blogspot.co.uk/)
 * [Lists](http://drumsofwar.wikia.com/wiki/Drums_of_War_Wiki)
+* [Dungeon Building](http://roguelikedeveloper.blogspot.co.uk/2007/11/unangband-dungeon-generation-part-one.html)
+* [Rooms](http://journal.stuffwithstuff.com/2014/12/21/rooms-and-mazes/)
+* [Maps](https://endevagames.wordpress.com/2015/05/29/randomly-generated-maps/)
+* [Maps](http://divingintodart.blogspot.co.uk/2015/01/procedural-generation-part-one-making.html)
 
 ## Forums/Groups 
 * [Temple of the Roguelike](http://forums.roguetemple.com/index.php)
