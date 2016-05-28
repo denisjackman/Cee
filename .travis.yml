@@ -19,7 +19,7 @@ before_script:
 script:
 - make
 - cd lesson
-- make Mac
+- make
 - make -f Makefile.scrap Mac
 - cd ..
 - cd rogue
