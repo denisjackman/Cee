@@ -5,6 +5,8 @@
 #include <iostream>
 #include <cstring>
 #include <cstdint>
+#include <vector>
+#include <list>
 #include "include/gamefunction.h"
 
 using namespace std;
