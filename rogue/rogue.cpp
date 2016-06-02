@@ -3,6 +3,7 @@
 #include <vector>
 #include <list>
 #include <iostream>
+#include <fstream>
 #include "../include/gamefunction.h"
 
 using namespace std;
@@ -25,6 +26,7 @@ void erase( int y, int x)
 void initialise()
 {
     // Initialise
+    DebugModeInitialise();
     initscr();
     clear();
 	noecho();
@@ -32,7 +34,7 @@ void initialise()
 	keypad(stdscr, TRUE);
 	if (curs_set(0) == ERR)
 	{
-	    cout << "ERR-cur_set error " << endl;
+	    Print("ERR-cur_set error ");
 	}
 }
 
@@ -103,11 +105,13 @@ void gameloop()
 int main( void)
 {
     initialise();
+    Print("Starting");
     printw("Welcome to Rogue\nPress any key to continue\nPress 'q' or 'Q' to quit at any time\n");
     nPlayerInput = getch();
     clear();
     gameloop();
     endwin();
-
+    Print("Finishing");
+    DebugModeTerminate();
     return 0;
 }

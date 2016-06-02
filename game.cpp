@@ -23,14 +23,16 @@ SDL_Window*     gWindow         = NULL;
 SDL_Surface*    gScreenSurface  = NULL;
 SDL_Surface*    gDisplaySurface = NULL;
 
+
 bool GameInitialise()
 {
+    DebugModeInitialise();
     //Initialization flag
     bool result = true;
     //Initialize SDL
     if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
     {
-        cout << "SDL could not initialize! SDL_Error: " << SDL_GetError() << endl;
+        Print("ERROR:SDL could not initialize! SDL_Error: ");
         result = false;
     }
     else
@@ -39,7 +41,7 @@ bool GameInitialise()
         gWindow = SDL_CreateWindow( SCREEN_TITLE, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
         if( gWindow == NULL )
         {
-            cout << "Window could not be created! SDL_Error: " <<  SDL_GetError() << endl;
+            Print("ERROR:Window could not be created! SDL_Error: ");
             result = false;
         }
         else
@@ -49,6 +51,7 @@ bool GameInitialise()
             WHITE = SDL_MapRGB( gScreenSurface->format, 0xFF, 0xFF, 0xFF );
         }
     }
+
     return result;
 }
 
@@ -62,7 +65,9 @@ void GameTerminate()
     gWindow = NULL;
     //Quit SDL subsystems
     SDL_Quit();
+    DebugModeTerminate();
 }
+
 
 bool LoadMedia(char *loadMedia)
 {
@@ -70,7 +75,7 @@ bool LoadMedia(char *loadMedia)
     gDisplaySurface = SDL_LoadBMP(loadMedia);
     if (gDisplaySurface == NULL)
     {
-        cout << "Unable to load image " << SDL_GetError() << "SDL Error " << endl;
+        Print ("ERROR:Unable to load image " + SDL_GetError() + " SDL Error ");
         result = false;
     }
     return result;
@@ -78,11 +83,11 @@ bool LoadMedia(char *loadMedia)
 
 int main (int argc, char* args[] )
 {
-  	cout << " -- Game Version 1.0 (Test) -- " << endl;
-	cout << " --- Starting ---" << endl;
+  	Print(" -- Game Version 1.0 (Test) -- ");
+	Print(" --- Starting ---");
     if (GameInitialise() == false)
     {
-        cout << "Game failed to initialise !" << endl;
+        Print("Game failed to initialise !");
     }
 	//Main loop flag
 	bool gameLoop = true;
@@ -107,7 +112,7 @@ int main (int argc, char* args[] )
 		{
 		    if (LoadMedia("files/hello_world.bmp")==false)
             {
-                cout << "Unable to load media " << endl;
+                Print("Unable to load media ");
             }
         }
 		if (loopCount == 2000)
@@ -115,7 +120,7 @@ int main (int argc, char* args[] )
 		    loopCount = 0;
 		    if (LoadMedia("files/x.bmp")==false)
             {
-                cout << "Unable to load media " << endl;
+                Print("Unable to load media ");
             }
         }
 		//Apply the image
@@ -124,6 +129,6 @@ int main (int argc, char* args[] )
 		SDL_UpdateWindowSurface( gWindow );
 	}
 	GameTerminate();
-	cout << " --- Ending ---" << endl;
+	Print(" --- Ending ---");
   	return 0;
 }
