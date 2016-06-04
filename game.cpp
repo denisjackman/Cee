@@ -75,7 +75,7 @@ bool LoadMedia(char *loadMedia)
     gDisplaySurface = SDL_LoadBMP(loadMedia);
     if (gDisplaySurface == NULL)
     {
-        Print ("ERROR:Unable to load image " + SDL_GetError() + " SDL Error ");
+        Print ("ERROR:Unable to load image " + string(SDL_GetError()) + " SDL Error ");
         result = false;
     }
     return result;
