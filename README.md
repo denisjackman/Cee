@@ -1,7 +1,8 @@
 # Game
 ======
 This holds the code and notes for a rough game idea I have.
-I will do this in C++ 
+I will do this in C++. Using Travis CI and Coverall as tools to run the project. Maybe trello too.
+
 # Badges
 ========
 * [![Coverage Status](https://coveralls.io/repos/github/denisjackman/game/badge.svg?branch=master)](https://coveralls.io/github/denisjackman/game?branch=master)
