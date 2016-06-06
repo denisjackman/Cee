@@ -65,6 +65,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * [Freedcamp](https://freedcamp.com/dashboard)
 * [Travis CI](https://travis-ci.org/profile/denisjackman)
 * [Coverall](https://coveralls.io/repos)
+* [Linux Journey](https://linuxjourney.com)
 
 ### C++ Links
 * [SDL Library](https://www.libsdl.org/index.php)
