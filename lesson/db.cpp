@@ -56,9 +56,9 @@ int main()
   conn = mysql_connection_setup(mysqlD);
 
   // assign the results return to the MYSQL_RES pointer
-  res = mysql_perform_query(conn, "show tables");
+  res = mysql_perform_query(conn, "SELECT VERSION()");
 
-  printf("MySQL Tables in mysql database:\n");
+  printf("database version : ");
   while ((row = mysql_fetch_row(res)) !=NULL)
       printf("%s\n", row[0]);
 

@@ -67,6 +67,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * [Travis CI](https://travis-ci.org/profile/denisjackman)
 * [Coverall](https://coveralls.io/repos)
 * [Linux Journey](https://linuxjourney.com)
+* [Binary converter](http://www.unit-conversion.info/texttools/convert-text-to-binary/)
 
 ### C++ Links
 * [SDL Library](https://www.libsdl.org/index.php)

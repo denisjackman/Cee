@@ -1,5 +1,5 @@
 #OBJS specifies which files to compile as part of the project
-OBJS = db.cpp
+OBJS = newdb.cpp
 
 #CC specifies which compiler we're using
 CC = g++
@@ -13,7 +13,7 @@ MAC_COMPILER_FLAGS = -w
 LINKER_FLAGS = $(shell mysql_config --libs)
 
 #OBJ_NAME specifies the name of our exectuable
-OBJ_NAME = db
+OBJ_NAME = newdb
 
 #This is the target that compiles our executable
 all : $(OBJS)
