@@ -16,6 +16,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 |2016-05-18|Denis Jackman|02.01|Added SDL libraries and Slack notification |
 |2016-05-20|Denis Jackman|02.02|Added ccppunit libraries and coverall |
 |2016-05-27|Denis Jackman|02.03|Added numerous functions to the library |
+|2016-06-07|Denis Jackman|02.04|Added more detail to the reference mark down pages |
 
 ## TODO
 * start coding section 5 of the tutorials 

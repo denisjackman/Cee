@@ -6,7 +6,7 @@
     * SPEED (Integer number between 0 and 99 ?)
     * DIRECTION (N/S/E/W/NE/SE/NW/SW/NNE/ENE/ESE/SSE/WSW/SSW/WNW/NNW)
     * POSITION (X/Y)
-    * TARGET (ID)
+    * TARGET (ID) or (CO-ORDS)
     * ORDER (ATTACK/FOLLOW/MOVE)
 
 ## Extras

@@ -29,10 +29,18 @@ This is the flow of logic.
     *   Execute the ORDER.
 
 ## MOVE
-
+    *   MOVE OBJECT in Direction 
+    *   If the target location has been reached clear the MOVE order
+    
 ## ATTACK
+    *   Attack the Target 
+    *   If the target does not exist then clear the ATTACK order and clear the TARGET
 
 ## FOLLOW
+    *   Follow the Target 
+    *   If the target is an ENEMY OBJECT then limit the follow to outside weapons range 
+    *   if the target is a FRIENDLY OBJECT then stay within MINIMUM Distance of the TARGET 
+    *   if the target does not exist then clear the FOLLOW order and clear the TARGET 
 
 ## SCAN
     *   Scan works as follows. The object scans in 360 degree. All object in the range are catalogued.
