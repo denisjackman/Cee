@@ -23,7 +23,7 @@ script:
 - cd lesson
 - make
 - make -f Makefile.scrap
-- make -f Makefile.db 
+- make -f Makefile.db
 - cd ..
 - cd rogue
 - make
