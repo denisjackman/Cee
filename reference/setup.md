@@ -15,6 +15,9 @@ Then run the following items into the build
     sudo apt-get install libncurses5-dev -y
     sudo apt-get install libmysqlclient-dev -y 
     sudo apt-get install cmake -y
+    sudo apt-get install flex -y
+    sudo apt-get install bison -y 
+    sudo apt-get build-essential  -y 
 
 configure the set up using 
     git config --global user.name "Denis Jackman"
