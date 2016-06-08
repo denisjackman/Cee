@@ -64,6 +64,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 
 ### Tools 
 * [Github](https://github.com/)
+* [Gitlab](https://gitlab.com/)
 * [Trello](https://trello.com/b/pCvSF4QZ/games-project)
 * [Freedcamp](https://freedcamp.com/dashboard)
 * [Travis CI](https://travis-ci.org/profile/denisjackman)
