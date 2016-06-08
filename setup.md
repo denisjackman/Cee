@@ -8,6 +8,9 @@
     9  sudo apt-get install libncurses5-dev -y
    10  git config --global user.name "Denis Jackman"
    11  git config --global user.email "Denis_jackman@hotmail.com"
+
+git config --global push.default simple
+A
 B
 B
 
