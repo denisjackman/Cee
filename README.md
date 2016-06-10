@@ -19,6 +19,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 |2016-06-07|Denis Jackman|02.04|Added more detail to the reference mark down pages |
 
 ## TODO
+* Fix DiceRoll Randomisation bug (it sends back same number twice) 
 * start coding section 5 of the tutorials 
 * Install Cmake and other things we need
 * Overlay the Maze array with rooms (create a function to do so )

@@ -40,7 +40,7 @@ void Print(string OutputString)
 int DiceRoll(int rolls = 1, int sides = 6)
 {
 	int result = 0;
-	srand(time(NULL));
+        srand( (int) time(NULL));
 	for ( int loop =0; loop < rolls; loop = loop + 1)
 	{
         	result += rand() % sides + 1;
@@ -56,6 +56,7 @@ int DistanceToTarget(double oX0, double oY0, double tX1, double tY1)
 }
 
 string InsultGenerator()
+
 {
     string result = "Thou ";
     string Column1[]={"","artless","bawdy","beslubbering","bootless","churlish","cockered","clouted","craven","currish","dankish","dissembling","droning","errant","fawning","fobbing","froward","frothy","gleeking","goatish","gorbellied","impertinent","jarring","loggerheaded","lumpish"};
