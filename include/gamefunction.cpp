@@ -40,7 +40,7 @@ void Print(string OutputString)
 int DiceRoll(int rolls = 1, int sides = 6)
 {
 	int result = 0;
-        srand( (int) time(NULL));
+     srand( (int) time(NULL));
 	for ( int loop =0; loop < rolls; loop = loop + 1)
 	{
         	result += rand() % sides + 1;
