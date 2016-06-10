@@ -1,34 +1,34 @@
-#include <ctime>
-#include <cmath>
-#include <string>
-#include <vector>
-#include <iostream>
-#include "../include/gamefunction.h"
+//Michael Barker
+//Program that rolls 2 dice
 
+#include<iostream>
+#include<ctime>
+#include<cstdlib>
 using namespace std;
-int main(int argc, char *argv[])
+
+class dice_roll
 {
-    bool atkCrit = false;
-    bool defCrit = false;
-    cout << "Starting Program Run" << endl;
-    int atkRoll = DiceRoll(1,20);
-    srand(time(NULL));    
-    if (atkRoll==20)
+public:
+    int roll_di (int& a)
     {
-	atkCrit = true;
-	cout << "Attacker Critical !! " << endl;
-    }
-    int defRoll = DiceRoll(1,20);
-    if (defRoll==20)
+        int x;
+        srand(time(0));
+        x = rand();
+        a = (x%6) + 1;
+        return a;
+      }
+};
+
+
+int main()
+{
+    int d1, d2;
+    dice_roll rollin;
+    for ( int i = 0; i < 6; i++ )
     {
-        defCrit = true;
-        cout << "Defender Critical !! " << endl;
+        d1 = rollin.roll_di(d1);
+        d2 = rollin.roll_di(d2);
+        cout << "You rolled a " << d1 << " " << d2 << endl;
     }
-    if (atkRoll == defRoll)
-    {
-       cout << " Its a Draw! atk:"<< atkRoll<< " def:" << defRoll  << endl;
-    }
-    cout << "Result - atk:"<< atkRoll<< " def:" << defRoll  << endl;
-    cout << "Finished Program Run" << endl;
     return 0;
 }

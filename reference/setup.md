@@ -14,6 +14,7 @@ Then run the following items into the build
     sudo apt-get install libmysqlcppconn-dev -y
     sudo apt-get install libncurses5-dev -y
     sudo apt-get install libmysqlclient-dev -y 
+    sudo apt-get install libboost-all-dev -y
     sudo apt-get install cmake -y
     sudo apt-get install flex -y
     sudo apt-get install bison -y 
