@@ -1,5 +1,7 @@
 #OBJS specifies which files to compile as part of the project
-OBJS = kings.cpp
+OBJS = random.cpp
+KING_OBJS = kings.cpp
+RANDOM_OBJS = random.cpp
 
 #CC specifies which compiler we're using
 CC = g++
@@ -12,8 +14,14 @@ COMPILER_FLAGS = -w -std=gnu++0x
 LINKER_FLAGS =
 
 #OBJ_NAME specifies the name of our exectuable
-OBJ_NAME = kings
+KING_OBJ_NAME = random
+KING_OBJ_NAME = kings
+RANDOM_OBJ_NAME = random
 
 #This is the target that compiles our executable
 all : $(OBJS)
 	$(CC) $(OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(OBJ_NAME)
+king : $(KING_OBJS)
+	$(CC) $(KING_OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(KING_OBJ_NAME)
+random : $(RANDOM_OBJS)
+	$(CC) $(RANDOM_OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(RANDOM_OBJ_NAME)
