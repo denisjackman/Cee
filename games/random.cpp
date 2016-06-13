@@ -17,15 +17,14 @@ int main(int argc, char *argv[])
 {
     srand(time(0));
     string ScreenLine ="";
+    string NumberLine = "0123456789";
     int store = 0;
-    for ( int x = 1; x < 7; x++ )
+    for ( int x = 1; x < 65; x++ )
     {
-        store = rand() % 10 + 166;
-        cout << store << endl;
+        store = rand() % 97 + 33;
         ScreenLine += store;
     }
-    cout << ScreenLine << endl;
-    for (int y = 1; y < 78; y++)
+    for (int y = 1; y < 160; y++)
     {
         cout << ScreenLine;
     }
