@@ -90,17 +90,25 @@ the screen.
 int main(int argc, char *argv[])
 {
     /* 100 */
-    string Z = "1087W1 1100W2 1135H1 1154ST 1189H2 1199R1 1216J  1272H3 1307ED11327ED21377ED31399R2 1413H4 1422H5 1461H6 ";
+    int Z[] = {0,1087,1100,1135,1154,1189,1199,1216,1272,1307,1327,1377,1399,1413,1422,1461};
+    string Royal[] = {"","William I", "William II","Henry I","Stephen","Henry II","Richard I","John","Henry III","Edward I","Edward II","Edward III","Richard II","Henry IV","Henry V","Henry VI",};
     int p[3] = {0,0,0}; /*110 */
 
     bool GameLoop = true;
     srand(time(0)); /* 130 */
-    for ( int j = 0; j < 3; j++ ) /* 140 - 220 */
+    for ( int j = 1; j < 4; j++ ) /* 140 - 220 */
     {
         p[j] = rand() % 396 + 1066; /* 150 */
-        string x = "0000"; /* 160 */
+        int x = 0; /* 160 */
         int i = j/j; /* 170 */
-        
+        for ( int loop = 1; loop < 16; loop++ )
+        {
+            if (Z[loop] >= p[j])
+            {
+                cout << "Yep " << p[j] << ": " << Z[loop - 1 ] << " - "<< Z[loop] << " | " << Royal[loop - 1 ] << endl;
+                break;
+            }
+        }
     }
     while (GameLoop)
     {
