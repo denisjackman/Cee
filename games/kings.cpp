@@ -2,7 +2,13 @@
 Kings and Queens
 This is an exercise in coding c++ plus conversion from zx81 to modern architecture
 the original listing is taken from a Melbourne house books "ZX81 30 Programs"
-Which was the center of my universe in
+Which was the center of my universe in 1978 (or so)
+I have adjusted the code to a more modern style.
+
+Author  :   Denis Jackman
+Date    :   13th June 2016
+Version :   1.00.00
+Licence :   GPL 3
 */
 #include <string>
 #include <iostream>
@@ -87,32 +93,89 @@ that year) choose the new king.
 the screen.
 */
 
+void ClearScreen()
+{
+    /*
+    This will clear the screen
+    */
+    cout << "\033[2J\033[1;1H";
+}
+
 int main(int argc, char *argv[])
 {
     /* 100 */
-    int Z[] = {0,1087,1100,1135,1154,1189,1199,1216,1272,1307,1327,1377,1399,1413,1422,1461};
-    string Royal[] = {"","William I", "William II","Henry I","Stephen","Henry II","Richard I","John","Henry III","Edward I","Edward II","Edward III","Richard II","Henry IV","Henry V","Henry VI",};
-    int p[3] = {0,0,0}; /*110 */
-
+    int Reigns[] = {1066,1087,1100,1135,1154,1189,1199,1216,1272,1307,1327,1377,1399,1413,1422,1461,1470};
+    string Royal[] = {"William I", "William II","Henry I","Stephen","Henry II","Richard I","John","Henry III","Edward I","Edward II","Edward III","Richard II","Henry IV","Henry V","Henry VI","Henry VI"};
+    int CompGuess[3] = {0,0,0}; /*110 */
+    string CompAnswer[3] = {"","",""};
+    string CompDetail[3] = {"","",""};
+    int Question = 0;
+    int Lives = 0;
     bool GameLoop = true;
+    bool GuessLoop = true;
+    int PlayLoop = 0;
+    int Score = 0 ;
+    string PlayerAnswer = "";
     srand(time(0)); /* 130 */
-    for ( int j = 1; j < 4; j++ ) /* 140 - 220 */
+    for ( int guessloop = 1; guessloop < 4; guessloop++ ) /* 140 - 220 */
     {
-        p[j] = rand() % 396 + 1066; /* 150 */
-        int x = 0; /* 160 */
-        int i = j/j; /* 170 */
-        for ( int loop = 1; loop < 16; loop++ )
+        CompGuess[guessloop] = rand() % 396 + 1067; /* 150 */
+        for ( int loop = 0; loop < 17; loop++ )
         {
-            if (Z[loop] >= p[j])
+            if (Reigns[loop] > CompGuess[guessloop])
             {
-                cout << "Yep " << p[j] << ": " << Z[loop - 1 ] << " - "<< Z[loop] << " | " << Royal[loop - 1 ] << endl;
+                CompAnswer[guessloop] = Royal[loop - 1 ];
+                CompDetail[guessloop] = Royal[loop -1 ] + " reigned from " + to_string(Reigns[loop -1 ]) + " to " + to_string(Reigns[loop]);
+                break;
+            }
+            else if (Reigns[loop] == CompGuess[guessloop])
+            {
+                CompAnswer[guessloop] = Royal[loop - 1 ];
+                CompDetail[guessloop] = Royal[loop]  + " reigned from " + to_string(Reigns[loop - 1 ]) + " to  " + to_string(Reigns[loop]);
                 break;
             }
         }
     }
     while (GameLoop)
     {
-        GameLoop = false;
+        Score =0;
+        Lives=10;
+        PlayLoop = 1;
+        GuessLoop = true;
+        ClearScreen();
+        cout << "I will ask you three questions " << endl;
+        cout << "You have 10 chances to guess it " << endl;
+        cout << "Good Luck!" << endl;
+
+        while (GuessLoop)
+        {
+            cout << "You have " << Lives << " guesses remaining " << endl;
+            cout << "Who reigned in " << CompGuess[PlayLoop] << "?"<< endl;
+            getline(cin, PlayerAnswer);
+            if (PlayerAnswer==CompAnswer[PlayLoop])
+            {
+                cout << "Well Done ! "<< endl;
+                cout << CompDetail[PlayLoop] << endl;
+                Score++;
+                PlayLoop ++;
+            }
+            Lives = Lives - 1;
+            if (PlayLoop > 3)
+            {
+                GuessLoop = false;
+            }
+            if (Lives == 0)
+            {
+                GuessLoop = false;
+            }
+        }
+        cout << "your score was "<< Score << " and you used " << 10 -  Lives<< " guesses" << endl;
+        cout << "do you wish to play again ? (y/n)" << endl;
+        cin >> PlayerAnswer;
+        if (PlayerAnswer=="n")
+        {
+            GameLoop = false;
+        }
     }
 
 }
