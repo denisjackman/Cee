@@ -28,3 +28,12 @@
 		UpStairs	= '<',
 		DownStairs	= '>'
 		
+# Other Tiles 
+        Player      = '@'
+        Monster     = 'm' or 'M'
+                    = 'n' or 'N'
+                    = 't' or 'T' 
+        Potion      = '!'
+        Money       = '$' 
+        
+		

@@ -52,6 +52,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * [NetHack](http://www.nethack.org/)
 * [Cataclysm DDA](https://github.com/CleverRaven/Cataclysm-DDA)
 * [0AD](https://gitlab.com/0ad)
+* [Moria](http://beej.us/moria/)
 
 ## Games Reference 
 * [Lists](http://roll1d12.blogspot.co.uk/)
