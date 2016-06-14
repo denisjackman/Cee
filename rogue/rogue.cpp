@@ -15,6 +15,24 @@ int nPlayerInput = 0;
 char nPlayer = '@';
 bool wGameLoop = true;
 
+string precode = "\033[";
+string blink = "5";
+string bold = "1";
+string foregroundcolour = "4";
+string textcolour = "3";
+string postcode = "m";
+string aftercode = "\033[0m";
+
+//ansi colour list
+string black = "0";
+string red = "1";
+string green = "2";
+string yellow = "3";
+string blue = "4";
+string magenta = "5";
+string cyan = "6";
+string white = "7";
+string cPlayer = bold +";"+ textcolour + red +"@" +aftercode ;
 void erase( int y, int x)
 {
     // displays a '#' is the player trail

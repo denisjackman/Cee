@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
     string white = "7";
 
     // construct the text string
-    string codes = bold +";"+ blink +";"+ foregroundcolour + white +";"+ textcolour + red ;
+    string codes = bold +";"+ textcolour + red ;
 
     // display
     cout << precode << codes << postcode << "bold red text"<< aftercode << endl;
