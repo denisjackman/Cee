@@ -1,6 +1,6 @@
 #OBJS specifies which files to compile as part of the project
 OBJS = ../include/gamefunction.cpp lesson.cpp
-SDL_OBJS = SDLPicPlot.cpp
+SDL_OBJS = SDLPixPlot.cpp
 SCRAP_OBJS = ../include/gamefunction.cpp  scrap.cpp
 DB_OBJS = newdb.cpp
 
