@@ -7,6 +7,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 ========
 * [![Coverage Status](https://coveralls.io/repos/github/denisjackman/game/badge.svg?branch=master)](https://coveralls.io/github/denisjackman/game?branch=master)
 * [![Build Status](https://travis-ci.org/denisjackman/game.svg?branch=master)](https://travis-ci.org/denisjackman/game)
+* [![Coverity Scan Build Status](https://scan.coverity.com/projects/denisjackman-game)](https://scan.coverity.com/projects/denisjackman-game)
 
 ## Version History 
 |Date |Author|Version|Reason|
@@ -19,8 +20,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 |2016-06-07|Denis Jackman|02.04|Added more detail to the reference mark down pages |
 
 ## TODO
-* Fix DiceRoll Randomisation bug (it sends back same number twice) 
-* start coding section 5 of the tutorials 
+* Start coding section 5 of the tutorials 
 * Install Cmake and other things we need
 * Overlay the Maze array with rooms (create a function to do so )
 * Make sure the Maze is sane (all rooms connect to each other)
@@ -72,6 +72,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * [Coverall](https://coveralls.io/repos)
 * [Linux Journey](https://linuxjourney.com)
 * [Binary converter](http://www.unit-conversion.info/texttools/convert-text-to-binary/)
+* [Coverity](https://scan.coverity.com/projects/denisjackman-game)
 
 ### C++ Links
 * [SDL Library](https://www.libsdl.org/index.php)
