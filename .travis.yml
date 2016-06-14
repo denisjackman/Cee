@@ -7,6 +7,12 @@ os:
 - linux
 notifications:
   slack: marsysteam:kR5O6wXobf3Ze1by5cMPsFcG
+env:
+  global:
+   # The next declaration is the encrypted COVERITY_SCAN_TOKEN, created
+   #   via the "travis encrypt" command using the project repo's public key
+   - secure: "hQM3L/zI7ogW7cTsGRiTCyzbG8RkHPbRmkIVZXMeXTjNAf99dira9UIhOTqAZUY3PyjzJqyjRYUV/EpoBExpzqhANhvs2+SblpLqffX0Y12Xe5t0uw1wnmNFO0a9Gz5HFuAusL8gV8fjFBveP4+1Mjy6YnARnTMLOVFe2e1wnjPL5Cwf6fpuYqbmZrgu3zKwo71Gm6jW4dtWyoPUiOYTonwYMB6uLVNgS850CyH8yw8aSqkURQZGVJ8RknvFd6JsX3zs61KTASBVrB2ffA/Q3O8kICbo15bigc8oPyfeDLulqE2m5RQWzbxoBIrWu4wRWh1q3/vKZZQCcJJ1Qugt/xkLFIRR/UlFoL0lBfepauMHGifNAO1dWMDmtDun+Fu2emFatbSD1z4M9LlFwViEPIgp2IT6TTuugRV25RVcWxVWPq8uPa5nWk0H8lXUt8fXyl5WMOYzrb6tTzCOMmpB5vQ3By43QFe4CXjRxNGdkMjMCw+QwOemuPzJUw2XE0BtUIKoH8W0Xp7KJ1e6VPRDpeI4GrEGH2EKa0/z1z3TEEi7vsYrxbMsCOHACEfNljp1h8xllS34lkJeceTlbSSZxBxw+L3J9IfuPvp2lXR92ipAZN4zUkHBZPFhcBm7mownJ8ctGhfCALbmWnFNDt24ucENS4mItEY3TwYOuA8dGAs="
+
 before_install:
 - echo $LANG
 - echo $LC_ALL
@@ -18,6 +24,17 @@ before_install:
 - sudo apt-get install libmysqlcppconn-dev -y
 - pip install --user cpp-coveralls
 before_script:
+
+addons:
+  coverity_scan:
+    project:
+      name: "denisjackman/game"
+      description: "Build submitted via Travis CI"
+    notification_email: denis.jackman@gmail.com
+    build_command_prepend:
+    build_command:   "make"
+    branch_pattern: coverity_scan
+
 script:
 - make
 - cd lesson
