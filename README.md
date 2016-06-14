@@ -5,15 +5,10 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 
 # Badges
 ========
-* [![Game Status](https://img.shields.io/badge/game-progressing-yellow.svg)
+* ![Game Status](https://img.shields.io/badge/game-progressing-yellow.svg)
 * [![Coverage Status](https://coveralls.io/repos/github/denisjackman/game/badge.svg?branch=master)](https://coveralls.io/github/denisjackman/game?branch=master)
 * [![Build Status](https://travis-ci.org/denisjackman/game.svg?branch=master)](https://travis-ci.org/denisjackman/game)
-* [![Coverity Scan Build Status](https://img.shields.io/badge/coverity-pending-yellow.svg](https://scan.coverity.com/projects/denisjackman-game)
-
-<a href="https://scan.coverity.com/projects/denisjackman-game">
-  <img alt="Coverity Scan Build Status"
-       src="https://scan.coverity.com/projects/9143/badge.svg"/>
-</a>
+* <a href="https://scan.coverity.com/projects/denisjackman-game"><img alt="Coverity Scan Build Status"src="https://scan.coverity.com/projects/9143/badge.svg"/></a>
 
 ## Version History 
 |Date |Author|Version|Reason|
@@ -79,6 +74,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * [Linux Journey](https://linuxjourney.com)
 * [Binary converter](http://www.unit-conversion.info/texttools/convert-text-to-binary/)
 * [Coverity](https://scan.coverity.com/projects/denisjackman-game)
+* [Shields IO](http://shields.io/)
 
 ### C++ Links
 * [SDL Library](https://www.libsdl.org/index.php)
