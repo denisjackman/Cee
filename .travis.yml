@@ -22,6 +22,7 @@ before_install:
 - sudo apt-get install libncurses5-dev -y
 - sudo apt-get install mysql-server -y
 - sudo apt-get install libmysqlcppconn-dev -y
+- sudo apt-get install cmake -y
 - pip install --user cpp-coveralls
 before_script:
 
@@ -39,8 +40,9 @@ script:
 - make
 - cd lesson
 - make
-- make -f Makefile.scrap
-- make -f Makefile.db
+- make SDL
+- make scrap
+- make db
 - cd ..
 - cd rogue
 - make

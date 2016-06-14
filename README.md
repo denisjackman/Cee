@@ -19,6 +19,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 |2016-05-20|Denis Jackman|02.02|Added ccppunit libraries and coverall |
 |2016-05-27|Denis Jackman|02.03|Added numerous functions to the library |
 |2016-06-07|Denis Jackman|02.04|Added more detail to the reference mark down pages |
+|2016-06-14|Denis Jackman|02.05|Added in Coverity and kings game |
 
 ## TODO
 * Start coding section 5 of the tutorials 
@@ -34,7 +35,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * Add treasure drops
 * Add other objects
 * Look at NetHack code - http://git.code.sf.net/p/nethack/NetHack - (maybe fork it )
-* Look at Angbad code  - - (maybe fork it )
+* Look at Angbad code  - https://github.com/angband/angband/tree/AngbandBase - (maybe fork it )
 
 ## Links
 * [Game Programming](http://gameprogrammingpatterns.com/)
@@ -75,6 +76,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * [Binary converter](http://www.unit-conversion.info/texttools/convert-text-to-binary/)
 * [Coverity](https://scan.coverity.com/projects/denisjackman-game)
 * [Shields IO](http://shields.io/)
+* [Open Dash](https://open.cdash.org)
 
 ### C++ Links
 * [SDL Library](https://www.libsdl.org/index.php)
