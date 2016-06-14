@@ -5,10 +5,10 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 
 # Badges
 ========
-* ![Game Status](https://img.shields.io/badge/game-progressing-yellow.svg)
-* [![Coverage Status](https://coveralls.io/repos/github/denisjackman/game/badge.svg?branch=master)](https://coveralls.io/github/denisjackman/game?branch=master)
-* [![Build Status](https://travis-ci.org/denisjackman/game.svg?branch=master)](https://travis-ci.org/denisjackman/game)
-* <a href="https://scan.coverity.com/projects/denisjackman-game"><img alt="Coverity Scan Build Status"src="https://scan.coverity.com/projects/9143/badge.svg"/></a>
+* Game      : ![Game Status](https://img.shields.io/badge/game-progressing-yellow.svg)
+* Coveralls : [![Coverage Status](https://coveralls.io/repos/github/denisjackman/game/badge.svg?branch=master)](https://coveralls.io/github/denisjackman/game?branch=master)
+* Travis CI : [![Build Status](https://travis-ci.org/denisjackman/game.svg?branch=master)](https://travis-ci.org/denisjackman/game)
+* Coverity  : <a href="https://scan.coverity.com/projects/denisjackman-game"><img alt="Coverity Scan Build Status"src="https://scan.coverity.com/projects/9143/badge.svg"/></a>
 
 ## Version History 
 |Date |Author|Version|Reason|
