@@ -17,3 +17,14 @@
     WESTNORTHWEST   is (X - 1, Y - .5)
     SOUTHSOUTHWEST  is (X + .5 Y - 1)
     WESTSOUTHWEST   is (X + 1, Y - .5)
+
+# ASCII Tiles 
+		Unused		= ' ',
+		Floor		= '.',
+		Corridor	= ',',
+		Wall		= '#',
+		ClosedDoor	= '+',
+		OpenDoor	= '-',
+		UpStairs	= '<',
+		DownStairs	= '>'
+		
