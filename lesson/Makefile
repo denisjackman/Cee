@@ -8,6 +8,7 @@ FIGHT_OBJS = ../include/gamefunction.cpp  fight.cpp
 MAZE_OBJS = maze.cpp
 THREE_OBJS = threedun.cpp
 TWO_OBJS = twodun.cpp
+STUDY_OBJS = study.cpp
 
 #CC specifies which compiler we're using
 CC = g++
@@ -36,6 +37,7 @@ FIGHT_OBJ_NAME = fight
 MAZE_OBJ_NAME = maze
 THREE_OBJ_NAME = threedun
 TWO_OBJ_NAME = twodun
+STUDY_OBJ_NAME = study
 
 #This is the target that compiles our executable
 all : $(OBJS)
@@ -67,3 +69,6 @@ three : $(THREE_OBJS)
 
 two : $(TWO_OBJS)
 	$(CC) $(TWO_OBJS) $(MAC_COMPILER_FLAGS) $(MAC_LINKER_FLAGS) -o $(TWO_OBJ_NAME)
+
+study : $(STUDY_OBJS)
+	$(CC) $(STUDY_OBJS) $(MAC_COMPILER_FLAGS) $(MAC_LINKER_FLAGS) -o $(STUDY_OBJ_NAME)
