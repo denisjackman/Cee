@@ -8,7 +8,7 @@ FIGHT_OBJS = ../include/gamefunction.cpp  fight.cpp
 MAZE_OBJS = maze.cpp
 THREE_OBJS = threedun.cpp
 TWO_OBJS = twodun.cpp
-STUDY_OBJS = study.cpp
+STUDY_OBJS = ../include/rogue.cpp study.cpp
 
 #CC specifies which compiler we're using
 CC = g++
