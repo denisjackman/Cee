@@ -1,10 +1,60 @@
 #ifndef MONSTER_H
 #define MONSTER_H
+string attack_types[];
+string attack_description[];
+/*
+Attack types:
+		1	Normal attack
+		2	Poison Strength
+		3	Confusion attack
+		4	Fear attack
+		5	Fire attack
+		6	Acid attack
+		7	Cold attack
+		8	Lightning attack
+		9	Corrosion attack
+		10	Blindness attack
+		11	Paralysis attack
+		12	Steal Money
+		13	Steal Object
+		14	Poison
+		15	Lose dexterity
+		16	Lose constitution
+		17	Lose intelligence
+		18	Lose wisdom
+		19	Lose experience
+		20	Aggravation
+		21	Disenchants
+		22	Eats food
+		23	Eats light
+		24	Eats charges
+		99	Blank
+
+Attack descriptions:
+		1	hits you.
+		2	bites you.
+		3	claws you.
+		4	stings you.
+		5	touches you.
+		6	kicks you.
+		7	gazes at you.
+		8	breathes on you.
+		9	spits on you.
+		10	makes a horrible wail.
+		11	embraces you.
+		12	crawls on you.
+		13	releases a cloud of spores.
+		14	begs you for money.
+		15	You've been slimed.
+		16	crushes you.
+		17	tramples you.
+		18	drools on you.
+		19	insults you.
+		99	is repelled.
+*/
 /*
 This is a list of monsters - this list is lifted directly from Moria and Umoria
 */
-
-
 creature_type creature_list[MAX_CREATURE_LIST] = {
 {"Filthy Street Urchin"	    ,0x0012000AL,0x00000000L,0x2034,    0,  40,   4,	1, 11, 'p', {1,4}   , {72,148,0,0}		,    0},
 {"Blubbering Idiot"	        ,0x0012000AL,0x00000000L,0x2030,    0,   0,   6,	1, 11, 'p', {1,2}   , {79,0,0,0}		,    0},

@@ -3,7 +3,6 @@
 #include "../include/constants.h"
 #include "../include/rogue.h"
 
-
 using namespace std;
 
 void CreatureDefence(creature_type creature)
@@ -119,11 +118,15 @@ void CreatureMove(creature_type creature)
     }
     if (creature.cmove & CM_CARRY_RAND1)
     {
-        cout << creature.name << " will carry one random object" << endl;
+        cout << creature.name << " will carry up to one random object" << endl;
     }
     if (creature.cmove & CM_CARRY_RAND2)
     {
-        cout << creature.name << " will carry two random objects" << endl;
+        cout << creature.name << " will carry up to two random objects" << endl;
+    }
+    if (creature.cmove & CM_CARRY_RAND4)
+    {
+        cout << creature.name << " will carry up to four random objects" << endl;
     }
     if (creature.cmove & CM_WIN_GAME)
     {
@@ -149,10 +152,6 @@ void CreatureSpells(creature_type creature)
     if (creature.spells & CS_FREQ_4)
     {
         spellfreq += 8;
-    }
-    if (creature.spells & CS_NO_SPELL)
-    {
-        cout << creature.name << " Cannot cast spells" << endl;
     }
     cout << creature.name << " has a spell frequency of "<< spellfreq << endl;
 

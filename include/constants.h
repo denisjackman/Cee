@@ -35,7 +35,8 @@
 #define CM_CARRIES_90      0x00800000AL
 #define CM_CARRY_RAND1     0x01000000AL
 #define CM_CARRY_RAND2     0x02000000AL
-#define CM_WIN_GAME        0x80000000AL
+#define CM_CARRY_RAND4     0x04000000AL
+#define CM_WIN_GAME        0x08000000AL
 
 // Spells
 #define CS_NO_SPELL        0x00000000L
