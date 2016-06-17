@@ -450,7 +450,6 @@ typedef struct m_attack_type	/* Monster attack and damage types */
   } m_attack_type;
 
 struct m_attack_type monster_attacks[N_MONS_ATTS] = {
-/* 0 */
 {0, 0, 0, 0},
 {1, 1, 1, 2},
 {1, 1, 1, 3},

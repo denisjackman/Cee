@@ -8,10 +8,24 @@
 
 using namespace std;
 
+void CreatureAttacks(creature_type creature)
+{
+        for ( int i = 0; i < 4; i++ )
+        {
+            if (creature.damage[i] != 0)
+            {
+                cout << i << " : "<< to_string(creature.damage[1]) << " : " << attack_type[monster_attacks[creature.damage[i]].attack_type] << " - " <<  attack_description[monster_attacks[creature.damage[i]].attack_desc] << " : for between " << \
+                to_string(monster_attacks[creature.damage[i]].attack_dice) << " and " << \
+                monster_attacks[creature.damage[i]].attack_dice * monster_attacks[creature.damage[i]].attack_sides << endl;
+            }
+        }
+}
+
 int main(int argc, char *argv[])
 {
     srand(time(0));
     creature_type urchin = creature_list[rand() % 278];
+    //creature_type urchin = creature_list[0];
     cout << "==" << urchin.name << "=="<< endl;
     CreatureDefence(urchin);
     cout << "--------------------------------" << endl;
@@ -21,4 +35,5 @@ int main(int argc, char *argv[])
     cout << "--------------------------------" << endl;
     CreatureHitDice(urchin);
     cout << "--------------------------------" << endl;
+    CreatureAttacks(urchin);
 }

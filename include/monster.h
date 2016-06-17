@@ -1,57 +1,60 @@
 #ifndef MONSTER_H
 #define MONSTER_H
-string attack_types[];
-string attack_description[];
-/*
-Attack types:
-		1	Normal attack
-		2	Poison Strength
-		3	Confusion attack
-		4	Fear attack
-		5	Fire attack
-		6	Acid attack
-		7	Cold attack
-		8	Lightning attack
-		9	Corrosion attack
-		10	Blindness attack
-		11	Paralysis attack
-		12	Steal Money
-		13	Steal Object
-		14	Poison
-		15	Lose dexterity
-		16	Lose constitution
-		17	Lose intelligence
-		18	Lose wisdom
-		19	Lose experience
-		20	Aggravation
-		21	Disenchants
-		22	Eats food
-		23	Eats light
-		24	Eats charges
-		99	Blank
+#include <string>
+using namespace std;
 
-Attack descriptions:
-		1	hits you.
-		2	bites you.
-		3	claws you.
-		4	stings you.
-		5	touches you.
-		6	kicks you.
-		7	gazes at you.
-		8	breathes on you.
-		9	spits on you.
-		10	makes a horrible wail.
-		11	embraces you.
-		12	crawls on you.
-		13	releases a cloud of spores.
-		14	begs you for money.
-		15	You've been slimed.
-		16	crushes you.
-		17	tramples you.
-		18	drools on you.
-		19	insults you.
-		99	is repelled.
-*/
+string attack_type[] = {
+"Blank",
+"Normal attack",
+"Poison Strength",
+"Confusion attack",
+"Fear attack",
+"Fire attack",
+"Acid attack",
+"Cold attack",
+"Lightning attack",
+"Corrosion attack",
+"Blindness attack",
+"Paralysis attack",
+"Steal Money",
+"Steal Object",
+"Poison",
+"Lose dexterity",
+"Lose constitution",
+"Lose intelligence",
+"Lose wisdom",
+"Lose experience",
+"Aggravation",
+"Disenchants",
+"Eats food",
+"Eats light",
+"Eats charges"
+};
+
+string attack_description[] = {
+"is repelled.",
+"hits you.",
+"bites you.",
+"claws you.",
+"stings you.",
+"touches you.",
+"kicks you.",
+"gazes at you.",
+"breathes on you.",
+"spits on you.",
+"makes a horrible wail.",
+"embraces you.",
+"crawls on you.",
+"releases a cloud of spores.",
+"begs you for money.",
+"You've been slimed.",
+"crushes you.",
+"tramples you.",
+"drools on you.",
+"insults you."
+};
+
+
 /*
 This is a list of monsters - this list is lifted directly from Moria and Umoria
 */
@@ -335,6 +338,227 @@ creature_type creature_list[MAX_CREATURE_LIST] = {
 {"Ancient Multi-Hued Dragon",0x7F000002L,0x00F89E05L,0x6005,12000,  70,  20, 100,  12, 'D', {52,40} , {57,57,42,0}		,   40},
 {"Evil Iggy"		        ,0x7F130002L,0x0001D713L,0x5004,18000,   0,  30,  80,  12, 'p', {60,40} , {81,150,0,0}		,   50},
 {"Balrog"		            ,0xFF1F0002L,0x0081C743L,0x5004,55000L,   0,  40, 125, 13, 'B', {75,40} , {104,78,214,0}	,  100}
+};
+
+
+
+
+creature_attack_type monster_attacks[] = {
+{0, 0, 0, 0},
+{1, 1, 1, 2},
+{1, 1, 1, 3},
+{1, 1, 1, 4},
+{1, 1, 1, 5},
+{1, 1, 1, 6},
+{1, 1, 1, 7},
+{1, 1, 1, 8},
+{1, 1, 1, 9},
+{1, 1, 1, 10},
+{1, 1, 1, 12},
+{1, 1, 2, 2},
+{1, 1, 2, 3},
+{1, 1, 2, 4},
+{1, 1, 2, 5},
+{1, 1, 2, 6},
+{1, 1, 2, 8},
+{1, 1, 3, 4},
+{1, 1, 3, 5},
+{1, 1, 3, 6},
+{1, 1, 3, 8},
+{1, 1, 4, 3},
+{1, 1, 4, 6},
+{1, 1, 5, 5},
+{1, 2, 1, 1},
+{1, 2, 1, 2},
+{1, 2, 1, 3},
+{1, 2, 1, 4},
+{1, 2, 1, 5},
+{1, 2, 1, 6},
+{1, 2, 1, 7},
+{1, 2, 1, 8},
+{1, 2, 1, 10},
+{1, 2, 2, 3},
+{1, 2, 2, 4},
+{1, 2, 2, 5},
+{1, 2, 2, 6},
+{1, 2, 2, 8},
+{1, 2, 2, 10},
+{1, 2, 2, 12},
+{1, 2, 2, 14},
+{1, 2, 3, 4},
+{1, 2, 3, 12},
+{1, 2, 4, 4},
+{1, 2, 4, 5},
+{1, 2, 4, 6},
+{1, 2, 4, 8},
+{1, 2, 5, 4},
+{1, 2, 5, 8},
+{1, 3, 1, 1},
+{1, 3, 1, 2},
+{1, 3, 1, 3},
+{1, 3, 1, 4},
+{1, 3, 1, 5},
+{1, 3, 1, 8},
+{1, 3, 1, 9},
+{1, 3, 1, 10},
+{1, 3, 1, 12},
+{1, 3, 3, 3},
+{1, 4, 1, 2},
+{1, 4, 1, 3},
+{1, 4, 1, 4},
+{1, 4, 2, 4},
+{1, 5, 1, 2},
+{1, 5, 1, 3},
+{1, 5, 1, 4},
+{1, 5, 1, 5},
+{1, 10, 5, 6},
+{1, 12, 1, 1},
+{1, 12, 1, 2},
+{1, 13, 1, 1},
+{1, 13, 1, 3},
+{1, 14, 0, 0},
+{1, 16, 1, 4},
+{1, 16, 1, 6},
+{1, 16, 1, 8},
+{1, 16, 1, 10},
+{1, 16, 2, 8},
+{1, 17, 8, 12},
+{1, 18, 0, 0},
+{2, 1, 3, 4},
+{2, 1, 4, 6},
+{2, 2, 1, 4},
+{2, 2, 2, 4},
+{2, 2, 4, 4},
+{2, 4, 1, 4},
+{2, 4, 1, 7},
+{2, 5, 1, 5},
+{2, 7, 1, 6},
+{3, 1, 1, 4},
+{3, 5, 1, 8},
+{3, 13, 1, 4},
+{3, 7, 0, 0},
+{4, 1, 1, 1},
+{4, 1, 1, 4},
+{4, 2, 1, 2},
+{4, 2, 1, 6},
+{4, 5, 0, 0},
+{4, 7, 0, 0},
+{4, 10, 0, 0},
+{4, 13, 1, 6},
+{5, 1, 2, 6},
+{5, 1, 3, 7},
+{5, 1, 4, 6},
+{5, 1, 10, 12},
+{5, 2, 1, 3},
+{5, 2, 3, 6},
+{5, 2, 3, 12},
+{5, 5, 4, 4},
+{5, 9, 3, 7},
+{5, 9, 4, 5},
+{5, 12, 1, 6},
+{6, 2, 1, 3},
+{6, 2, 2, 8},
+{6, 2, 4, 4},
+{6, 5, 1, 10},
+{6, 5, 2, 3},
+{6, 8, 1, 5},
+{6, 9, 2, 6},
+{6, 9, 3, 6},
+{7, 1, 3, 6},
+{7, 2, 1, 3},
+{7, 2, 1, 6},
+{7, 2, 3, 6},
+{7, 2, 3, 10},
+{7, 5, 1, 6},
+{7, 5, 2, 3},
+{7, 5, 2, 6},
+{7, 5, 4, 4},
+{7, 12, 1, 4},
+{8, 1, 3, 8},
+{8, 2, 1, 3},
+{8, 2, 2, 6},
+{8, 2, 3, 8},
+{8, 2, 5, 5},
+{8, 5, 5, 4},
+{9, 5, 1, 2},
+{9, 5, 2, 5},
+{9, 5, 2, 6},
+{9, 8, 2, 4},
+{9, 12, 1, 3},
+{10, 2, 1, 6},
+{10, 4, 1, 1},
+{10, 7, 2, 6},
+{10, 9, 1, 2},
+{11, 1, 1, 2},
+{11, 7, 0, 0},
+{11, 13, 2, 4},
+{12, 5, 0, 0},
+{13, 5, 0, 0},
+{13, 19, 0, 0},
+{14, 1, 1, 3},
+{14, 1, 3, 4},
+{14, 2, 1, 3},
+{14, 2, 1, 4},
+{14, 2, 1, 5},
+{14, 2, 1, 6},
+{14, 2, 1, 10},
+{14, 2, 2, 4},
+{14, 2, 2, 5},
+{14, 2, 2, 6},
+{14, 2, 3, 4},
+{14, 2, 3, 9},
+{14, 2, 4, 4},
+{14, 4, 1, 2},
+{14, 4, 1, 4},
+{14, 4, 1, 8},
+{14, 4, 2, 5},
+{14, 5, 1, 2},
+{14, 5, 1, 3},
+{14, 5, 2, 4},
+{14, 5, 2, 6},
+{14, 5, 3, 5},
+{14, 12, 1, 2},
+{14, 12, 1, 4},
+{14, 13, 2, 4},
+{15, 2, 1, 6},
+{15, 2, 3, 6},
+{15, 5, 1, 8},
+{15, 5, 2, 8},
+{15, 5, 2, 10},
+{15, 5, 2, 12},
+{15, 12, 1, 3},
+{16, 13, 1, 2},
+{17, 3, 1, 10},
+{18, 5, 0, 0},
+{19, 5, 5, 8},
+{19, 5, 12, 8},
+{19, 5, 14, 8},
+{19, 5, 15, 8},
+{19, 5, 18, 8},
+{19, 5, 20, 8},
+{19, 5, 22, 8},
+{19, 5, 26, 8},
+{19, 5, 30, 8},
+{19, 5, 32, 8},
+{19, 5, 34, 8},
+{19, 5, 36, 8},
+{19, 5, 38, 8},
+{19, 5, 42, 8},
+{19, 5, 44, 8},
+{19, 5, 46, 8},
+{19, 5, 52, 8},
+{20, 10, 0, 0},
+{21, 1, 0, 0},
+{21, 5, 0, 0},
+{21, 5, 1, 6},
+{21, 7, 0, 0},
+{21, 12, 1, 4},
+{22, 5, 2, 3},
+{22, 12, 0, 0},
+{22, 15, 1, 1},
+{23, 1, 1, 1},
+{23, 5, 1, 3},
+{24, 5, 0, 0}
 };
 
 #endif

@@ -1,9 +1,13 @@
 #include <string>
 #include <iostream>
+#include <stdio.h>
 #include "../include/constants.h"
 #include "../include/rogue.h"
 
+
 using namespace std;
+
+
 
 void CreatureDefence(creature_type creature)
 {
@@ -233,7 +237,5 @@ void CreatureHitDice(creature_type creature)
 {
     cout << creature.name << " has between " << to_string(creature.hd[1]) << " and " << creature.hd[1] * creature.hd[2] << " HP " << endl;
 }
-void CreatureAttacks(creature_type creature)
-{
 
-}
+
