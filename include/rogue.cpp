@@ -134,97 +134,97 @@ void CreatureMove(creature_type creature)
 void CreatureSpells(creature_type creature)
 {
     int spellfreq = 0;
-    if (creature.cmove & CS_FREQ_1)
+    if (creature.spells & CS_FREQ_1)
     {
         spellfreq += 1;
     }
-    if (creature.cmove & CS_FREQ_2)
+    if (creature.spells & CS_FREQ_2)
     {
         spellfreq += 2;
     }
-    if (creature.cmove & CS_FREQ_3)
+    if (creature.spells & CS_FREQ_3)
     {
         spellfreq += 4;
     }
-    if (creature.cmove & CS_FREQ_4)
+    if (creature.spells & CS_FREQ_4)
     {
         spellfreq += 8;
     }
-    if (creature.cmove & CS_NO_SPELL)
+    if (creature.spells & CS_NO_SPELL)
     {
         cout << creature.name << " Cannot cast spells" << endl;
     }
     cout << creature.name << " has a spell frequency of "<< spellfreq << endl;
 
-    if (creature.cmove & CS_TPORT_BLINK)
+    if (creature.spells & CS_TPORT_BLINK)
     {
         cout << creature.name << " can cast Blink!" << endl;
     }
-    if (creature.cmove & CS_TPORT_LONG)
+    if (creature.spells & CS_TPORT_LONG)
     {
         cout << creature.name << " can cast Teleport Self!" << endl;
     }
-    if (creature.cmove & CS_TPORT_PLAYER)
+    if (creature.spells & CS_TPORT_PLAYER)
     {
         cout << creature.name << " can cast Teleport Player!" << endl;
     }
-    if (creature.cmove & CS_LIGHT_WOUND)
+    if (creature.spells & CS_LIGHT_WOUND)
     {
         cout << creature.name << " can cast Light Wound" << endl;
     }
-    if (creature.cmove & CS_SERIOUS_WOUND)
+    if (creature.spells & CS_SERIOUS_WOUND)
     {
         cout << creature.name << " can cast Serious Wound" << endl;
     }
-    if (creature.cmove & CS_PARALYSIS)
+    if (creature.spells & CS_PARALYSIS)
     {
         cout << creature.name << " can cast Paralysis!" << endl;
     }
-    if (creature.cmove & CS_BLINDNESS)
+    if (creature.spells & CS_BLINDNESS)
     {
         cout << creature.name << " can cast Blindness!" << endl;
     }
-    if (creature.cmove & CS_CONFUSION)
+    if (creature.spells & CS_CONFUSION)
     {
         cout << creature.name << " can cast Confusion!" << endl;
     }
-    if (creature.cmove & CS_FEAR)
+    if (creature.spells & CS_FEAR)
     {
         cout << creature.name << " can cast Fear!" << endl;
     }
-    if (creature.cmove & CS_SUMM_MONSTER)
+    if (creature.spells & CS_SUMM_MONSTER)
     {
         cout << creature.name << " can cast Summon Monster!" << endl;
     }
-    if (creature.cmove & CS_SUMM_UNDEAD)
+    if (creature.spells & CS_SUMM_UNDEAD)
     {
         cout << creature.name << " can cast Summon Undead!" << endl;
     }
-    if (creature.cmove & CS_SLOW)
+    if (creature.spells & CS_SLOW)
     {
         cout << creature.name << " can cast Slow!" << endl;
     }
-    if (creature.cmove & CS_DRAIN_MANA)
+    if (creature.spells & CS_DRAIN_MANA)
     {
         cout << creature.name << " can cast Drain Mana!" << endl;
     }
-    if (creature.cmove & CS_LIGHTNING)
+    if (creature.spells & CS_LIGHTNING)
     {
         cout << creature.name << " can cast Lightning!" << endl;
     }
-    if (creature.cmove & CS_GAS)
+    if (creature.spells & CS_GAS)
     {
         cout << creature.name << " can cast Gas!" << endl;
     }
-    if (creature.cmove & CS_ACID)
+    if (creature.spells & CS_ACID)
     {
         cout << creature.name << " can cast Acid!" << endl;
     }
-    if (creature.cmove & CS_FROST)
+    if (creature.spells & CS_FROST)
     {
         cout << creature.name << " can cast Frost!" << endl;
     }
-    if (creature.cmove & CS_FIRE)
+    if (creature.spells & CS_FIRE)
     {
         cout << creature.name << " can cast Fire!" << endl;
     }
@@ -236,5 +236,5 @@ void CreatureHitDice(creature_type creature)
 }
 void CreatureAttacks(creature_type creature)
 {
-    
+
 }
