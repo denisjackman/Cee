@@ -43,7 +43,7 @@ bool GameInitialise()
     //Initialize SDL
     if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
     {
-        Print("ERROR:SDL could not initialize! SDL_Error: "+ string(SDL_GetError));
+        Print("ERROR:SDL could not initialize! SDL_Error: "+ string(SDL_GetError()));
         result = false;
     }
     else
@@ -56,7 +56,7 @@ bool GameInitialise()
         gWindow = SDL_CreateWindow( SCREEN_TITLE, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
         if( gWindow == NULL )
         {
-            Print("ERROR:Window could not be created! SDL_Error: "+ string(SDL_GetError));
+            Print("ERROR:Window could not be created! SDL_Error: "+ string(SDL_GetError()));
             result = false;
         }
         else
