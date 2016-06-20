@@ -3,10 +3,10 @@
 # LIBDIR must be the same directory defined in config.h
 # OWNER is who you want the game to be chown to.
 # GROUP is who you wnat the game to be chgrp to.
-BINDIR = /home/zariski/grabiner/moria
-LIBDIR = /home/zariski/grabiner/moria/files
-OWNER = grabiner
-GROUP = grad
+BINDIR = /home/development/moria
+LIBDIR = /home/development/moria/files
+OWNER = jackmand
+GROUP = jackmand
 
 # For testing and debugging the program, it is best to use this line.
 # CFLAGS = -g
@@ -14,7 +14,7 @@ GROUP = grad
 CFLAGS = -O
 
 # For BSD Systems
-CURSES = -lcurses -ltermcap
+CURSES = -lncurses -ltermcap
 # For SYS V Systems
 # CURSES = -lcurses
 # For XENIX, some XENIX systems may need -ltinfo

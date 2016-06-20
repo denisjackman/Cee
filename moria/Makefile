@@ -1,8 +1,8 @@
 # BINDIR is the directory where the moria binary while be put
 # LIBDIR is where the other files (scoreboard, news, hours) will be put
 #  LIBDIR must be the same directory defined in config.h
-BINDIR = /usr/public/
-LIBDIR = /usr/public/moriadir/
+BINDIR = /home/development/moria/
+LIBDIR = /home/development/moria/lib/
 
 # if you use Gnu C, must add -fwritable-strings option to CFLAGS
 
@@ -22,13 +22,13 @@ OBJS = main.o misc1.o misc2.o store1.o files.o io.o create.o desc.o\
   	treasure1.o treasure2.o variables.o
 
 moria : $(OBJS)
-	$(CC) -o moria $(CFLAGS) $(OBJS) -lm -lcurses -ltermcap
+	$(CC) -o moria $(CFLAGS) $(OBJS) -lm -lncurses -ltermcap
 
 lintout : $(SRCS)
-	lint $(SRCS) -lm -lcurses -ltermcap > lintout
+	lint $(SRCS) -lm -lncurses -ltermcap > lintout
 
 lintout2 : $(SRCS)
-	lint -bach $(SRCS) -lm -lcurses -ltermcap > lintout
+	lint -bach $(SRCS) -lm -lncurses -ltermcap > lintout
 
 TAGS : $(SRCS)
 	ctags -x $(SRCS) > TAGS

@@ -10,11 +10,11 @@
 
 /* files used by moria, set these to valid pathnames */
 /* if you change these, you only have to recompile death.c and files.c */
-#define MORIA_HOU  "/usrb/vopata/mm/Moria_hours"
-#define MORIA_MOR  "/usrb/vopata/mm/Moria_news"
-#define MORIA_MAS  "/usrb/vopata/mm/Character"
-#define MORIA_TOP  "/usrb/vopata/mm/Highscores"
-#define MORIA_HLP  "/usrb/vopata/mm/Helpfile"
+#define MORIA_HOU  "/home/development/moria/lib/Moria_hours"
+#define MORIA_MOR  "/home/development/moria/lib/Moria_news"
+#define MORIA_MAS  "/home/development/moria/lib/Character"
+#define MORIA_TOP  "/home/development/moria/lib/Highscores"
+#define MORIA_HLP  "/home/development/moria/lib/Helpfile"
 
 /* this sets the default user interface, ONE of the two must be defined */
 /* use the original key bindings, keypad for movement */

@@ -35,6 +35,11 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * Add other objects
 * Look at NetHack code - http://git.code.sf.net/p/nethack/NetHack - (maybe fork it )
 * Look at Angbad code  - https://github.com/angband/angband/tree/AngbandBase - (maybe fork it )
+* fix -  --- Starting ---
+Unable to create texture from files/texture.png! SDL Error: Invalid renderer
+Failed to load texture image!
+Game failed to load media !
+
 
 ## Links
 * [Game Programming](http://gameprogrammingpatterns.com/)
