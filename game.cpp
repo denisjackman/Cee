@@ -110,44 +110,40 @@ int main (int argc, char* args[] )
     {
         Print("Game failed to initialise !");
     }
-	//Main loop flag
-	bool gameLoop = true;
-	//Event handler
-	SDL_Event gameEvent;
-    int loopCount = 0;
-	//While application is running
-	while( gameLoop )
-	{
-	    //Handle events on queue
-		while( SDL_PollEvent( &gameEvent ) != 0 )
-		{
-			//User requests quit
-			if( gameEvent.type == SDL_QUIT )
-			{
-				gameLoop = false;
-			}
-		}
-        SDL_FillRect( gScreenSurface, NULL, WHITE );
-		loopCount += 1;
-		if (loopCount == 1000)
-		{
-		    if (LoadMedia("files/hello_world.bmp")==false)
-            {
-                Print("Unable to load media ");
-            }
+    else
+    {
+        if (!LoadMedia())
+        {
+            Print("Game failed to load media !");
         }
-		if (loopCount == 2000)
-		{
-		    loopCount = 0;
-		    if (LoadMedia("files/x.bmp")==false)
-            {
-                Print("Unable to load media ");
-            }
-        }
-		//Apply the image
-		SDL_BlitSurface( gDisplaySurface, NULL, gScreenSurface, NULL );
-		//Update the surface
-		SDL_UpdateWindowSurface( gWindow );
+        else
+        {
+            //Main loop flag
+            bool gameLoop = true;
+            //Event handler
+            SDL_Event gameEvent;
+            //While application is running
+	        while( gameLoop )
+    	    {
+	            //Handle events on queue
+		        while( SDL_PollEvent( &gameEvent ) != 0 )
+		        {
+			        //User requests quit
+			        if( gameEvent.type == SDL_QUIT )
+			        {
+				        gameLoop = false;
+			        }
+		        }
+		        SDL_Rect stretchRect;
+		        stretchRect.x = 0;
+		        stretchRect.y = 0;
+                stretchRect.w = SCREEN_WIDTH;
+		        stretchRect.h = SCREEN_HEIGHT;
+		        SDL_BlitScaled( gStretchedSurface, NULL, gScreenSurface, &stretchRect );
+		        //Update the surface
+		        SDL_UpdateWindowSurface( gWindow );
+	        }
+	     }
 	}
 	GameTerminate();
 	Print(" --- Ending ---");
