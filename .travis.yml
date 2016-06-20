@@ -24,8 +24,8 @@ before_install:
 - sudo apt-get install libcppunit-dev -y
 - sudo apt-get install libncurses5-dev -y
 - sudo apt-get install mysql-server -y
-- sudo apt-get install libmysqlcppconn-dev -y
-- sudo apt-get install cmake -y
+#- sudo apt-get install libmysqlcppconn-dev -y
+#- sudo apt-get install cmake -y
 - pip install --user cpp-coveralls
 before_script:
 
