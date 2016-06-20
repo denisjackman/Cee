@@ -7,6 +7,8 @@
 #include <cstdint>
 #include <vector>
 #include <list>
+#include <string>
+
 // Game Library headers
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
