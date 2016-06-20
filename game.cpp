@@ -23,7 +23,7 @@ const char      *SCREEN_TITLE       = "Game Project";
 const int       PROGRAM_TIMER       = 2000;
 const char      *VERSION            = "V2.02.00";
 const char      *NAME_PROGRAM       = "Game";
-string          MEDIAFILE           = "files/stretch.bmp";
+string          MEDIAFILE           = "files/loaded.png";
 uint32_t        WHITE               = NULL;
 SDL_Window*     gWindow             = NULL;
 SDL_Surface*    gScreenSurface      = NULL;
@@ -54,9 +54,17 @@ bool GameInitialise()
         }
         else
         {
-            //Get window surface
-            gScreenSurface = SDL_GetWindowSurface( gWindow );
-            WHITE = SDL_MapRGB( gScreenSurface->format, 0xFF, 0xFF, 0xFF );
+			int imgFlags = IMG_INIT_PNG;
+			if( !( IMG_Init( imgFlags ) & imgFlags ) )
+			{
+				PRINT( "SDL_image could not initialize! SDL_image Error: " + string(IMG_GetError()) );
+				success = false;
+			}
+			else
+			{
+				//Get window surface
+				gScreenSurface = SDL_GetWindowSurface( gWindow );
+			}
         }
     }
 
@@ -82,7 +90,7 @@ SDL_Surface* loadSurface(string path)
     SDL_Surface* loadedSurface = SDL_LoadBMP(path.c_str() );
     if (loadedSurface == NULL)
     {
-        Print("Unable to load image " + path + "! SDL Error: "+ string(SDL_GetError()));
+        Print("Unable to load image " + path + "! SDL Error: "+ string(IMG_GetError()));
     }
     else
     {
