@@ -1,5 +1,7 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
+#include <SDL2/SDL_ttf.h>
+#include <SDL2/SDL_mixer.h>
 
 #include <ctime>
 #include <cstdlib>
@@ -25,11 +27,6 @@ SDL_Window*     gWindow         = NULL;
 SDL_Surface*    gScreenSurface  = NULL;
 SDL_Surface*    gDisplaySurface = NULL;
 
-// function headers
-bool GameInitialise();
-bool GameTerminate();
-SDL_Surface* loadSurface(string path);
-bool LoadMedia(string path);
 
 // functions
 bool GameInitialise()
@@ -78,22 +75,22 @@ void GameTerminate()
 
 SDL_Surface* loadSurface(string path)
 {
-    SDL_Surface* optimaizedSurface = NULL;
+    SDL_Surface* optimizedSurface = NULL;
     SDL_Surface* loadedSurface = SDL_LoadBMP(path.c_str() );
     if (loadedSurface == NULL)
     {
-        Print("Unable to load image " + path.c_str() + "! SDL Error: "+ SDL_GetError()+ "\n");
+        Print("Unable to load image " + path + "! SDL Error: "+ string(SDL_GetError()));
     }
     else
     {
-        optimaizedSurface = SDL_ConvertSurface( LoadedSurface, gScreenSurface=>format, NULL);
-        if (optimaizedSurface == NULL)
+        optimizedSurface = SDL_ConvertSurface( LoadedSurface, gScreenSurface=>format, NULL);
+        if (optimizedSurface == NULL)
         {
-            Print("Unable to optimize image " + path.c_str() + "! SDL Error: "+ SDL_GetError()+ "\n")
+            Print("Unable to optimize image " + path + "! SDL Error: "+ string(SDL_GetError()));
         }
    		SDL_FreeSurface( loadedSurface );
     }
-    return optimaizedSurface
+    return optimizedSurface;
 }
 
 bool LoadMedia(string path)

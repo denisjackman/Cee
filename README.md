@@ -87,6 +87,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * [SDL Tutorials](http://www.sdltutorials.com/)
 * [SDL Tutorials](http://www.willusher.io/pages/sdl2/)
 * [SDL Tutorials](http://gamedevgeek.com/tutorials/getting-started-with-sdl/)
+* [more SDL Tutorials](http://www.sdltutorials.com/)
 * [SDL and Codeblocks](http://wiki.codeblocks.org/index.php/Using_SDL_with_Code::Blocks)
 
 ## Books 
