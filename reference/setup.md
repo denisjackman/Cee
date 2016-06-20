@@ -10,8 +10,8 @@ Then run the following items into the build
     sudo apt-get install git -y
     sudo apt-get install libsdl2-dev -y
     sudo apt-get install libsdl2-image-dev -y 
-    sudo apt-get install lidsdl2-ttf-dev -y 
-    sudo apt-get install lidsdl2-mixer-dev -y 
+    sudo apt-get install libsdl2-ttf-dev -y 
+    sudo apt-get install libsdl2-mixer-dev -y 
     sudo apt-get install libcppunit-dev -y
     sudo apt-get install libmysqlcppconn-dev -y
     sudo apt-get install libncurses5-dev -y
