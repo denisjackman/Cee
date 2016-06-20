@@ -1,8 +1,4 @@
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
-#include <SDL2/SDL_ttf.h>
-#include <SDL2/SDL_mixer.h>
-
+// Standard headers
 #include <ctime>
 #include <cstdlib>
 #include <cmath>
@@ -11,21 +7,28 @@
 #include <cstdint>
 #include <vector>
 #include <list>
+// Game Library headers
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_ttf.h>
+#include <SDL2/SDL_mixer.h>
+// Custom Headers
 #include "include/gamefunction.h"
 
 using namespace std;
 // Variables
-const int       SCREEN_WIDTH    = 640;
-const int       SCREEN_HEIGHT   = 480;
-const char      *SCREEN_TITLE   = "Game Project";
-const int       PROGRAM_TIMER   = 2000;
-const char      *VERSION        = "V2.02.00";
-const char      *NAME_PROGRAM   = "Game";
-string          MEDIAFILE       = "files/stretch.bmp";
-uint32_t        WHITE           = NULL;
-SDL_Window*     gWindow         = NULL;
-SDL_Surface*    gScreenSurface  = NULL;
-SDL_Surface*    gDisplaySurface = NULL;
+const int       SCREEN_WIDTH        = 640;
+const int       SCREEN_HEIGHT       = 480;
+const char      *SCREEN_TITLE       = "Game Project";
+const int       PROGRAM_TIMER       = 2000;
+const char      *VERSION            = "V2.02.00";
+const char      *NAME_PROGRAM       = "Game";
+string          MEDIAFILE           = "files/stretch.bmp";
+uint32_t        WHITE               = NULL;
+SDL_Window*     gWindow             = NULL;
+SDL_Surface*    gScreenSurface      = NULL;
+SDL_Surface*    gDisplaySurface     = NULL;
+SDL_Surface*    gStretchedSurface   = NULL;
 
 
 // functions
