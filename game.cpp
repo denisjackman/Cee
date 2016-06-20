@@ -23,13 +23,14 @@ const char      *SCREEN_TITLE       = "Game Project";
 const int       PROGRAM_TIMER       = 2000;
 const char      *VERSION            = "V2.02.00";
 const char      *NAME_PROGRAM       = "Game";
-string          MEDIAFILE           = "files/loaded.png";
+string          MEDIAFILE           = "files/texture.png";
 uint32_t        WHITE               = NULL;
 SDL_Window*     gWindow             = NULL;
 SDL_Surface*    gScreenSurface      = NULL;
 SDL_Surface*    gDisplaySurface     = NULL;
 SDL_Surface*    gStretchedSurface   = NULL;
-
+SDL_Renderer*   gRenderer           = NULL;
+SDL_Texture*    gTexture            = NULL;
 
 // functions
 bool GameInitialise()
@@ -40,31 +41,34 @@ bool GameInitialise()
     //Initialize SDL
     if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
     {
-        Print("ERROR:SDL could not initialize! SDL_Error: ");
+        Print("ERROR:SDL could not initialize! SDL_Error: "+ string(SDL_GetError));
         result = false;
     }
     else
     {
-        //Create window
+		if( !SDL_SetHint( SDL_HINT_RENDER_SCALE_QUALITY, "1" ) )
+		{
+			Print( "Warning: Linear texture filtering not enabled!" );
+		}
+		//Create window
         gWindow = SDL_CreateWindow( SCREEN_TITLE, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
         if( gWindow == NULL )
         {
-            Print("ERROR:Window could not be created! SDL_Error: ");
+            Print("ERROR:Window could not be created! SDL_Error: "+ string(SDL_GetError));
             result = false;
         }
         else
         {
-			int imgFlags = IMG_INIT_PNG;
-			if( !( IMG_Init( imgFlags ) & imgFlags ) )
-			{
-				Print( "SDL_image could not initialize! SDL_image Error: " + string(IMG_GetError()) );
-				result = false;
-			}
-			else
-			{
-				//Get window surface
-				gScreenSurface = SDL_GetWindowSurface( gWindow );
-			}
+				//Initialize renderer color
+				SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
+
+				//Initialize PNG loading
+				int imgFlags = IMG_INIT_PNG;
+				if( !( IMG_Init( imgFlags ) & imgFlags ) )
+				{
+					Print( "SDL_image could not initialize! SDL_image Error: "+ string(IMG_GetError()) );
+					result = false;
+				}
         }
     }
 
@@ -74,13 +78,19 @@ bool GameInitialise()
 void GameTerminate()
 {
     //Deallocate surface
-    SDL_FreeSurface( gDisplaySurface );
-    gDisplaySurface = NULL;
+	SDL_DestroyTexture( gTexture );
+	gTexture = NULL;
+
     //Destroy window
-    SDL_DestroyWindow( gWindow );
+	SDL_DestroyRenderer( gRenderer );
+	SDL_DestroyWindow( gWindow );
     gWindow = NULL;
+  	gRenderer = NULL;
+
     //Quit SDL subsystems
+    IMG_Quit();
     SDL_Quit();
+
     DebugModeTerminate();
 }
 
@@ -107,13 +117,40 @@ SDL_Surface* loadSurface(string path)
 bool LoadMedia(string path)
 {
     bool result = true;
-    gDisplaySurface = loadSurface( path);
-    if (gDisplaySurface == NULL)
-    {
-        Print ("ERROR:Unable to load image " + string(SDL_GetError()) + " SDL Error ");
+	gTexture = loadTexture( path );
+	if( gTexture == NULL )
+	{
+		Print( "Failed to load texture image!" );
         result = false;
-    }
+	}
     return result;
+}
+
+SDL_Texture* loadTexture( string path )
+{
+	//The final texture
+	SDL_Texture* newTexture = NULL;
+
+	//Load image at specified path
+	SDL_Surface* loadedSurface = IMG_Load( path.c_str() );
+	if( loadedSurface == NULL )
+	{
+		Print( "Unable to load image "+path+"! SDL_image Error: "+ string(IMG_GetError()) );
+	}
+	else
+	{
+		//Create texture from surface pixels
+        newTexture = SDL_CreateTextureFromSurface( gRenderer, loadedSurface );
+		if( newTexture == NULL )
+		{
+			Print( "Unable to create texture from " + path  + "! SDL Error: "+ string(SDL_GetError()) );
+		}
+
+		//Get rid of old loaded surface
+		SDL_FreeSurface( loadedSurface );
+	}
+
+	return newTexture;
 }
 
 int main (int argc, char* args[] )
@@ -149,11 +186,14 @@ int main (int argc, char* args[] )
 			        }
 		        }
 
-				//Apply the PNG image
-				SDL_BlitSurface( gStretchedSurface, NULL, gScreenSurface, NULL );
+				//Clear screen
+				SDL_RenderClear( gRenderer );
 
-		        //Update the surface
-		        SDL_UpdateWindowSurface( gWindow );
+				//Render texture to screen
+				SDL_RenderCopy( gRenderer, gTexture, NULL, NULL );
+
+				//Update screen
+				SDL_RenderPresent( gRenderer );
 	        }
 	     }
 	}
