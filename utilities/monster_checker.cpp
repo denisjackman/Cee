@@ -22,7 +22,7 @@ void CreatureAttacks(creature_type creature)
 }
 
 // todo : add some code to take a monster number as an arg
-// todo : add some code to take a monster name as an arg 
+// todo : add some code to take a monster name as an arg
 int main(int argc, char *argv[])
 {
     srand(time(0));

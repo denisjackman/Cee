@@ -72,7 +72,7 @@ void GameTerminate()
 bool LoadMedia(char *loadMedia)
 {
     bool result = true;
-    gDisplaySurface = SDL_LoadBMP(loadMedia);
+    gDisplaySurface = loadSurface( "files/stretch.bmp" );
     if (gDisplaySurface == NULL)
     {
         Print ("ERROR:Unable to load image " + string(SDL_GetError()) + " SDL Error ");
@@ -80,6 +80,27 @@ bool LoadMedia(char *loadMedia)
     }
     return result;
 }
+
+SDL_Surface* loadSurface( string path)
+{
+    SDL_Surface* optimaizedSurface = NULL;
+    SDL_Surface* loadedSurface = SDL_LoadBMP(path.c_str() );
+    if (loadedSurface == NULL)
+    {
+        Print("Unable to load image " + path.c_str() + "! SDL Error: "+ SDL_GetError()+ "\n");
+    }
+    else
+    {
+        optimaizedSurface = SDL_ConvertSurface( LoadedSurface, gScreenSurface=>format, NULL);
+        if (optimaizedSurface == NULL)
+        {
+            Print("Unable to optimize image " + path.c_str() + "! SDL Error: "+ SDL_GetError()+ "\n")
+        }
+   		SDL_FreeSurface( loadedSurface );
+    }
+    return optimaizedSurface
+}
+
 
 int main (int argc, char* args[] )
 {
