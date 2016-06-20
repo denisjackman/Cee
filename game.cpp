@@ -57,7 +57,7 @@ bool GameInitialise()
 			int imgFlags = IMG_INIT_PNG;
 			if( !( IMG_Init( imgFlags ) & imgFlags ) )
 			{
-				PRINT( "SDL_image could not initialize! SDL_image Error: " + string(IMG_GetError()) );
+				Print( "SDL_image could not initialize! SDL_image Error: " + string(IMG_GetError()) );
 				result = false;
 			}
 			else
