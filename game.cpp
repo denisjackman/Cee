@@ -58,7 +58,7 @@ bool GameInitialise()
 			if( !( IMG_Init( imgFlags ) & imgFlags ) )
 			{
 				PRINT( "SDL_image could not initialize! SDL_image Error: " + string(IMG_GetError()) );
-				success = false;
+				result = false;
 			}
 			else
 			{
@@ -148,12 +148,10 @@ int main (int argc, char* args[] )
 				        gameLoop = false;
 			        }
 		        }
-		        SDL_Rect stretchRect;
-		        stretchRect.x = 0;
-		        stretchRect.y = 0;
-                stretchRect.w = SCREEN_WIDTH;
-		        stretchRect.h = SCREEN_HEIGHT;
-		        SDL_BlitScaled( gStretchedSurface, NULL, gScreenSurface, &stretchRect );
+
+				//Apply the PNG image
+				SDL_BlitSurface( gStretchedSurface, NULL, gScreenSurface, NULL );
+
 		        //Update the surface
 		        SDL_UpdateWindowSurface( gWindow );
 	        }
