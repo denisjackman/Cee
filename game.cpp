@@ -116,18 +116,6 @@ SDL_Surface* loadSurface(string path)
     return optimizedSurface;
 }
 
-bool LoadMedia(string path)
-{
-    bool result = true;
-	gTexture = loadTexture( path );
-	if( gTexture == NULL )
-	{
-		Print( "Failed to load texture image!" );
-        result = false;
-	}
-    return result;
-}
-
 SDL_Texture* loadTexture( string path )
 {
 	//The final texture
@@ -154,6 +142,20 @@ SDL_Texture* loadTexture( string path )
 
 	return newTexture;
 }
+
+bool LoadMedia(string path)
+{
+    bool result = true;
+	gTexture = loadTexture( path );
+	if( gTexture == NULL )
+	{
+		Print( "Failed to load texture image!" );
+        result = false;
+	}
+    return result;
+}
+
+
 
 int main (int argc, char* args[] )
 {

@@ -22,8 +22,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 |2016-06-14|Denis Jackman|02.05|Added in Coverity and kings game |
 
 ## TODO
-* Start coding section 5 of the tutorials 
-* Install Cmake and other things we need
+* Start coding part 8 of the tutorials 
 * Overlay the Maze array with rooms (create a function to do so )
 * Make sure the Maze is sane (all rooms connect to each other)
 * Add Maze furniture (Doors, Stairs (up and down)) or do we treat these as objects
