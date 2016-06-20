@@ -26,7 +26,7 @@ SDL_Surface*    gDisplaySurface = NULL;
 bool GameInitialise();
 bool GameTerminate();
 SDL_Surface* loadSurface(string path);
-bool LoadMedia(char *loadMedia);
+bool LoadMedia(string path);
 
 int main (int argc, char* args[] )
 {
@@ -38,7 +38,7 @@ int main (int argc, char* args[] )
     }
     else
     {
-        if (!LoadMedia())
+        if (!LoadMedia("files/stretch.bmp" ))
         {
             Print("Game failed to load media !");
         }
@@ -121,7 +121,7 @@ void GameTerminate()
     DebugModeTerminate();
 }
 
-SDL_Surface* loadSurface( string path)
+SDL_Surface* loadSurface(string path)
 {
     SDL_Surface* optimaizedSurface = NULL;
     SDL_Surface* loadedSurface = SDL_LoadBMP(path.c_str() );
@@ -141,10 +141,10 @@ SDL_Surface* loadSurface( string path)
     return optimaizedSurface
 }
 
-bool LoadMedia(char *loadMedia)
+bool LoadMedia(sgtring path)
 {
     bool result = true;
-    gDisplaySurface = loadSurface( "files/stretch.bmp" );
+    gDisplaySurface = loadSurface( path);
     if (gDisplaySurface == NULL)
     {
         Print ("ERROR:Unable to load image " + string(SDL_GetError()) + " SDL Error ");
