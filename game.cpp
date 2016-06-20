@@ -86,7 +86,7 @@ SDL_Surface* loadSurface(string path)
     }
     else
     {
-        optimizedSurface = SDL_ConvertSurface( LoadedSurface, gScreenSurface=>format, NULL);
+        optimizedSurface = SDL_ConvertSurface( loadedSurface, gScreenSurface=>format, NULL);
         if (optimizedSurface == NULL)
         {
             Print("Unable to optimize image " + path + "! SDL Error: "+ string(SDL_GetError()));
