@@ -1,7 +1,6 @@
 Updated 08/06/2016 14:09 
 Version 1:00:00 
 
-
 Install Linux Mint 
 Then run the following items into the build 
     sudo apt-get update 
@@ -10,6 +9,7 @@ Then run the following items into the build
     sudo apt-get install mysql-server -y
     sudo apt-get install git -y
     sudo apt-get install libsdl2-dev -y
+    sudo apt-get install libsdl2-image-dev -y 
     sudo apt-get install libcppunit-dev -y
     sudo apt-get install libmysqlcppconn-dev -y
     sudo apt-get install libncurses5-dev -y

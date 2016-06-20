@@ -1,4 +1,6 @@
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+
 #include <ctime>
 #include <cstdlib>
 #include <cmath>
@@ -10,73 +12,26 @@
 #include "include/gamefunction.h"
 
 using namespace std;
-
+// Variables
 const int       SCREEN_WIDTH    = 640;
 const int       SCREEN_HEIGHT   = 480;
 const char      *SCREEN_TITLE   = "Game Project";
 const int       PROGRAM_TIMER   = 2000;
 const char      *VERSION        = "V2.02.00";
 const char      *NAME_PROGRAM   = "Game";
-char            *MEDIAFILE      = "files/hello_world.bmp";
+string          MEDIAFILE       = "files/stretch.bmp";
 uint32_t        WHITE           = NULL;
 SDL_Window*     gWindow         = NULL;
 SDL_Surface*    gScreenSurface  = NULL;
 SDL_Surface*    gDisplaySurface = NULL;
 
+// function headers
 bool GameInitialise();
 bool GameTerminate();
 SDL_Surface* loadSurface(string path);
 bool LoadMedia(string path);
 
-int main (int argc, char* args[] )
-{
-  	Print(" -- Game Version 1.0 (Test) -- ");
-	Print(" --- Starting ---");
-    if (GameInitialise() == false)
-    {
-        Print("Game failed to initialise !");
-    }
-    else
-    {
-        if (!LoadMedia("files/stretch.bmp" ))
-        {
-            Print("Game failed to load media !");
-        }
-        else
-        {
-            //Main loop flag
-            bool gameLoop = true;
-            //Event handler
-            SDL_Event gameEvent;
-            //While application is running
-	        while( gameLoop )
-    	    {
-	            //Handle events on queue
-		        while( SDL_PollEvent( &gameEvent ) != 0 )
-		        {
-			        //User requests quit
-			        if( gameEvent.type == SDL_QUIT )
-			        {
-				        gameLoop = false;
-			        }
-		        }
-		        SDL_Rect stretchRect;
-		        stretchRect.x = 0;
-		        stretchRect.y = 0;
-                stretchRect.w = SCREEN_WIDTH;
-		        stretchRect.h = SCREEN_HEIGHT;
-		        SDL_BlitScaled( gStretchedSurface, NULL, gScreenSurface, &stretchRect );
-		        //Update the surface
-		        SDL_UpdateWindowSurface( gWindow );
-	        }
-	     }
-	}
-	GameTerminate();
-	Print(" --- Ending ---");
-  	return 0;
-}
-
-
+// functions
 bool GameInitialise()
 {
     DebugModeInitialise();
@@ -141,7 +96,7 @@ SDL_Surface* loadSurface(string path)
     return optimaizedSurface
 }
 
-bool LoadMedia(sgtring path)
+bool LoadMedia(string path)
 {
     bool result = true;
     gDisplaySurface = loadSurface( path);
@@ -152,3 +107,53 @@ bool LoadMedia(sgtring path)
     }
     return result;
 }
+
+int main (int argc, char* args[] )
+{
+  	Print(" -- Game Version 1.0 (Test) -- ");
+	Print(" --- Starting ---");
+    if (GameInitialise() == false)
+    {
+        Print("Game failed to initialise !");
+    }
+    else
+    {
+        if (!LoadMedia(MEDIAFILE))
+        {
+            Print("Game failed to load media !");
+        }
+        else
+        {
+            //Main loop flag
+            bool gameLoop = true;
+            //Event handler
+            SDL_Event gameEvent;
+            //While application is running
+	        while( gameLoop )
+    	    {
+	            //Handle events on queue
+		        while( SDL_PollEvent( &gameEvent ) != 0 )
+		        {
+			        //User requests quit
+			        if( gameEvent.type == SDL_QUIT )
+			        {
+				        gameLoop = false;
+			        }
+		        }
+		        SDL_Rect stretchRect;
+		        stretchRect.x = 0;
+		        stretchRect.y = 0;
+                stretchRect.w = SCREEN_WIDTH;
+		        stretchRect.h = SCREEN_HEIGHT;
+		        SDL_BlitScaled( gStretchedSurface, NULL, gScreenSurface, &stretchRect );
+		        //Update the surface
+		        SDL_UpdateWindowSurface( gWindow );
+	        }
+	     }
+	}
+	GameTerminate();
+	Print(" --- Ending ---");
+  	return 0;
+}
+
+
