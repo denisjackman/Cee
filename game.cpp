@@ -61,7 +61,18 @@ bool GameInitialise()
         }
         else
         {
-				//Initialize renderer color
+            //Create renderer for window
+            gRenderer = SDL_CreateRenderer( gWindow, -1, SDL_RENDERER_ACCELERATED );
+            //SDL_RENDERER_ACCELERATED to a SDL_RENDERER_SOFTWARE
+            if( gRenderer == NULL )
+            {
+                printf( "Renderer could not be created! SDL Error: %s\n", SDL_GetError() );
+                success = false;
+            }
+            else
+            {
+            	//Initialize renderer color
+
 				SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
 
 				//Initialize PNG loading
@@ -71,6 +82,7 @@ bool GameInitialise()
 					Print( "SDL_image could not initialize! SDL_image Error: "+ string(IMG_GetError()) );
 					result = false;
 				}
+			}
         }
     }
 
@@ -133,7 +145,7 @@ SDL_Texture* loadTexture( string path )
         newTexture = SDL_CreateTextureFromSurface( gRenderer, loadedSurface );
 		if( newTexture == NULL )
 		{
-			Print( "Unable to create texture from " + path  + "! SDL Error: "+ string(SDL_GetError()) );
+			Print( "Unable to create texture from " + path  + " ! SDL Error: "+ string(SDL_GetError()) );
 		}
 
 		//Get rid of old loaded surface
@@ -175,18 +187,24 @@ int main (int argc, char* args[] )
         {
             //Main loop flag
             bool gameLoop = true;
+            int counter = 0;
             //Event handler
             SDL_Event gameEvent;
             //While application is running
-	        while( gameLoop )
+	        while ( gameLoop )
     	    {
 	            //Handle events on queue
-		        while( SDL_PollEvent( &gameEvent ) != 0 )
+		        while ( SDL_PollEvent(&gameEvent ) != 0 )
 		        {
+		            counter++;
 			        //User requests quit
-			        if( gameEvent.type == SDL_QUIT )
+			        if ( gameEvent.type == SDL_QUIT)
 			        {
 				        gameLoop = false;
+			        }
+			        if ( counter > 3000)
+			        {
+			            gameLoop = false;
 			        }
 		        }
 
