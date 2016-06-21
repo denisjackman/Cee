@@ -44,17 +44,22 @@ Mac Setup:
     This is slightly different and needs more documentation
     for each of the libraries needed download the source 
         libsdl2-dev
-        libsdl2-gfx-dev 
         libsdl2-image-dev 
         libsdl2-mixer-dev 
-        libsdl2-net-dev 
         libsdl2-ttf-dev         
+        libsdl2-gfx-dev 
+        libsdl2-net-dev 
     Download the source for each of them.
     Unpack the source 
     Navigate to the directory you unzipped it into 
         ./configure 
         make 
         make install 
+    
+CPATH
+C_INCLUDE_PATH
+CPLUS_INCLUDE_PATH
+OBJC_INCLUDE_PATH
     
     Once this is done the headers and libraries will be in the standard Linux locations 
     and can be picked up 
