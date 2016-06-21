@@ -20,21 +20,19 @@
 
 using namespace std;
 // Variables
-// Variables
-const int       SCREEN_WIDTH        = 640;
-const int       SCREEN_HEIGHT       = 480;
-const char      *SCREEN_TITLE       = "Game Project";
-const int       PROGRAM_TIMER       = 2000;
-const char      *VERSION            = "V2.02.00";
-const char      *NAME_PROGRAM       = "Game";
-string          MEDIAFILE           = "files/texture.png";
-uint32_t        WHITE               = NULL;
-SDL_Window*     gWindow             = NULL;
-SDL_Surface*    gScreenSurface      = NULL;
-SDL_Surface*    gDisplaySurface     = NULL;
-SDL_Surface*    gStretchedSurface   = NULL;
-SDL_Renderer*   gRenderer           = NULL;
-SDL_Texture*    gTexture            = NULL;
+extern const int       SCREEN_WIDTH;
+extern const int       SCREEN_HEIGHT;
+extern const char      *SCREEN_TITLE;
+extern const int       PROGRAM_TIMER;
+extern const char      *VERSION;
+extern const char      *NAME_PROGRAM;
+extern string          MEDIAFILE;
+extern SDL_Window*     gWindow;
+extern SDL_Surface*    gScreenSurface;
+extern SDL_Surface*    gDisplaySurface;
+extern SDL_Surface*    gStretchedSurface;
+extern SDL_Renderer*   gRenderer;
+extern SDL_Texture*    gTexture;
 
 // Functions Code
 bool GameInitialise()
