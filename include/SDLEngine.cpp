@@ -15,6 +15,9 @@
 #include <SDL2/SDL_ttf.h>
 #include <SDL2/SDL_mixer.h>
 
+// custom headers
+#include "../include/gamefunction.h"
+
 using namespace std;
 
 // Functions Code
