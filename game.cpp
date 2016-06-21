@@ -61,13 +61,12 @@ bool GameInitialise()
         }
         else
         {
-            //Create renderer for window
+            //Create renderer for window options are SDL_RENDERER_ACCELERATED to a SDL_RENDERER_SOFTWARE
             gRenderer = SDL_CreateRenderer( gWindow, -1, SDL_RENDERER_ACCELERATED );
-            //SDL_RENDERER_ACCELERATED to a SDL_RENDERER_SOFTWARE
             if( gRenderer == NULL )
             {
-                printf( "Renderer could not be created! SDL Error: %s\n", SDL_GetError() );
-                success = false;
+                Print( "Renderer could not be created! SDL Error: " + string(SDL_GetError()) );
+                result = false;
             }
             else
             {
