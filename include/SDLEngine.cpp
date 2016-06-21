@@ -16,7 +16,8 @@
 #include <SDL2/SDL_mixer.h>
 
 // custom headers
-#include "../include/gamefunction.h"
+#include "gamefunction.h"
+#include "SDLEngine.h"
 
 using namespace std;
 
