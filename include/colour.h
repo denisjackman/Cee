@@ -1,3 +1,5 @@
+#ifndef SDLENGINE_H
+#define SDLENGINE_H
 
 	customcolour Snow; 
 	Snow.red = 255;
@@ -753,3 +755,4 @@
 	Thistle.red = 216;
 	Thistle.green = 191;
 	Thistle.blue = 216;
+#endif

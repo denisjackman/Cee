@@ -16,6 +16,7 @@
 #include <SDL2/SDL_mixer.h>
 
 // Custom Headers
+#include "include/general.h"
 #include "include/gamefunction.h"
 #include "include/SDLEngine.h"
 
@@ -24,6 +25,14 @@ using namespace std;
 //Main code
 int main (int argc, char* args[] )
 {
+    SCREEN_WIDTH        = 640;
+    SCREEN_HEIGHT       = 480;
+    SCREEN_TITLE        = "Game Project";
+    PROGRAM_TIMER       = 2000;
+    VERSION             = "V2.02.00";
+    NAME_PROGRAM        = "Game Project";
+    MEDIAFILE           = "files/texture.png";
+
   	Print(" -- " + string(NAME_PROGRAM) + " " + string(VERSION) + " (Test) -- ");
 	Print(" --- Starting ---");
     if (GameInitialise() == false)

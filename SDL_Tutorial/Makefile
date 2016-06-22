@@ -1,5 +1,5 @@
 #OBJS specifies which files to compile as part of the project
-OBJS = include/general.cpp include/SDLEngine.cpp include/gamefunction.cpp game.cpp
+OBJS = ../include/SDLEngine.cpp ../include/general.cpp main.cpp
 
 #CC specifies which compiler we're using
 CC = g++
@@ -14,7 +14,7 @@ LINKER_FLAGS = -L/usr/local/lib  -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 DBG_LINKER_FLAGS = -L/usr/local/lib  -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -lcppunit -fprofile-arcs -lgcov
 
 #OBJ_NAME specifies the name of our exectuable
-OBJ_NAME = game
+OBJ_NAME = main
 
 #This is the target that compiles our executable
 all : $(OBJS)

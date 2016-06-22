@@ -4,12 +4,12 @@
 using namespace std;
 
 // Variables
-extern const int       SCREEN_WIDTH;
-extern const int       SCREEN_HEIGHT;
-extern const char      *SCREEN_TITLE;
-extern const int       PROGRAM_TIMER;
-extern const char      *VERSION;
-extern const char      *NAME_PROGRAM;
+extern int             SCREEN_WIDTH;
+extern int             SCREEN_HEIGHT;
+extern char            *SCREEN_TITLE;
+extern int             PROGRAM_TIMER;
+extern char            *VERSION;
+extern char            *NAME_PROGRAM;
 extern string          MEDIAFILE;
 extern SDL_Window*     gWindow;
 extern SDL_Surface*    gScreenSurface;

@@ -1,6 +1,6 @@
 #ifndef MONSTER_H
 #define MONSTER_H
-#include <string>
+
 using namespace std;
 
 string attack_type[] = {
@@ -339,9 +339,6 @@ creature_type creature_list[MAX_CREATURE_LIST] = {
 {"Evil Iggy"		        ,0x7F130002L,0x0001D713L,0x5004,18000,   0,  30,  80,  12, 'p', {60,40} , {81,150,0,0}		,   50},
 {"Balrog"		            ,0xFF1F0002L,0x0081C743L,0x5004,55000L,   0,  40, 125, 13, 'B', {75,40} , {104,78,214,0}	,  100}
 };
-
-
-
 
 creature_attack_type monster_attacks[] = {
 {0, 0, 0, 0},

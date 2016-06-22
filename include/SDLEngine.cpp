@@ -16,18 +16,18 @@
 #include <SDL2/SDL_mixer.h>
 
 // custom headers
-#include "gamefunction.h"
+#include "general.h"
 
 using namespace std;
 
 
 // Variables
-const int       SCREEN_WIDTH        = 640;
-const int       SCREEN_HEIGHT       = 480;
-const char      *SCREEN_TITLE       = "Game Project";
-const int       PROGRAM_TIMER       = 2000;
-const char      *VERSION            = "V2.02.00";
-const char      *NAME_PROGRAM       = "Game Project";
+int             SCREEN_WIDTH        = 200;
+int             SCREEN_HEIGHT       = 200;
+char            *SCREEN_TITLE       = "Default Project";
+int             PROGRAM_TIMER       = 2000;
+char            *VERSION            = "V0.00.00";
+char            *NAME_PROGRAM       = "Default Project";
 string          MEDIAFILE           = "files/texture.png";
 uint32_t        WHITE               = NULL;
 SDL_Window*     gWindow             = NULL;
@@ -75,7 +75,7 @@ bool GameInitialise()
             {
             	//Initialize renderer color
 
-				SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
+				SDL_SetRenderDrawColor( gRenderer, 0x00, 0x00, 0x00, 0xFF );
 
 				//Initialize PNG loading
 				int imgFlags = IMG_INIT_PNG;

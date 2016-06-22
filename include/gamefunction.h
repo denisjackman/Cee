@@ -3,11 +3,6 @@
 
 using namespace std;
 
-/* General handling routines */
-void DebugModeInitialise();
-void DebugModeTerminate();
-void Print(string OutputString);
-
 /* Game functions */
 int DiceRoll(int rolls = 1, int sides = 6);
 int DistanceToTarget(double oX0, double oY0, double tX1, double tY1);

@@ -8,34 +8,6 @@
 #include <list>
 
 using namespace std;
-bool gDebugMode = false;
-string gDebugLogFileLocation = "debug.log";
-ofstream gDebugLogFile;
-
-void DebugModeInitialise()
-{
-    if (gDebugMode)
-    {
-        gDebugLogFile.open(gDebugLogFileLocation);
-    }
-}
-
-void DebugModeTerminate()
-{
-    if (gDebugMode)
-    {
-        gDebugLogFile.close();
-    }
-}
-
-void Print(string OutputString)
-{
-    if (gDebugMode)
-    {
-        gDebugLogFile << OutputString << endl;
-    }
-    cout << OutputString << endl;
-}
 
 int DiceRoll(int rolls = 1, int sides = 6)
 {

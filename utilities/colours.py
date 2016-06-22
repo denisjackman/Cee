@@ -6,8 +6,10 @@ import subprocess
 
 infile = open('../files/colours.csv', "r")
 target = open('../files/colour.h', 'w')
+target = open('../files/colour.cpp', 'w')
 
 counter = 0
+target.write("#ifndef SDLENGINE_H\n#define SDLENGINE_H\n")
 for line in infile:
     stemp = line.rstrip('\n');
     stemp = stemp.rstrip('\r');
@@ -20,6 +22,7 @@ for line in infile:
     target.write("\n")
     target.write("\tcustomcolour " + colour + "; \n\t"+colour+".red = " + red + ";\n\t"+colour+".green = " + green + ";\n\t"+colour+".blue = " +blue +";\n")
     counter = counter + 1;
+target.write("#endif\n")
 
 infile.close()
 target.close()
