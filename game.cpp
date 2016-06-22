@@ -40,7 +40,6 @@ int main (int argc, char* args[] )
         {
             //Main loop flag
             bool gameLoop = true;
-            int counter = 0;
             //Event handler
             SDL_Event gameEvent;
             //While application is running
@@ -49,15 +48,10 @@ int main (int argc, char* args[] )
 	            //Handle events on queue
 		        while ( SDL_PollEvent(&gameEvent ) != 0 )
 		        {
-		            counter++;
 			        //User requests quit
 			        if ( gameEvent.type == SDL_QUIT)
 			        {
 				        gameLoop = false;
-			        }
-			        if ( counter > 3000)
-			        {
-			            gameLoop = false;
 			        }
 		        }
 
