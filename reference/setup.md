@@ -56,5 +56,10 @@ Mac Setup:
         make 
         make install 
     
+CPATH
+C_INCLUDE_PATH
+CPLUS_INCLUDE_PATH
+OBJC_INCLUDE_PATH
+    
     Once this is done the headers and libraries will be in the standard Linux locations 
     and can be picked up 
