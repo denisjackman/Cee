@@ -24,7 +24,7 @@ using namespace std;
 //Main code
 int main (int argc, char* args[] )
 {
-  	Print(" -- Game Version 1.0 (Test) -- ");
+  	Print(" -- " + string(NAME_PROGRAM) + " " + string(VERSION) + " (Test) -- ");
 	Print(" --- Starting ---");
     if (GameInitialise() == false)
     {

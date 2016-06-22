@@ -18,7 +18,6 @@ extern SDL_Surface*    gStretchedSurface;
 extern SDL_Renderer*   gRenderer;
 extern SDL_Texture*    gTexture;
 
-
 // Function Headers
 bool GameInitialise();
 void GameTerminate();
