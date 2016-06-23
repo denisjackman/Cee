@@ -43,12 +43,6 @@ addons:
 
 script:
 - make
-- cd lesson
-- make
-- make SDL
-- make scrap
-- make db
-- cd ..
 - cd rogue
 - make
 - cd ..
