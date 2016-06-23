@@ -16,10 +16,11 @@
 #include <SDL2/SDL_mixer.h>
 
 // custom headers
+
 #include "general.h"
+#include "colour.h"
 
 using namespace std;
-
 
 // Variables
 int             SCREEN_WIDTH        = 200;
@@ -36,6 +37,8 @@ SDL_Surface*    gDisplaySurface     = NULL;
 SDL_Surface*    gStretchedSurface   = NULL;
 SDL_Renderer*   gRenderer           = NULL;
 SDL_Texture*    gTexture            = NULL;
+
+
 
 // Functions Code
 bool GameInitialise()
@@ -169,9 +172,15 @@ bool LoadMedia(string path)
     return result;
 }
 
-void PlotPixel( int x, int y, int red, int green, int blue)
+void PlotPixel( int x, int y, customcolour colour)
 {
-    SDL_SetRenderDrawColor( gRenderer, red, green, blue, 0xFF );
+    SDL_SetRenderDrawColor( gRenderer, colour.red, colour.green, colour.blue, 0xFF );
     SDL_RenderDrawPoint( gRenderer, x, y );
 
+}
+
+void ClearScreen(customcolour colour)
+{
+    SDL_SetRenderDrawColor( gRenderer, colour.red, colour.green, colour.blue, 0xFF );
+	SDL_RenderClear( gRenderer );
 }

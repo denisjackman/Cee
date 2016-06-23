@@ -33,12 +33,6 @@ int main (int argc, char* args[] )
     MEDIAFILE           = "files/texture.png";
     srand(time(0));
 
-    int x = 0;
-    int y = 0;
-    int red = 0;
-    int green = 0;
-    int blue = 0;
-
   	Print(" --- " + string(NAME_PROGRAM) + " " + string(VERSION) + " (Test) --- ");
     Print(" --- Starting ---");
     if (GameInitialise() == false)
@@ -50,8 +44,8 @@ int main (int argc, char* args[] )
     //Event handler
     SDL_Event gameEvent;
     //While application is running
-    SDL_SetRenderDrawColor( gRenderer, 0, 0, 0, 0xFF );
-	SDL_RenderClear( gRenderer );
+    ClearScreen(Black);
+
 	while ( gameLoop )
     {
 	    //Handle events on queue
@@ -65,13 +59,11 @@ int main (int argc, char* args[] )
 		}
 
 		//Clear screen
-		x  = rand() % SCREEN_WIDTH + 1;
-		y  = rand() % SCREEN_HEIGHT +1;
-		red = rand() % 255;
-		green = rand() % 255;
-		blue = rand() % 255;
+		int x  = rand() % SCREEN_WIDTH + 1;
+		int y  = rand() % SCREEN_HEIGHT +1;
+        customcolour col = colourlist[rand() % 151];
 
-        PlotPixel( x, y, red, green, blue);
+        PlotPixel( x, y, col);
 
 		//Update screen
 		SDL_RenderPresent( gRenderer );
