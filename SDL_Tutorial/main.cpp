@@ -31,6 +31,13 @@ int main (int argc, char* args[] )
     VERSION             = "V1.00.00";
     NAME_PROGRAM        = "SDL Tutorial";
     MEDIAFILE           = "files/texture.png";
+    srand(time(0));
+
+    int x = 0;
+    int y = 0;
+    int red = 0;
+    int green = 0;
+    int blue = 0;
 
   	Print(" --- " + string(NAME_PROGRAM) + " " + string(VERSION) + " (Test) --- ");
     Print(" --- Starting ---");
@@ -43,6 +50,8 @@ int main (int argc, char* args[] )
     //Event handler
     SDL_Event gameEvent;
     //While application is running
+    SDL_SetRenderDrawColor( gRenderer, 0, 0, 0, 0xFF );
+	SDL_RenderClear( gRenderer );
 	while ( gameLoop )
     {
 	    //Handle events on queue
@@ -56,13 +65,13 @@ int main (int argc, char* args[] )
 		}
 
 		//Clear screen
-		SDL_SetRenderDrawColor( gRenderer, 0, 0, 0, 0xFF );
-		SDL_RenderClear( gRenderer );
-        SDL_SetRenderDrawColor( gRenderer, 255, 0, 0, 0xFF );
-        for( int i = 0; i < SCREEN_HEIGHT; i ++ )
-        {
-            SDL_RenderDrawPoint( gRenderer, SCREEN_WIDTH / 2, i );
-        }
+		x  = rand() % SCREEN_WIDTH + 1;
+		y  = rand() % SCREEN_HEIGHT +1;
+		red = rand() % 255;
+		green = rand() % 255;
+		blue = rand() % 255;
+
+        PlotPixel( x, y, red, green, blue);
 
 		//Update screen
 		SDL_RenderPresent( gRenderer );

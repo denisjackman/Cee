@@ -24,5 +24,6 @@ void GameTerminate();
 SDL_Surface* loadSurface(string path);
 SDL_Texture* loadTexture( string path );
 bool LoadMedia(string path);
+void PlotPixel( int x, int y, int red, int green, int blue);
 
 #endif

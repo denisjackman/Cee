@@ -169,3 +169,9 @@ bool LoadMedia(string path)
     return result;
 }
 
+void PlotPixel( int x, int y, int red, int green, int blue)
+{
+    SDL_SetRenderDrawColor( gRenderer, red, green, blue, 0xFF );
+    SDL_RenderDrawPoint( gRenderer, x, y );
+
+}
