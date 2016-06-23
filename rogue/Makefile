@@ -1,5 +1,5 @@
 #OBJS specifies which files to compile as part of the project
-OBJS = ../include/gamefunction.cpp rogue.cpp
+OBJS = ../include/general.cpp ../include/gamefunction.cpp rogue.cpp
 
 #CC specifies which compiler we're using
 CC = g++
