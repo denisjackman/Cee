@@ -96,6 +96,11 @@ Game failed to load media !
 * [SDL and Codeblocks](http://wiki.codeblocks.org/index.php/Using_SDL_with_Code::Blocks)
 * [Aaron's Games Programming(SDL)](http://aaroncox.net/tutorials/2dtutorials/index.html)
 * [SDL 1.2 to 2.0 porting](http://blog.stuff-o-matic.com/post/2013/09/15/ASGP-s-Android-Port-Part-II%3A-from-SDL-1.2-to-SDL-2.)
+* [SDL 1.2 to 2.0 Migration](https://wiki.libsdl.org/MigrationGuide)
+* [SDL 1.2 to 2.0 Migration](http://www.cs.umb.edu/~bazz/cms/index.php?id=sdl-sdl2-migration-experience)
+* [More SDL Tutorials](http://www.willusher.io/pages/sdl2/)
+* [SDL-1.2:Sprite SDL](http://gamedevgeek.com/tutorials/moving-sprites-with-sdl/)
+* [SDL-1.2:Animated Sprites](http://gamedevgeek.com/tutorials/animating-sprites-with-sdl/)
 
 ## Books 
 * Game Programming in C++ 

@@ -30,7 +30,6 @@ int             PROGRAM_TIMER       = 2000;
 char            *VERSION            = "V0.00.00";
 char            *NAME_PROGRAM       = "Default Project";
 string          MEDIAFILE           = "files/texture.png";
-uint32_t        WHITE               = NULL;
 SDL_Window*     gWindow             = NULL;
 SDL_Surface*    gScreenSurface      = NULL;
 SDL_Surface*    gDisplaySurface     = NULL;
