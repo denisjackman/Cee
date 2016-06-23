@@ -95,6 +95,7 @@ Game failed to load media !
 * [more SDL Tutorials](http://www.sdltutorials.com/)
 * [SDL and Codeblocks](http://wiki.codeblocks.org/index.php/Using_SDL_with_Code::Blocks)
 * [Aaron's Games Programming(SDL)](http://aaroncox.net/tutorials/2dtutorials/index.html)
+* [SDL 1.2 to 2.0 porting](http://blog.stuff-o-matic.com/post/2013/09/15/ASGP-s-Android-Port-Part-II%3A-from-SDL-1.2-to-SDL-2.)
 
 ## Books 
 * Game Programming in C++ 
