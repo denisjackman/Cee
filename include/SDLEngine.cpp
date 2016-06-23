@@ -136,7 +136,6 @@ SDL_Texture* loadTexture( string path )
 {
 	//The final texture
 	SDL_Texture* newTexture = NULL;
-
 	//Load image at specified path
 	SDL_Surface* loadedSurface = IMG_Load( path.c_str() );
 	if( loadedSurface == NULL )
@@ -151,11 +150,9 @@ SDL_Texture* loadTexture( string path )
 		{
 			Print( "Unable to create texture from " + path  + " ! SDL Error: "+ string(SDL_GetError()) );
 		}
-
 		//Get rid of old loaded surface
 		SDL_FreeSurface( loadedSurface );
 	}
-
 	return newTexture;
 }
 
@@ -170,6 +167,7 @@ bool LoadMedia(string path)
 	}
     return result;
 }
+
 
 void ClearScreen(customcolour colour)
 {

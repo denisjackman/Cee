@@ -1,5 +1,6 @@
 #OBJS specifies which files to compile as part of the project
 OBJS =  ../include/SDLEngine.cpp ../include/general.cpp main.cpp
+SPRITE_OBJS =  sprite.cpp
 
 #CC specifies which compiler we're using
 CC = g++
@@ -13,12 +14,17 @@ DBG_COMPILER_FLAGS = -w -std=gnu++0x --coverage -fprofile-arcs -ftest-coverage -
 LINKER_FLAGS = -L/usr/local/lib  -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 DBG_LINKER_FLAGS = -L/usr/local/lib  -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -lcppunit -fprofile-arcs -lgcov
 
-#OBJ_NAME specifies the name of our exectuable
+#OBJ_NAME specifies the name of our executable
 OBJ_NAME = main
+SPRITE_OBJ_NAME = sprite
+
 
 #This is the target that compiles our executable
 all : $(OBJS)
 	$(CC) $(OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(OBJ_NAME)
+
+sprite: $(SPRITE_OBJS)
+	$(CC) $(SPRITE_OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(SPRITE_OBJ_NAME)
 
 debug : $(OBJS)
 	$(CC) $(OBJS) $(DBG_COMPILER_FLAGS) $(DBG_LINKER_FLAGS) -o $(OBJ_NAME)

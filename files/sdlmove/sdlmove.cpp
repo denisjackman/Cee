@@ -8,53 +8,51 @@
 int main(int argc, char* argv[])
 {
 	SDL_Surface     *temp;
-	SDL_Window*     screen = NULL;
+	SDL_Window*     window = NULL;
 	SDL_Renderer*   renderer = NULL;
 	SDL_Texture*    sprite = NULL;
 	SDL_Texture*    grass = NULL;
-	SDL_Rect        rcSprite, rcGrass;
+	SDL_Texture*    screen = NULL;
+	SDL_Rect        rcSprite, rcGrass, rcScreen;
 	SDL_Event       event;
 
 	const unsigned char   *keystate;
-	int             colorkey, gameover;
+	int                   colorkey;
+	int                   gameover;
 
-	/* initialize video system */
 	SDL_Init(SDL_INIT_VIDEO);
+    window = SDL_CreateWindow( SCREEN_TITLE, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
+    renderer = SDL_CreateRenderer( window, -1, SDL_RENDERER_ACCELERATED );
 
-	/* set the title bar */
-	// SDL_WM_SetCaption("SDL Move", "SDL Move");
-	// replaced by SCREEN_TITLE
-
-	/* create window */
-	//screen = SDL_SetVideoMode(SCREEN_WIDTH, SCREEN_HEIGHT, 0, 0);
-    screen = SDL_CreateWindow( SCREEN_TITLE, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
-    renderer = SDL_CreateRenderer( screen, -1, SDL_RENDERER_ACCELERATED );
 	/* load sprite */
 	temp   = SDL_LoadBMP("sprite.bmp");
-	//sprite = SDL_DisplayFormat(temp);
 	sprite = SDL_CreateTextureFromSurface(renderer, temp);
 	SDL_FreeSurface(temp);
 
-	/* setup sprite colorkey and turn on RLE */
-	//SDL_PixelFormat* myPixelFormat=temp->format;
-	//colorkey = SDL_MapRGB(myPixelFormat, 255, 0, 255);
-	//SDL_SetColorKey(sprite, SDL_SRCCOLORKEY | SDL_RLEACCEL, colorkey);
 
 	/* load grass */
 	temp  = SDL_LoadBMP("grass.bmp");
-	//grass = SDL_DisplayFormat(temp);
 	grass = SDL_CreateTextureFromSurface(renderer, temp);
 	SDL_FreeSurface(temp);
 
 	/* set sprite position */
 	rcSprite.x = 0;
 	rcSprite.y = 0;
+	rcSprite.w = SPRITE_SIZE;
+	rcSprite.h = SPRITE_SIZE;
+
+    rcScreen.x = SCREEN_WIDTH / 2 - SPRITE_SIZE / 2;
+    rcScreen.y = SCREEN_HEIGHT / 2 - SPRITE_SIZE / 2;
+    rcScreen.w = SPRITE_SIZE;
+	rcScreen.h = SPRITE_SIZE;
 
 	gameover = 0;
 
 	/* message pump */
 	while (!gameover)
 	{
+		//Clear screen
+		SDL_RenderClear( renderer );
 		/* look for an event */
 		if (SDL_PollEvent(&event)) {
 			/* an event was found */
@@ -105,22 +103,24 @@ int main(int argc, char* argv[])
 		else if ( rcSprite.y > SCREEN_HEIGHT-SPRITE_SIZE ) {
 			rcSprite.y = SCREEN_HEIGHT-SPRITE_SIZE;
 		}
-
+        rcScreen.x = rcSprite.x;
+        rcScreen.y = rcSprite.y;
 		/* draw the grass */
 		for (int x = 0; x < SCREEN_WIDTH/SPRITE_SIZE; x++) {
 			for (int y = 0; y < SCREEN_HEIGHT/SPRITE_SIZE; y++) {
 				rcGrass.x = x * SPRITE_SIZE;
 				rcGrass.y = y * SPRITE_SIZE;
-				//SDL_BlitSurface(grass, NULL, screen, &rcGrass);
+				rcScreen.x = x * SPRITE_SIZE;
+				rcScreen.y = y * SPRITE_SIZE;
+		        SDL_RenderCopy( renderer, grass, NULL, NULL );
+		        //SDL_BlitSurface(grass, NULL, screen, &rcGrass);
 			}
 		}
-		//Clear screen
-		//SDL_RenderClear( renderer );
 
 		/* draw the sprite */
 		//SDL_BlitSurface(sprite, NULL, screen, &rcSprite);
 		//Render texture to screen
-		SDL_RenderCopy( renderer, sprite, NULL, NULL );
+		SDL_RenderCopy( renderer, sprite, &rcSprite, &rcScreen );
 
 		/* update the screen */
 		//SDL_UpdateRect(screen,0,0,0,0);
