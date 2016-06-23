@@ -172,6 +172,12 @@ bool LoadMedia(string path)
     return result;
 }
 
+void ClearScreen(customcolour colour)
+{
+    SDL_SetRenderDrawColor( gRenderer, colour.red, colour.green, colour.blue, 0xFF );
+	SDL_RenderClear( gRenderer );
+}
+
 void PlotPixel( int x, int y, customcolour colour)
 {
     SDL_SetRenderDrawColor( gRenderer, colour.red, colour.green, colour.blue, 0xFF );
@@ -179,8 +185,23 @@ void PlotPixel( int x, int y, customcolour colour)
 
 }
 
-void ClearScreen(customcolour colour)
+void DrawRect(int dx, int dy, int width , int height, customcolour colour, bool fill = false)
 {
+    SDL_Rect outlineRect = { dx, dy, width, height };
     SDL_SetRenderDrawColor( gRenderer, colour.red, colour.green, colour.blue, 0xFF );
-	SDL_RenderClear( gRenderer );
+    if (fill)
+    {
+        SDL_RenderFillRect( gRenderer, &outlineRect  );
+    }
+    else
+    {
+        SDL_RenderDrawRect( gRenderer, &outlineRect );
+    }
+}
+
+void DrawLine(int ox, int oy, int tx, int ty, customcolour colour)
+{
+     //Draw line
+    SDL_SetRenderDrawColor( gRenderer, colour.red, colour.green, colour.blue, 0xFF );
+    SDL_RenderDrawLine( gRenderer, ox, oy, tx, ty );
 }

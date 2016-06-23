@@ -62,8 +62,10 @@ int main (int argc, char* args[] )
 		int x  = rand() % SCREEN_WIDTH + 1;
 		int y  = rand() % SCREEN_HEIGHT +1;
         customcolour col = colourlist[rand() % 151];
-
-        PlotPixel( x, y, col);
+        ClearScreen(Black);
+        DrawRect(SCREEN_WIDTH / 6, SCREEN_HEIGHT / 6, 10, 10 , Green, true);
+        DrawLine(200, 10, 300, 10, Blue);
+        //PlotPixel( x, y, col);
 
 		//Update screen
 		SDL_RenderPresent( gRenderer );

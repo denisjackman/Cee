@@ -27,6 +27,7 @@ extern SDL_Renderer*   gRenderer;
 extern SDL_Texture*    gTexture;
 
 extern customcolour Snow;
+extern customcolour Green;
 extern customcolour Snow_2;
 extern customcolour Snow_3;
 extern customcolour Snow_4;
@@ -177,7 +178,7 @@ extern customcolour Blue_Violet;
 extern customcolour Purple;
 extern customcolour Medium_Purple;
 extern customcolour Thistle;
-extern customcolour colourlist[151];
+extern customcolour colourlist[152];
 
 
 // Function Headers
@@ -186,7 +187,8 @@ void GameTerminate();
 SDL_Surface* loadSurface(string path);
 SDL_Texture* loadTexture( string path );
 bool LoadMedia(string path);
-void PlotPixel( int x, int y, customcolour col);
 void ClearScreen(customcolour col);
-
+void PlotPixel( int x, int y, customcolour col);
+void DrawRect( int dx, int dy, int width , int height, customcolour colour, bool fill = false);
+void DrawLine(int ox, int oy, int tx, int ty, customcolour colour);
 #endif

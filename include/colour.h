@@ -10,6 +10,7 @@ typedef struct customcolour
 };
 
 customcolour Snow = {"Snow",255,250,250};
+customcolour Green = {"Green",0,255,0};
 customcolour Snow_2 = {"Snow_2",238,233,233};
 customcolour Snow_3 = {"Snow_3",205,201,201};
 customcolour Snow_4 = {"Snow_4",139,137,137};
@@ -163,8 +164,9 @@ customcolour Thistle = {"Thistle",216,191,216};
 
 
 
-customcolour colourlist[151] = {
+customcolour colourlist[152] = {
 {"Snow",255,250,250},
+{"Green",0,255,0},
 {"Snow_2",238,233,233},
 {"Snow_3",205,201,201},
 {"Snow_4",139,137,137},
