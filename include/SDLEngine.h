@@ -185,7 +185,7 @@ extern customcolour colourlist[152];
 bool GameInitialise();
 void GameTerminate();
 SDL_Surface* loadSurface(string path);
-SDL_Texture* loadTexture( string path );
+SDL_Texture* loadTexture( string path, bool colKey = false, customcolour colour = White );
 bool LoadMedia(string path);
 void ClearScreen(customcolour col);
 void PlotPixel( int x, int y, customcolour col);

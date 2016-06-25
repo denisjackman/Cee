@@ -132,11 +132,11 @@ SDL_Surface* loadSurface(string path)
     return optimizedSurface;
 }
 
-SDL_Texture* loadTexture( string path )
+SDL_Texture* loadTexture( string path, bool colKey = false, customcolour colour = White )
 {
-	//The final texture
+	// The final texture
 	SDL_Texture* newTexture = NULL;
-	//Load image at specified path
+	// Load image at specified path
 	SDL_Surface* loadedSurface = IMG_Load( path.c_str() );
 	if( loadedSurface == NULL )
 	{
@@ -144,13 +144,18 @@ SDL_Texture* loadTexture( string path )
 	}
 	else
 	{
-		//Create texture from surface pixels
+	    if (colKey)
+	    {
+	        // if this is set to true then a colour needs to be set
+	        SDL_SetColorKey( loadedSurface, SDL_TRUE, SDL_MapRGB( loadedSurface->format, colour.red, colour.green, colour.blue) );
+	    }
+		// Create texture from surface pixels
         newTexture = SDL_CreateTextureFromSurface( gRenderer, loadedSurface );
 		if( newTexture == NULL )
 		{
 			Print( "Unable to create texture from " + path  + " ! SDL Error: "+ string(SDL_GetError()) );
 		}
-		//Get rid of old loaded surface
+		// Get rid of old loaded surface
 		SDL_FreeSurface( loadedSurface );
 	}
 	return newTexture;
