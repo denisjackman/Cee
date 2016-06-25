@@ -1,5 +1,5 @@
 #OBJS specifies which files to compile as part of the project
-OBJS =  ../include/SDLEngine.cpp ../include/general.cpp main.cpp
+OBJS =  ../../include/SDLEngine.cpp ../../include/general.cpp main.cpp
 SPRITE_OBJS =  sprite.cpp
 
 #CC specifies which compiler we're using

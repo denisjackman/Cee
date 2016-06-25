@@ -16,8 +16,8 @@
 #include <SDL2/SDL_mixer.h>
 
 // Custom Headers
-#include "../include/general.h"
-#include "../include/SDLEngine.h"
+#include "../../include/general.h"
+#include "../../include/SDLEngine.h"
 
 using namespace std;
 

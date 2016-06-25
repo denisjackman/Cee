@@ -24,15 +24,16 @@ int main(int argc, char* argv[])
     window = SDL_CreateWindow( SCREEN_TITLE, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
     renderer = SDL_CreateRenderer( window, -1, SDL_RENDERER_ACCELERATED );
 
-	/* load sprite */
-	temp   = SDL_LoadBMP("sprite.bmp");
-	sprite = SDL_CreateTextureFromSurface(renderer, temp);
-	SDL_FreeSurface(temp);
-
-
 	/* load grass */
 	temp  = SDL_LoadBMP("grass.bmp");
 	grass = SDL_CreateTextureFromSurface(renderer, temp);
+	SDL_FreeSurface(temp);
+
+	/* load sprite */
+	temp   = SDL_LoadBMP("sprite.bmp");
+	/* now we set the background to transparent ff00ff */
+	SDL_SetColorKey( temp, SDL_TRUE, SDL_MapRGB( temp->format, 0xFF, 0, 0xFF ) );
+	sprite = SDL_CreateTextureFromSurface(renderer, temp);
 	SDL_FreeSurface(temp);
 
 	/* set sprite position */
@@ -75,6 +76,7 @@ int main(int argc, char* argv[])
 		}
 
 		/* handle sprite movement */
+		/*
 		keystate = SDL_GetKeyboardState(NULL);
 
 		if (keystate[SDL_SCANCODE_LEFT] ) {
@@ -89,8 +91,8 @@ int main(int argc, char* argv[])
 		if (keystate[SDL_SCANCODE_DOWN] ) {
 			rcSprite.y += 2;
 		}
-
-		/* collide with edges of screen */
+        */
+		/* collide with edges of screen
 		if ( rcSprite.x < 0 ) {
 			rcSprite.x = 0;
 		}
@@ -103,6 +105,7 @@ int main(int argc, char* argv[])
 		else if ( rcSprite.y > SCREEN_HEIGHT-SPRITE_SIZE ) {
 			rcSprite.y = SCREEN_HEIGHT-SPRITE_SIZE;
 		}
+		*/
         rcScreen.x = rcSprite.x;
         rcScreen.y = rcSprite.y;
 		/* draw the grass */
