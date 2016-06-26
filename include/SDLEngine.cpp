@@ -32,8 +32,6 @@ char            *NAME_PROGRAM       = "Default Project";
 string          MEDIAFILE           = "files/texture.png";
 SDL_Window*     gWindow             = NULL;
 SDL_Surface*    gScreenSurface      = NULL;
-SDL_Surface*    gDisplaySurface     = NULL;
-SDL_Surface*    gStretchedSurface   = NULL;
 SDL_Renderer*   gRenderer           = NULL;
 SDL_Texture*    gTexture            = NULL;
 
