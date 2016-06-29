@@ -84,7 +84,8 @@ Game failed to load media !
 * [Open Dash](https://open.cdash.org)
 * [Bit Bucket](https://bitbucket.org)
 * [TileEd](http://www.mapeditor.org/)
-* [tinyxml](http://www.grinninglizard.com/tinyxml/)
+* [tinyxml2](http://www.grinninglizard.com/tinyxml2/index.html)
+* [tonyxml](http://www.grinninglizard.com/tinyxml/)
 
 ### C++ Links
 * [SDL Library](https://www.libsdl.org/index.php)
