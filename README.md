@@ -83,6 +83,8 @@ Game failed to load media !
 * [Shields IO](http://shields.io/)
 * [Open Dash](https://open.cdash.org)
 * [Bit Bucket](https://bitbucket.org)
+* [TileEd](http://www.mapeditor.org/)
+* [tinyxml](http://www.grinninglizard.com/tinyxml/)
 
 ### C++ Links
 * [SDL Library](https://www.libsdl.org/index.php)
