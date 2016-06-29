@@ -20,15 +20,12 @@ COMPILER_FLAGS = -w -std=gnu++0x --coverage -fprofile-arcs -ftest-coverage
 MAC_COMPILER_FLAGS = -w
 SDL_COMPILER_FLAGS = -w -std=c89 -Wextra -pedantic-errors
 DB_COMPILER_FLAGS = -w $(shell mysql_config --cflags )
-XML_COMPILER_FLAGS = -w
-
 
 #LINKER_FLAGS specifies the libraries we're linking against
 LINKER_FLAGS = -lSDL2 -lcppunit -fprofile-arcs -lgcov
 MAC_LINKER_FLAGS =
 SDL_LINKER_FLAGS = -lSDL2
 DB_LINKER_FLAGS = $(shell mysql_config --libs)
-XML_LINKER = -l
 
 #OBJ_NAME specifies the name of our exectuable
 OBJ_NAME = lesson
@@ -41,6 +38,7 @@ MAZE_OBJ_NAME = maze
 THREE_OBJ_NAME = threedun
 TWO_OBJ_NAME = twodun
 STUDY_OBJ_NAME = study
+XML_OBJ_NAME = xmlexample
 
 #This is the target that compiles our executable
 all : $(OBJS)
@@ -75,3 +73,6 @@ two : $(TWO_OBJS)
 
 study : $(STUDY_OBJS)
 	$(CC) $(STUDY_OBJS) $(MAC_COMPILER_FLAGS) $(MAC_LINKER_FLAGS) -o $(STUDY_OBJ_NAME)
+
+XML : $(XML_OBJS)
+	$(CC) $(XML_OBJS) $(MAC_COMPILER_FLAGS) $(MAC_LINKER_FLAGS) -o $(XML_OBJ_NAME)
