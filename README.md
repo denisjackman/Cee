@@ -86,6 +86,7 @@ Game failed to load media !
 * [TileEd](http://www.mapeditor.org/)
 * [tinyxml2](http://www.grinninglizard.com/tinyxml2/index.html)
 * [tonyxml](http://www.grinninglizard.com/tinyxml/)
+* [json](https://github.com/nlohmann/json)
 
 ### C++ Links
 * [SDL Library](https://www.libsdl.org/index.php)
@@ -104,6 +105,7 @@ Game failed to load media !
 * [More SDL Tutorials](http://www.willusher.io/pages/sdl2/)
 * [SDL-1.2:Sprite SDL](http://gamedevgeek.com/tutorials/moving-sprites-with-sdl/)
 * [SDL-1.2:Animated Sprites](http://gamedevgeek.com/tutorials/animating-sprites-with-sdl/)
+* [OPENGL and SDL](http://headerphile.com/)
 
 ## Books 
 * Game Programming in C++ 

@@ -24,7 +24,7 @@ bool Test1()
    // This reads an XML document
    XMLDocument doc;
 
-   XMLError eResult = doc.LoadFile("../../files/example1.xml");
+   XMLError eResult = doc.LoadFile("../../files/xml/example1.xml");
    if (eResult != XML_SUCCESS) return false;
    const char* hello = doc.FirstChildElement("Hello")->GetText();
    cout << hello << endl;
@@ -37,7 +37,7 @@ bool Test2()
    // This reads an XML document
    XMLDocument doc;
 
-   XMLError eResult = doc.LoadFile("../../files/example2.xml");
+   XMLError eResult = doc.LoadFile("../../files/xml/example2.xml");
    if (eResult != XML_SUCCESS) return false;
    const char* hello = doc.FirstChildElement("poetry")->FirstChildElement("verse")->GetText();
    cout << hello << endl;
@@ -50,7 +50,7 @@ bool Test3()
    // This reads an XML document
    XMLDocument doc;
 
-   XMLError eResult = doc.LoadFile("../../files/example3.xml");
+   XMLError eResult = doc.LoadFile("../../files/xml/example3.xml");
    if (eResult != XML_SUCCESS) return false;
 
    const char* hello = doc.FirstChildElement("shapes")->FirstChildElement("circle")->Attribute("name");
@@ -62,7 +62,7 @@ bool Test4()
 {
    // This reads an XML document
    XMLDocument doc;
-   XMLError eResult = doc.LoadFile("../../files/books.xml");
+   XMLError eResult = doc.LoadFile("../../files/xml/example4.xml");
    if (eResult != XML_SUCCESS)
    {
         return false;
@@ -78,7 +78,7 @@ bool Test5()
 {
     // This reads an XML document and iterates through the child elements of the
     XMLDocument doc;
-    XMLError eResult = doc.LoadFile("../../files/books.xml");
+    XMLError eResult = doc.LoadFile("../../files/xml/books.xml");
     if (eResult != XML_SUCCESS)
     {
         return false;
@@ -95,5 +95,3 @@ bool Test5()
     }
     return true;
 }
-
-
