@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<empleados>
+ <cantidad>UnaCantidad</cantidad>
+ <empleado>
+  <idEmpleado>1</idEmpleado>
+  <nombre>UnNombre1</nombre>
+  <apellidos>UnosApellidos1</apellidos>
+ </empleado>
+ <empleado>
+  <idEmpleado>2</idEmpleado>
+  <nombre>UnNombre2</nombre>
+  <apellidos>UnosApellidos2</apellidos>
+ </empleado>
+</empleados>

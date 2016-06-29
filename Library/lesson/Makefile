@@ -9,6 +9,7 @@ MAZE_OBJS = maze.cpp
 THREE_OBJS = threedun.cpp
 TWO_OBJS = twodun.cpp
 STUDY_OBJS = ../../include/rogue.cpp study.cpp
+XML_OBJS = xmlexample.cpp tinyxml2.cpp
 
 #CC specifies which compiler we're using
 CC = g++
@@ -19,6 +20,7 @@ COMPILER_FLAGS = -w -std=gnu++0x --coverage -fprofile-arcs -ftest-coverage
 MAC_COMPILER_FLAGS = -w
 SDL_COMPILER_FLAGS = -w -std=c89 -Wextra -pedantic-errors
 DB_COMPILER_FLAGS = -w $(shell mysql_config --cflags )
+XML_COMPILER_FLAGS = -w
 
 
 #LINKER_FLAGS specifies the libraries we're linking against
@@ -26,6 +28,7 @@ LINKER_FLAGS = -lSDL2 -lcppunit -fprofile-arcs -lgcov
 MAC_LINKER_FLAGS =
 SDL_LINKER_FLAGS = -lSDL2
 DB_LINKER_FLAGS = $(shell mysql_config --libs)
+XML_LINKER = -l
 
 #OBJ_NAME specifies the name of our exectuable
 OBJ_NAME = lesson
