@@ -23,3 +23,8 @@ has to be in the project folder
 
 the tinxml2.cpp has to be added to the compiler 
 *  g++ -Wall -DDEBUG tinyxml2.cpp xmlexample.cpp -o xmlexample
+
+## GIT
+Branches
+* git checkout -b new-feature-test 
+* git push origin new-feature-test 
