@@ -211,11 +211,11 @@ void DrawLine(int ox, int oy, int tx, int ty, customcolour colour)
     SDL_RenderDrawLine( gRenderer, ox, oy, tx, ty );
 }
 
-SDL_Texture* LoadFont(string path, string text, customcolour col)
+SDL_Texture* LoadFont(string path, string text, customcolour col, int size)
 {
     TTF_Font*       Font;
     SDL_Color       textColor = { static_cast<Uint8>(col.red), static_cast<Uint8>(col.green), static_cast<Uint8>(col.blue), 255 };
-    Font = TTF_OpenFont(path.c_str(),40);
+    Font = TTF_OpenFont(path.c_str(),size);
     // Font work
     // this should be turned into a function which returns a texture
     // It should take the text to display, co-ords (x,y as int)  and colour (red, green, blue as a customcolour) for the text
