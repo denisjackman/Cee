@@ -84,6 +84,11 @@ bool GameInitialise()
 					Print( "SDL_image could not initialize! SDL_image Error: "+ string(IMG_GetError()) );
 					result = false;
 				}
+				if(TTF_Init() == -1)
+				{
+					Print( "SDL_ttf could not initialize! SDL_ttf Error: "+ string(TTF_GetError()) );
+					result = false;
+				}
 			}
         }
     }
@@ -204,4 +209,22 @@ void DrawLine(int ox, int oy, int tx, int ty, customcolour colour)
      //Draw line
     SDL_SetRenderDrawColor( gRenderer, colour.red, colour.green, colour.blue, 0xFF );
     SDL_RenderDrawLine( gRenderer, ox, oy, tx, ty );
+}
+
+SDL_Texture* LoadFont(string path, string text, customcolour col)
+{
+    TTF_Font*       Font;
+    SDL_Color       textColor = { static_cast<Uint8>(col.red), static_cast<Uint8>(col.green), static_cast<Uint8>(col.blue), 255 };
+    Font = TTF_OpenFont(path.c_str(),40);
+    // Font work
+    // this should be turned into a function which returns a texture
+    // It should take the text to display, co-ords (x,y as int)  and colour (red, green, blue as a customcolour) for the text
+    //
+    SDL_Surface* fTemp = NULL;
+    SDL_Texture* fTexture;
+  	fTemp = TTF_RenderText_Solid( Font, text.c_str(), textColor );
+	fTexture = SDL_CreateTextureFromSurface( gRenderer, fTemp );
+    SDL_FreeSurface( fTemp);
+    TTF_CloseFont( Font );
+    return fTexture;
 }

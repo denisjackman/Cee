@@ -10,6 +10,7 @@ THREE_OBJS = threedun.cpp
 TWO_OBJS = twodun.cpp
 STUDY_OBJS = ../../include/rogue.cpp study.cpp
 XML_OBJS = xmlexample.cpp tinyxml2.cpp
+VP_OBJS = viewpoint.cpp
 
 #CC specifies which compiler we're using
 CC = g++
@@ -18,13 +19,13 @@ CC = g++
 # -w suppresses all warnings
 COMPILER_FLAGS = -w -std=gnu++0x --coverage -fprofile-arcs -ftest-coverage
 MAC_COMPILER_FLAGS = -w
-SDL_COMPILER_FLAGS = -w -std=c89 -Wextra -pedantic-errors
+SDL_COMPILER_FLAGS = -w -std=gnu++0x
 DB_COMPILER_FLAGS = -w $(shell mysql_config --cflags )
 
 #LINKER_FLAGS specifies the libraries we're linking against
 LINKER_FLAGS = -lSDL2 -lcppunit -fprofile-arcs -lgcov
 MAC_LINKER_FLAGS =
-SDL_LINKER_FLAGS = -lSDL2
+SDL_LINKER_FLAGS = -L/usr/local/lib -lSDL2 -lSDL2_image
 DB_LINKER_FLAGS = $(shell mysql_config --libs)
 
 #OBJ_NAME specifies the name of our exectuable
@@ -39,6 +40,7 @@ THREE_OBJ_NAME = threedun
 TWO_OBJ_NAME = twodun
 STUDY_OBJ_NAME = study
 XML_OBJ_NAME = xmlexample
+VP_OBJ_NAME = viewpoint
 
 #This is the target that compiles our executable
 all : $(OBJS)
@@ -76,3 +78,7 @@ study : $(STUDY_OBJS)
 
 XML : $(XML_OBJS)
 	$(CC) $(XML_OBJS) $(MAC_COMPILER_FLAGS) $(MAC_LINKER_FLAGS) -o $(XML_OBJ_NAME)
+
+VP : $(VP_OBJS)
+	$(CC) $(VP_OBJS) $(SDL_COMPILER_FLAGS) $(SDL_LINKER_FLAGS) -o $(VP_OBJ_NAME)
+

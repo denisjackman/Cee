@@ -191,4 +191,6 @@ void ClearScreen(customcolour col);
 void PlotPixel( int x, int y, customcolour col);
 void DrawRect( int dx, int dy, int width , int height, customcolour colour, bool fill = false);
 void DrawLine(int ox, int oy, int tx, int ty, customcolour colour);
+SDL_Texture* LoadFont(string path, string text, customcolour col);
+
 #endif
