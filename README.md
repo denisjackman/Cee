@@ -106,6 +106,7 @@ Game failed to load media !
 * [SDL-1.2:Sprite SDL](http://gamedevgeek.com/tutorials/moving-sprites-with-sdl/)
 * [SDL-1.2:Animated Sprites](http://gamedevgeek.com/tutorials/animating-sprites-with-sdl/)
 * [OPENGL and SDL](http://headerphile.com/)
+* [SDL TTF](http://www.sdltutorials.com/sdl-ttf)
 
 ## Books 
 * Game Programming in C++ 
