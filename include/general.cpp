@@ -37,3 +37,10 @@ void Print(string OutputString)
     }
     cout << OutputString << endl;
 }
+
+void Pause()
+{
+   do {
+       cout << endl << "Press the Enter key to continue.";
+   } while (cin.get() != '\n');
+}

@@ -7,5 +7,6 @@ using namespace std;
 void DebugModeInitialise();
 void DebugModeTerminate();
 void Print(string OutputString);
+void Pause();
 
 #endif
