@@ -1,12 +1,7 @@
-//Michael Barker
-//Program that rolls 2 dice
-
 #include<iostream>
 #include<ctime>
 #include<cstdlib>
 using namespace std;
-
-
 
 int main()
 {
@@ -16,7 +11,7 @@ int main()
     {
         d1 = rand() % 20 + 1 ;
         d2 = rand() % 20 + 1 ;
-        cout << "You rolled a " << d1 << " " << d2 << endl;
+        cout << "You rolled a " << d1 << " and a " << d2 << endl;
     }
     return 0;
 }

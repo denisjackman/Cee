@@ -43,7 +43,7 @@ int main (int argc, char* args[] )
     {
         if (!LoadMedia(MEDIAFILE))
         {
-            Print("Game failed to load media !");
+            Print("Game failed to load media ! - " + string(MEDIAFILE ));
         }
         else
         {
