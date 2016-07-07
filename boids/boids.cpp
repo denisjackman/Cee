@@ -87,7 +87,19 @@ General Variables:
 #include "../include/SDLEngine.h"
 #include "boid.h"
 
+namespace mapping
+{
+    enum direction_t
+    {
+        east,
+        south,
+        west,
+        north
+    };
+}
+
 using namespace std;
+using namespace mapping;
 
 void renderBird(int x, int y, customcolour colour, int width = 5);
 void renderLineBird(int x, int y, customcolour colour, int width = 5, int dir = 0);

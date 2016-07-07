@@ -1,8 +1,6 @@
 #ifndef SDLENGINE_H
 #define SDLENGINE_H
 
-using namespace std;
-
 typedef struct customcolour
 {
     char    *name;
@@ -18,7 +16,7 @@ extern char            *SCREEN_TITLE;
 extern int             PROGRAM_TIMER;
 extern char            *VERSION;
 extern char            *NAME_PROGRAM;
-extern string          MEDIAFILE;
+extern std::string          MEDIAFILE;
 extern SDL_Window*     gWindow;
 extern SDL_Surface*    gScreenSurface;
 extern SDL_Surface*    gDisplaySurface;
@@ -184,13 +182,13 @@ extern customcolour colourlist[152];
 // Function Headers
 bool GameInitialise();
 void GameTerminate();
-SDL_Surface* loadSurface(string path);
-SDL_Texture* loadTexture( string path, bool colKey = false, customcolour colour = White );
-bool LoadMedia(string path);
+SDL_Surface* loadSurface( std::string path);
+SDL_Texture* loadTexture( std::string path, bool colKey = false, customcolour colour = White );
+bool LoadMedia( std::string path);
 void ClearScreen(customcolour col);
 void PlotPixel( int x, int y, customcolour col);
 void DrawRect( int dx, int dy, int width , int height, customcolour colour, bool fill = false);
-void DrawLine(int ox, int oy, int tx, int ty, customcolour colour);
-SDL_Texture* LoadFont(string path, string text, customcolour col, int size);
+void DrawLine( int ox, int oy, int tx, int ty, customcolour colour);
+SDL_Texture* LoadFont( std::string path, std::string text, customcolour col, int size);
 
 #endif

@@ -1,9 +1,7 @@
 #ifndef MONSTER_H
 #define MONSTER_H
 
-using namespace std;
-
-string attack_type[] = {
+std::string attack_type[] = {
 "Blank",
 "Normal attack",
 "Poison Strength",
@@ -31,7 +29,7 @@ string attack_type[] = {
 "Eats charges"
 };
 
-string attack_description[] = {
+std::string attack_description[] = {
 "is repelled.",
 "hits you.",
 "bites you.",
