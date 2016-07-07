@@ -85,48 +85,12 @@ General Variables:
 #include "../include/general.h"
 #include "../include/gamefunction.h"
 #include "../include/SDLEngine.h"
+#include "boid.h"
 
 using namespace std;
 
-class Boid{
-public:
-    Boid (int, int, bool);
-    void setx(int);
-    void sety(int);
-    void setleader(bool);
-    int posx(){return x;};
-    int posy(){return y;};
-    bool isLeader(){return leader;};
-private:
-    int     x;
-    int     y;
-    bool    leader;
-};
-
-Boid::Boid (int tx, int ty, bool tleader)
-{
-    x = tx;
-    y = ty;
-    leader = tleader;
-}
-
-void Boid::sety(int ty)
-{
-    y = ty;
-}
-
-void Boid::setx(int tx)
-{
-    x = tx;
-}
-
-void Boid::setleader(bool tleader)
-{
-    leader = tleader;
-}
-
-
-void renderBird(int x, int y, customcolour colour);
+void renderBird(int x, int y, customcolour colour, int width = 5);
+void renderLineBird(int x, int y, customcolour colour, int width = 5, int dir = 0);
 
 //Main code
 int main (int argc, char* args[] )
@@ -140,6 +104,8 @@ int main (int argc, char* args[] )
     MEDIAFILE           = "../files/texture.png";
     Boid                bird (20,20,false);
     Boid                emu (20,40,false);
+    Boid                ostrich (20,20,false);
+    Boid                hen (20,40,false);
 
   	Print(" -- " + string(NAME_PROGRAM) + " " + string(VERSION) + " (Test) -- ");
 	Print(" --- Starting ---");
@@ -169,21 +135,34 @@ int main (int argc, char* args[] )
 			//Clear screen
 			SDL_RenderClear( gRenderer );
 
-            renderBird(bird.posx(), bird.posy(), Red);
-            renderBird(emu.posx(), emu.posy(), Blue);
+            renderLineBird(bird.posx(), bird.posy(), Red, 10  );
+            renderLineBird(emu.posx(), emu.posy(), Blue, 10, 1);
+            renderLineBird(ostrich.posx(), ostrich.posy(), Green, 10,2  );
+            renderLineBird(hen.posx(), hen.posy(), White, 10, 3);
 
             emu.sety(emu.posy() + 1);
+            hen.sety(hen.posy() - 1);
+
             if (emu.posy() > SCREEN_HEIGHT)
             {
                 emu.sety(0);
             }
+            if (hen.posy() < 0)
+            {
+                hen.sety(SCREEN_HEIGHT);
+            }
 
             bird.setx(bird.posx() + 1);
+            ostrich.setx(ostrich.posx() -1);
+
             if (bird.posx() > SCREEN_WIDTH)
             {
                 bird.setx(0);
             }
-
+            if (ostrich.posx() < 0)
+            {
+                ostrich.setx(SCREEN_WIDTH);
+            }
 			//Render texture to screen
 			SDL_RenderCopy( gRenderer, gTexture, NULL, NULL );
 
@@ -196,10 +175,71 @@ int main (int argc, char* args[] )
   	return 0;
 }
 
-void renderBird(int x, int y, customcolour colour)
+void renderBird(int x, int y, customcolour colour, int width)
 {
-            //Render red filled quad
-            SDL_Rect birdRect = { x, y, 5, 5 };
-            SDL_SetRenderDrawColor( gRenderer, colour.red , colour.green , colour.blue, 0xFF );
-            SDL_RenderFillRect( gRenderer, &birdRect );
+    SDL_Rect birdRect = { x, y, width , width  };
+    SDL_SetRenderDrawColor( gRenderer, colour.red , colour.green , colour.blue, 0xFF );
+    SDL_RenderFillRect( gRenderer, &birdRect );
+}
+
+void renderLineBird(int x, int y, customcolour colour, int width, int dir )
+{
+    int ax;
+    int ay;
+    int bx;
+    int by;
+    int cx;
+    int cy;
+    switch(dir)
+    {
+        case 0:
+        {
+            // East
+            bx = x;
+            by = y;
+            ax = x - width;
+            ay = y - (width/2);
+            cx = x - width;
+            cy = y + (width/2);
+            break;
+        }
+        case 1:
+        {
+            // South
+            bx = x;
+            by = y;
+            ax = x + (width/2);
+            ay = y - width;
+            cx = x - (width/2);
+            cy = y - width ;
+            break;
+        }
+        case 2:
+        {
+            // West
+            ax = x;
+            ay = y;
+            bx = x + width;
+            by = y - (width/2);
+            cx = x + width;
+            cy = y + (width/2) ;
+            break;
+        }
+        case 3:
+        {
+            // North
+            ax = x;
+            ay = y;
+            bx = x + (width/2);
+            by = y + width;
+            cx = x - (width/2);
+            cy = y + width ;
+            break;
+        }
+     }
+    SDL_SetRenderDrawColor( gRenderer, colour.red , colour.green , colour.blue, 0xFF );
+    SDL_RenderDrawLine( gRenderer, ax, ay, bx, by );
+    SDL_RenderDrawLine( gRenderer, bx, by, cx, cy );
+    SDL_RenderDrawLine( gRenderer, cx, cy, ax, ay );
+
 }
