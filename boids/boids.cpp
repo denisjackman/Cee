@@ -1,3 +1,69 @@
+/*
+Name        :   boids.cpp
+Author      :   Denis Jackman
+Date        :   07/07/2016
+Version     :   10:43:00
+Function    :   This is a flocking modeller for Bird Androids (Boids) passed on a number of references
+Compile     :   make
+                g++ ../include/general.cpp ../include/SDLEngine.cpp ../include/gamefunction.cpp boids.cpp -w -std=gnu++0x -I/usr/local/include -L/usr/local/lib  -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -o boids
+
+Change History
+Name        :   Date        :   Version :   Reason
+D Jackman   :   07/07/2016  :   1:00:00 :   Original Version
+
+To Do List
+TODO: 001 Add the rules
+TODO: 002 Add Extra Rules
+TODO: 003 Add goals for the boids to move toward
+TODO: 004 Add wind or current that "blows" the boids around
+TODO: 005 Have boids tend towards a place; travel through waypoints
+TODO: 006 Limit (or unlimit) a boid's speed
+TODO: 007 Set bounds for boids
+TODO: 008 Allow boids to "perch" on the ground at random.
+TODO: 009 anti-flocking behaviour
+TODO: 010 Get the boid group to scatter from each other; add more rules
+TODO: 011 Send the boids away from certain areas; danger or obstacles
+TODO: 012 Introduce predators that boids will always run from
+TODO: 013 some other details
+TODO: 014 Boids need to "see" each other
+TODO: 015 Unseen boids should be ignored
+TODO: 016 Refer to the original algorithm
+TODO: 017 The timing engine needs redesign
+TODO: 018 Change updating system to that used by QuizMe
+
+Reference Material
+001 http://www.red3d.com/cwr/papers/1987/boids.html
+002 http://www.red3d.com/cwr/boids/
+003 http://www.red3d.com/cwr/nobump/nobump.html
+004 http://harry.me/blog/2011/02/17/neat-algorithms-flocking/
+005 https://processing.org/examples/flocking.html
+006 https://codea.io/talk/discussion/697/boids-a-simple-implementation-of-flocking-behaviors
+007 http://natureofcode.com/book/chapter-6-autonomous-agents/
+008 http://lyndonarmitage.com/boids-flocking-behaviour-tutorial-part-1-the-engine/
+*/
+
+/*
+Basic Rules for Boids:
+    Separation:     Avoid crowding local flock members.
+    Alignment:      Keep to the Average direction of the flock.
+    Cohesion:       Keep to an average position of the flock.
+*/
+
+/*
+Boid Attributes:
+    Direction
+    Speed
+    IsLeader
+*/
+
+/*
+General Variables:
+    Separation Distance:
+    Cohesion Distance:
+    Leader Colour:
+    Flock Colour:
+*/
+
 // Standard headers
 #include <ctime>
 #include <cstdlib>
@@ -22,6 +88,46 @@
 
 using namespace std;
 
+class Boid{
+public:
+    Boid (int, int, bool);
+    void setx(int);
+    void sety(int);
+    void setleader(bool);
+    int posx(){return x;};
+    int posy(){return y;};
+    bool isLeader(){return leader;};
+private:
+    int     x;
+    int     y;
+    bool    leader;
+};
+
+Boid::Boid (int tx, int ty, bool tleader)
+{
+    x = tx;
+    y = ty;
+    leader = tleader;
+}
+
+void Boid::sety(int ty)
+{
+    y = ty;
+}
+
+void Boid::setx(int tx)
+{
+    x = tx;
+}
+
+void Boid::setleader(bool tleader)
+{
+    leader = tleader;
+}
+
+
+void renderBird(int x, int y, customcolour colour);
+
 //Main code
 int main (int argc, char* args[] )
 {
@@ -32,6 +138,8 @@ int main (int argc, char* args[] )
     VERSION             = "V0.00.00";
     NAME_PROGRAM        = "Boids";
     MEDIAFILE           = "../files/texture.png";
+    Boid                bird (20,20,false);
+    Boid                emu (20,40,false);
 
   	Print(" -- " + string(NAME_PROGRAM) + " " + string(VERSION) + " (Test) -- ");
 	Print(" --- Starting ---");
@@ -41,41 +149,57 @@ int main (int argc, char* args[] )
     }
     else
     {
-        if (!LoadMedia(MEDIAFILE))
-        {
-            Print("Game failed to load media ! - " + string(MEDIAFILE ));
-        }
-        else
-        {
-            //Main loop flag
-            bool boidLoop = true;
-            //Event handler
-            SDL_Event boidEvent;
-            //While application is running
-	        while ( boidLoop )
-    	    {
-	            //Handle events on queue
-		        while ( SDL_PollEvent(&boidEvent ) != 0 )
-		        {
-			        //User requests quit
-			        if ( boidEvent.type == SDL_QUIT)
-			        {
-				        boidLoop = false;
-			        }
-		        }
+        //Main loop flag
+        bool boidLoop = true;
+        //Event handler
+        SDL_Event boidEvent;
+        //While application is running
+	    while ( boidLoop )
+    	{
+	        //Handle events on queue
+		    while ( SDL_PollEvent(&boidEvent ) != 0 )
+		    {
+			    //User requests quit
+			    if ( boidEvent.type == SDL_QUIT)
+			    {
+				    boidLoop = false;
+			    }
+		    }
+		    ClearScreen(Black);
+			//Clear screen
+			SDL_RenderClear( gRenderer );
 
-				//Clear screen
-				SDL_RenderClear( gRenderer );
+            renderBird(bird.posx(), bird.posy(), Red);
+            renderBird(emu.posx(), emu.posy(), Blue);
 
-				//Render texture to screen
-				SDL_RenderCopy( gRenderer, gTexture, NULL, NULL );
+            emu.sety(emu.posy() + 1);
+            if (emu.posy() > SCREEN_HEIGHT)
+            {
+                emu.sety(0);
+            }
 
-				//Update screen
-				SDL_RenderPresent( gRenderer );
-	        }
+            bird.setx(bird.posx() + 1);
+            if (bird.posx() > SCREEN_WIDTH)
+            {
+                bird.setx(0);
+            }
+
+			//Render texture to screen
+			SDL_RenderCopy( gRenderer, gTexture, NULL, NULL );
+
+			//Update screen
+			SDL_RenderPresent( gRenderer );
 	     }
 	}
 	GameTerminate();
 	Print(" --- Ending ---");
   	return 0;
+}
+
+void renderBird(int x, int y, customcolour colour)
+{
+            //Render red filled quad
+            SDL_Rect birdRect = { x, y, 5, 5 };
+            SDL_SetRenderDrawColor( gRenderer, colour.red , colour.green , colour.blue, 0xFF );
+            SDL_RenderFillRect( gRenderer, &birdRect );
 }

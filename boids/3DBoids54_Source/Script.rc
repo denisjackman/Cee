@@ -1,0 +1,235 @@
+/*  Filename:       Script.rc
+    Author:         Robert Platt
+    Creation date:  15/06/1999
+    Modified:       13/05/2000
+    Version:        0.54
+    Description:    The boids application's MFC resources.
+*/
+
+
+#include "resource.h"
+#include <afxres.h>
+
+
+// Menu.
+MFCMENU MENU  DISCARDABLE
+{
+    POPUP "&Main"
+    {
+        MENUITEM "Load Configuration...",            IDM_LOAD
+        MENUITEM "Save Configuration...",            IDM_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Start/Stop\tSpace"                IDM_START_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tESC",                       IDM_EXIT
+    }
+    POPUP "&Camera View"
+    {
+        MENUITEM "From &Above\tNumPad5",             IDM_CAMERA_ABOVE
+        MENUITEM "To &Boid\tNumPad*",                IDM_CAMERA_BOID
+        MENUITEM "Looking &North\tNumPad8",          IDM_CAMERA_NORTH
+        MENUITEM "Looking &East\tNumPad6",           IDM_CAMERA_EAST
+        MENUITEM "Looking &South\tNumPad2",          IDM_CAMERA_SOUTH
+        MENUITEM "Looking &West\tNumPad4",           IDM_CAMERA_WEST
+        MENUITEM SEPARATOR
+        MENUITEM "+ Camera Position\tUp Arrow",      IDM_CAMERA_UP
+        MENUITEM "- Camera Position\tDown Arrow",    IDM_CAMERA_DOWN
+        MENUITEM "+ Camera Rotation\tRight Arrow",   IDM_CAMERA_RIGHT
+        MENUITEM "- Camera Rotation\tLeft Arrow",    IDM_CAMERA_LEFT
+        MENUITEM "Centre Rotation\tHome",            IDM_CAMERA_CENTRE
+    }
+    POPUP "&Objects"
+    {
+        MENUITEM "&Wireframe\tF5",                   IDM_WIREFRAME
+        MENUITEM "&Unlit Flat\tF6",                  IDM_UNLITFLAT
+        MENUITEM "&Flat\tF7",                        IDM_FLAT
+        MENUITEM "&Gouraud\tF8",                     IDM_GOURAUD
+        MENUITEM SEPARATOR
+        MENUITEM "&Add Flyer\t=",                    IDM_ADD_FLYER
+        MENUITEM "&Remove Flyer\t-",                 IDM_REMOVE_FLYER
+        MENUITEM "+ Flyer Size\t]",                  IDM_INC_FLYER_SIZE
+        MENUITEM "- Flyer Size\t[",                  IDM_DEC_FLYER_SIZE
+        MENUITEM SEPARATOR
+        POPUP "Flyer &Mesh"
+	{
+            MENUITEM "&Tetrahedron\tCTRL+T"          IDM_TETRA
+            MENUITEM "&Small Bird\tCTRL+S"           IDM_SMALL_BIRD
+            MENUITEM "&Animated Bird\tCTRL+A"        IDM_ANIM_BIRD
+	}
+        POPUP "Flyer &Colour"
+	{
+            MENUITEM "&White\t1"                     IDM_FLYER_WHITE
+            MENUITEM "&Yellow\t2"                    IDM_FLYER_YELLOW
+            MENUITEM "&Pink\t3"                      IDM_FLYER_PINK
+	}
+    }
+    POPUP "&Landscape"
+    {
+        MENUITEM "&None\tCTRL+N",                    IDM_LAND_NONE
+        MENUITEM SEPARATOR
+        MENUITEM "&Wireframe\tF9",                   IDM_LAND_WIREFRAME
+        MENUITEM "&Unlit Flat\tF10",                 IDM_LAND_UNLITFLAT
+        MENUITEM "&Flat\tF11",                       IDM_LAND_FLAT
+        MENUITEM "&Gouraud\tF12",                    IDM_LAND_GOURAUD
+        MENUITEM SEPARATOR
+        POPUP "&Solid Colouring"
+	{
+            MENUITEM "&Green\t6"                     IDM_SOLID_COLOUR_GREEN
+            MENUITEM "&Checkered\t7"                 IDM_SOLID_COLOUR_CHECKERED
+	}
+        MENUITEM SEPARATOR
+        MENUITEM "&Recalculate\tCTRL+R",             IDM_LAND_RECALCULATE
+    }
+    POPUP "&Behaviour"
+    {
+        MENUITEM "&Flock Forming\tCTRL+F",           IDM_FLOCKFORMING
+        MENUITEM "&Velocity Matching\tCTRL+V",       IDM_VELOCITYMATCHING
+        MENUITEM "&Collision Avoidance\tCTRL+C",     IDM_COLLISIONAVOIDANCE
+        MENUITEM SEPARATOR
+        MENUITEM "Flyer Attributes...",              IDM_FLYER_ATTRIBUTES
+    }
+    POPUP "&Display Mode"
+    {
+        MENUITEM "&Full Screen\tAlt+Enter",          IDM_SWITCH_FS_MODE
+        MENUITEM "&Select Mode...\tF4",              IDM_SELECT_MODE
+        MENUITEM SEPARATOR
+        POPUP "Set &Window Size"
+	{
+            MENUITEM "&640 x 480\tCTRL+1"            IDM_WIN_640_480
+            MENUITEM "&800 x 600\tCTRL+2"            IDM_WIN_800_600
+            MENUITEM "&1024 x 768\tCTRL+3"           IDM_WIN_1024_768
+	}
+        MENUITEM SEPARATOR
+        MENUITEM "Show &Control Panel\tTAB",         IDM_TOGGLE_CONTROL_PANEL
+    }
+    POPUP "&Help"
+    {
+        MENUITEM "&About\tF1",                       IDM_ABOUT
+    }
+}
+
+
+// Accelerator keys.
+ACCELKEYS ACCELERATORS
+{
+    VK_SPACE, IDM_START_STOP, VIRTKEY;
+
+    VK_RETURN, IDM_SWITCH_FS_MODE, VIRTKEY, ALT;
+    VK_F4, IDM_SELECT_MODE, VIRTKEY;
+
+    "F", IDM_FLOCKFORMING, VIRTKEY, CONTROL;
+    "V", IDM_VELOCITYMATCHING, VIRTKEY, CONTROL;
+    "C", IDM_COLLISIONAVOIDANCE, VIRTKEY, CONTROL;
+
+    VK_F1, IDM_ABOUT, VIRTKEY;
+
+    "=", IDM_ADD_FLYER, ASCII;
+    "-", IDM_REMOVE_FLYER, ASCII;
+    "]", IDM_INC_FLYER_SIZE, ASCII;
+    "[", IDM_DEC_FLYER_SIZE, ASCII;
+
+    "T", IDM_TETRA, VIRTKEY, CONTROL;
+    "S", IDM_SMALL_BIRD, VIRTKEY, CONTROL;
+    "A", IDM_ANIM_BIRD, VIRTKEY, CONTROL;
+
+    "1", IDM_FLYER_WHITE, VIRTKEY;
+    "2", IDM_FLYER_YELLOW, VIRTKEY;
+    "3", IDM_FLYER_PINK, VIRTKEY;
+
+    VK_F5, IDM_WIREFRAME, VIRTKEY;
+    VK_F6, IDM_UNLITFLAT, VIRTKEY;
+    VK_F7, IDM_FLAT, VIRTKEY;
+    VK_F8, IDM_GOURAUD, VIRTKEY;
+
+    VK_F9, IDM_LAND_WIREFRAME, VIRTKEY;
+    VK_F10, IDM_LAND_UNLITFLAT, VIRTKEY;
+    VK_F11, IDM_LAND_FLAT, VIRTKEY;
+    VK_F12, IDM_LAND_GOURAUD, VIRTKEY;
+
+    "R", IDM_LAND_RECALCULATE, VIRTKEY, CONTROL;
+    "N", IDM_LAND_NONE, VIRTKEY, CONTROL;
+
+    "6", IDM_SOLID_COLOUR_GREEN, VIRTKEY;
+    "7", IDM_SOLID_COLOUR_CHECKERED, VIRTKEY;
+
+    VK_NUMPAD5, IDM_CAMERA_ABOVE, VIRTKEY;
+    VK_NUMPAD8, IDM_CAMERA_NORTH, VIRTKEY;
+    VK_NUMPAD4, IDM_CAMERA_WEST, VIRTKEY;
+    VK_NUMPAD6, IDM_CAMERA_EAST, VIRTKEY;
+    VK_NUMPAD2, IDM_CAMERA_SOUTH, VIRTKEY;
+    VK_MULTIPLY, IDM_CAMERA_BOID, VIRTKEY;
+
+    VK_UP, IDM_CAMERA_UP, VIRTKEY;
+    VK_DOWN, IDM_CAMERA_DOWN, VIRTKEY;
+    VK_LEFT, IDM_CAMERA_LEFT, VIRTKEY;
+    VK_RIGHT, IDM_CAMERA_RIGHT, VIRTKEY;
+    VK_HOME, IDM_CAMERA_CENTRE, VIRTKEY;
+
+    "1", IDM_WIN_640_480, VIRTKEY, CONTROL;
+    "2", IDM_WIN_800_600, VIRTKEY, CONTROL;
+    "3", IDM_WIN_1024_768, VIRTKEY, CONTROL;
+
+    VK_TAB, IDM_TOGGLE_CONTROL_PANEL, VIRTKEY;
+
+    VK_ESCAPE, IDK_ESC_KEY, VIRTKEY;
+}
+
+
+// Meshes.
+IDR_MESH_TETRA          MESH      DISCARDABLE      "tetra.x"
+IDR_MESH_BIRD           MESH      DISCARDABLE      "bird.x"
+IDR_MESH_BIRDBODY       MESH      DISCARDABLE      "birdbody.x"
+IDR_MESH_LEFTWING       MESH      DISCARDABLE      "leftwing.x"
+IDR_MESH_RIGHTWING      MESH      DISCARDABLE      "rightwing.x"
+
+
+// Dialogs.
+// Dialog to select a display mode.
+IDD_DISPLAYMODE_DIALOG  DIALOG  DISCARDABLE  0, 0, 239, 121
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Full Screen Display Mode Selection"
+FONT 8, "MS Sans Serif"
+{
+    DEFPUSHBUTTON   "&Activate", IDB_DISPLAYMODE_ACTIVATE, 30, 80, 50, 14
+    PUSHBUTTON      "Set &Default", IDB_DISPLAYMODE_DEFAULT, 97, 80, 50, 14
+    PUSHBUTTON      "&Cancel", IDB_DISPLAYMODE_CANCEL, 164, 80, 50, 14
+    COMBOBOX        IDC_MODES_COMBO, 45, 39, 126, 77, CBS_DROPDOWNLIST |
+                                                      WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Please Select The Display Mode:", IDS_SCREENMODE_TEXT,
+                                                                 45, 22, 136, 9
+}
+
+
+IDD_ATTRIBUTES_DIALOG  DIALOG  DISCARDABLE  0, 0, 317, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Flyer Attributes"
+FONT 8, "MS Sans Serif"
+{
+    DEFPUSHBUTTON   "&Set", IDB_ATTR_SET, 41, 115, 50, 14
+    PUSHBUTTON      "&Cancel", IDCANCEL, 121, 115, 50, 14
+    PUSHBUTTON      "&Defaults", IDB_ATTR_DEFAULTS, 202, 115, 50, 14
+    LTEXT           "Acceleration Rate", IDC_STATIC, 13, 16, 74, 8
+    EDITTEXT        IDC_EDIT_ACC, 96, 14, 40, 13, ES_AUTOHSCROLL
+    LTEXT           "Angle of Vision (deg)", IDC_STATIC, 13, 33, 71, 8
+    EDITTEXT        IDC_EDIT_ANG, 96, 31, 40, 13, ES_AUTOHSCROLL
+    LTEXT           "Collision Distance", IDC_STATIC, 13, 50, 75, 8
+    EDITTEXT        IDC_EDIT_COL, 96, 48, 40, 13, ES_AUTOHSCROLL
+    LTEXT           "Flock Forming Distance", IDC_STATIC, 13, 67, 77, 8
+    EDITTEXT        IDC_EDIT_FFD, 96, 65, 40, 13, ES_AUTOHSCROLL
+    LTEXT           "Flocking Radius", IDC_STATIC, 13, 84, 77, 8
+    EDITTEXT        IDC_EDIT_FRA, 96, 82, 40, 13, ES_AUTOHSCROLL
+    LTEXT           "Maximum Speed", IDC_STATIC, 167, 16, 74, 8
+    EDITTEXT        IDC_EDIT_MXS, 255, 14, 40, 13, ES_AUTOHSCROLL
+    LTEXT           "Minimum Speed", IDC_STATIC, 167, 33, 71, 8
+    EDITTEXT        IDC_EDIT_MNS, 255, 31, 40, 13, ES_AUTOHSCROLL
+    LTEXT           "Range of Flock Headings", IDC_STATIC, 167, 50, 81, 8
+    EDITTEXT        IDC_EDIT_RFH, 255, 48, 40, 13, ES_AUTOHSCROLL
+    LTEXT           "Wing Strokes Per Second", IDC_STATIC, 167, 67, 83, 8
+    EDITTEXT        IDC_EDIT_WSS, 255, 65, 40, 13, ES_AUTOHSCROLL
+}
+
+
+// Icon.
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON         ICON       DISCARDABLE      "3DBoids.ico"
