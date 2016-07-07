@@ -102,7 +102,7 @@ using namespace std;
 using namespace mapping;
 
 void renderBird(int x, int y, customcolour colour, int width = 5);
-void renderLineBird(int x, int y, customcolour colour, int width = 5, int dir = 0);
+void renderLineBird(int x, int y, customcolour colour, int width = 5, direction_t dir = east);
 
 //Main code
 int main (int argc, char* args[] )
@@ -148,9 +148,9 @@ int main (int argc, char* args[] )
 			SDL_RenderClear( gRenderer );
 
             renderLineBird(bird.posx(), bird.posy(), Red, 10  );
-            renderLineBird(emu.posx(), emu.posy(), Blue, 10, 1);
-            renderLineBird(ostrich.posx(), ostrich.posy(), Green, 10,2  );
-            renderLineBird(hen.posx(), hen.posy(), White, 10, 3);
+            renderLineBird(emu.posx(), emu.posy(), Blue, 10, south);
+            renderLineBird(ostrich.posx(), ostrich.posy(), Green, 10, west );
+            renderLineBird(hen.posx(), hen.posy(), White, 10, north);
 
             emu.sety(emu.posy() + 1);
             hen.sety(hen.posy() - 1);
@@ -194,7 +194,7 @@ void renderBird(int x, int y, customcolour colour, int width)
     SDL_RenderFillRect( gRenderer, &birdRect );
 }
 
-void renderLineBird(int x, int y, customcolour colour, int width, int dir )
+void renderLineBird(int x, int y, customcolour colour, int width, direction_t dir  )
 {
     int ax;
     int ay;
@@ -204,7 +204,7 @@ void renderLineBird(int x, int y, customcolour colour, int width, int dir )
     int cy;
     switch(dir)
     {
-        case 0:
+        case east:
         {
             // East
             bx = x;
@@ -215,7 +215,7 @@ void renderLineBird(int x, int y, customcolour colour, int width, int dir )
             cy = y + (width/2);
             break;
         }
-        case 1:
+        case south:
         {
             // South
             bx = x;
@@ -226,7 +226,7 @@ void renderLineBird(int x, int y, customcolour colour, int width, int dir )
             cy = y - width ;
             break;
         }
-        case 2:
+        case west:
         {
             // West
             ax = x;
@@ -237,7 +237,7 @@ void renderLineBird(int x, int y, customcolour colour, int width, int dir )
             cy = y + (width/2) ;
             break;
         }
-        case 3:
+        case north:
         {
             // North
             ax = x;
