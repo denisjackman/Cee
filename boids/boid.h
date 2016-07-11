@@ -1,6 +1,7 @@
 
 class Boid{
 public:
+    Boid ();
     Boid (int, int, bool, int);
     void setx(int);
     void sety(int);
@@ -17,7 +18,13 @@ private:
     int     direction;
 };
 
-
+Boid::Boid ()
+{
+    x = rand() % SCREEN_WIDTH + 1;
+    y = rand() % SCREEN_HEIGHT + 1;
+    direction = rand() % 8;
+    leader = false;
+}
 Boid::Boid (int tx, int ty, bool tleader = false, int tdirection = 0)
 {
     x = tx;

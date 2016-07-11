@@ -131,7 +131,8 @@ int main (int argc, char* args[] )
     VERSION             = "V0.00.00";
     NAME_PROGRAM        = "Boids";
     MEDIAFILE           = "../files/texture.png";
-    Boid                bird (20,20);
+    int                 flock = 100;
+    Boid                bird[100];
     int                 newheading = 0;
     int                 timing= 100;
 
@@ -139,6 +140,7 @@ int main (int argc, char* args[] )
   	Print(" -- " + string(NAME_PROGRAM) + " " + string(VERSION) + " (Test) -- ");
 	Print(" --- Starting ---");
     srand(time(0));
+
     if (GameInitialise() == false)
     {
         Print("Game failed to initialise !");
@@ -164,89 +166,92 @@ int main (int argc, char* args[] )
 		    ClearScreen(Black);
 			//Clear screen
 			SDL_RenderClear( gRenderer );
-
-            renderLineBird(bird.posx(), bird.posy(), Yellow, 20, direction_t(bird.heading()) );
-
-            switch(bird.heading())
+            for(int loop = 0; loop < flock; loop++)
             {
-                case east:
+        
+                renderLineBird(bird[loop].posx(), bird[loop].posy(), Yellow, 20, direction_t(bird[loop].heading()) );
+    
+                switch(bird[loop].heading())
                 {
-                    // East
-                    bird.setx(bird.posx() + 1);
-                    break;
+                    case east:
+                    {
+                        // East
+                        bird[loop].setx(bird[loop].posx() + 1);
+                        break;
+                    }
+                    case south:
+                    {
+                        // South
+                        bird[loop].sety(bird[loop].posy() + 1);
+                        break;
+                    }
+                    case west:
+                    {
+                        // West
+                        bird[loop].setx(bird[loop].posx() - 1);
+                        break;
+                    }
+                    case north:
+                    {
+                        // North
+                        bird[loop].sety(bird[loop].posy() - 1);
+                        break;
+                    }
+                    case northeast:
+                    {
+                        // North East
+                        bird[loop].setx(bird[loop].posx() + 1);
+                        bird[loop].sety(bird[loop].posy() - 1);
+                        break;
+                    }
+                    case northwest:
+                    {
+                        // North West
+                        bird[loop].setx(bird[loop].posx() - 1);
+                        bird[loop].sety(bird[loop].posy() - 1);
+                        break;
+                    }
+                    case southeast:
+                    {
+                        // South East
+                        bird[loop].setx(bird[loop].posx() + 1);
+                        bird[loop].sety(bird[loop].posy() + 1);
+                        break;
+                    }
+                    case southwest:
+                    {
+                        // South West
+                        bird[loop].setx(bird[loop].posx() - 1);
+                        bird[loop].sety(bird[loop].posy() + 1);
+                        break;
+                    }
                 }
-                case south:
+    
+                if (bird[loop].posy() > SCREEN_HEIGHT)
                 {
-                    // South
-                    bird.sety(bird.posy() + 1);
-                    break;
+                    bird[loop].sety(0);
                 }
-                case west:
+                if (bird[loop].posy() < 0)
                 {
-                    // West
-                    bird.setx(bird.posx() - 1);
-                    break;
+                    bird[loop].sety(SCREEN_HEIGHT);
                 }
-                case north:
+    
+                if (bird[loop].posx() > SCREEN_WIDTH)
                 {
-                    // North
-                    bird.sety(bird.posy() - 1);
-                    break;
+                    bird[loop].setx(0);
                 }
-                case northeast:
+                if (bird[loop].posx() < 0)
                 {
-                    // North East
-                    bird.setx(bird.posx() + 1);
-                    bird.sety(bird.posy() - 1);
-                    break;
+                    bird[loop].setx(SCREEN_WIDTH);
                 }
-                case northwest:
+                timing = timing - 1;
+                if (timing < 0)
                 {
-                    // North West
-                    bird.setx(bird.posx() - 1);
-                    bird.sety(bird.posy() - 1);
-                    break;
+                    timing = 100;
+                    bird[loop].setdirection(rand() % 8);
                 }
-                case southeast:
-                {
-                    // South East
-                    bird.setx(bird.posx() + 1);
-                    bird.sety(bird.posy() + 1);
-                    break;
-                }
-                case southwest:
-                {
-                    // South West
-                    bird.setx(bird.posx() - 1);
-                    bird.sety(bird.posy() + 1);
-                    break;
-                }
-            }
-
-            if (bird.posy() > SCREEN_HEIGHT)
-            {
-                bird.sety(0);
-            }
-            if (bird.posy() < 0)
-            {
-                bird.sety(SCREEN_HEIGHT);
-            }
-
-            if (bird.posx() > SCREEN_WIDTH)
-            {
-                bird.setx(0);
-            }
-            if (bird.posx() < 0)
-            {
-                bird.setx(SCREEN_WIDTH);
-            }
-            timing = timing - 1;
-            if (timing < 0)
-            {
-                timing = 100;
-                bird.setdirection(rand() % 8);
-            }
-			//Render texture to screen
+             }
+            //Render texture to screen
 			SDL_RenderCopy( gRenderer, gTexture, NULL, NULL );
 
 			//Update screen
