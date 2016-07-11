@@ -64,6 +64,17 @@ General Variables:
     Cohesion Distance:
     Leader Colour:
     Flock Colour:
+
+ Headings reminder
+     east      : 0
+     south     : 1
+     west      : 2
+     north     : 3
+     northeast : 4
+     southwest : 6
+     northwest : 5
+     southeast : 7
+
 */
 
 // Standard headers
@@ -120,13 +131,14 @@ int main (int argc, char* args[] )
     VERSION             = "V0.00.00";
     NAME_PROGRAM        = "Boids";
     MEDIAFILE           = "../files/texture.png";
-    Boid                bird (20,20,false);
-    Boid                emu (20,40,false);
-    Boid                ostrich (20,20,false);
-    Boid                hen (20,40,false);
+    Boid                bird (20,20);
+    int                 newheading = 0;
+    int                 timing= 100;
+
 
   	Print(" -- " + string(NAME_PROGRAM) + " " + string(VERSION) + " (Test) -- ");
 	Print(" --- Starting ---");
+    srand(time(0));
     if (GameInitialise() == false)
     {
         Print("Game failed to initialise !");
@@ -153,43 +165,86 @@ int main (int argc, char* args[] )
 			//Clear screen
 			SDL_RenderClear( gRenderer );
 
-            //renderLineBird(bird.posx(), bird.posy(), Red, 10  );
-            //renderLineBird(emu.posx(), emu.posy(), Blue, 10, south);
-            //renderLineBird(ostrich.posx(), ostrich.posy(), Green, 10, west );
-            //renderLineBird(hen.posx(), hen.posy(), White, 10, north);
+            renderLineBird(bird.posx(), bird.posy(), Yellow, 20, direction_t(bird.heading()) );
 
-            renderLineBird( 50,50, Yellow, 20, northeast);
-            renderLineBird( 90,50, Yellow, 20, northwest);
-            renderLineBird( 50,90, Yellow, 20, southeast);
-            renderLineBird( 90,90, Yellow, 20, southwest);
-
-            renderLineBird( 150,150, Yellow, 20, north);
-            renderLineBird( 190,150, Yellow, 20, west);
-            renderLineBird( 150,190, Yellow, 20, east);
-            renderLineBird( 190,190, Yellow, 20, south);
-
-            emu.sety(emu.posy() + 1);
-            hen.sety(hen.posy() - 1);
-
-            if (emu.posy() > SCREEN_HEIGHT)
+            switch(bird.heading())
             {
-                emu.sety(0);
-            }
-            if (hen.posy() < 0)
-            {
-                hen.sety(SCREEN_HEIGHT);
+                case east:
+                {
+                    // East
+                    bird.setx(bird.posx() + 1);
+                    break;
+                }
+                case south:
+                {
+                    // South
+                    bird.sety(bird.posy() + 1);
+                    break;
+                }
+                case west:
+                {
+                    // West
+                    bird.setx(bird.posx() - 1);
+                    break;
+                }
+                case north:
+                {
+                    // North
+                    bird.sety(bird.posy() - 1);
+                    break;
+                }
+                case northeast:
+                {
+                    // North East
+                    bird.setx(bird.posx() + 1);
+                    bird.sety(bird.posy() - 1);
+                    break;
+                }
+                case northwest:
+                {
+                    // North West
+                    bird.setx(bird.posx() - 1);
+                    bird.sety(bird.posy() - 1);
+                    break;
+                }
+                case southeast:
+                {
+                    // South East
+                    bird.setx(bird.posx() + 1);
+                    bird.sety(bird.posy() + 1);
+                    break;
+                }
+                case southwest:
+                {
+                    // South West
+                    bird.setx(bird.posx() - 1);
+                    bird.sety(bird.posy() + 1);
+                    break;
+                }
             }
 
-            bird.setx(bird.posx() + 1);
-            ostrich.setx(ostrich.posx() -1);
+            if (bird.posy() > SCREEN_HEIGHT)
+            {
+                bird.sety(0);
+            }
+            if (bird.posy() < 0)
+            {
+                bird.sety(SCREEN_HEIGHT);
+            }
 
             if (bird.posx() > SCREEN_WIDTH)
             {
                 bird.setx(0);
             }
-            if (ostrich.posx() < 0)
+            if (bird.posx() < 0)
             {
-                ostrich.setx(SCREEN_WIDTH);
+                bird.setx(SCREEN_WIDTH);
+            }
+            timing = timing - 1;
+            if (timing < 0)
+            {
+                timing = 100;
+                bird.setdirection(rand() % 8);
             }
 			//Render texture to screen
 			SDL_RenderCopy( gRenderer, gTexture, NULL, NULL );
