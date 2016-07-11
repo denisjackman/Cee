@@ -10,6 +10,8 @@ Compile     :   make
 Change History
 Name        :   Date        :   Version :   Reason
 D Jackman   :   07/07/2016  :   1:00:00 :   Original Version
+D Jackman   :   11/07/2016  :   1.01:00 :   Added new direction NW,NE, SW,SE and rejigged the vectors (X,Y) is now at
+                                            center of the vector
 
 To Do List
 TODO: 001 Add the rules
@@ -94,7 +96,11 @@ namespace mapping
         east,
         south,
         west,
-        north
+        north,
+        northeast,
+        northwest,
+        southwest,
+        southeast
     };
 }
 
@@ -147,10 +153,20 @@ int main (int argc, char* args[] )
 			//Clear screen
 			SDL_RenderClear( gRenderer );
 
-            renderLineBird(bird.posx(), bird.posy(), Red, 10  );
-            renderLineBird(emu.posx(), emu.posy(), Blue, 10, south);
-            renderLineBird(ostrich.posx(), ostrich.posy(), Green, 10, west );
-            renderLineBird(hen.posx(), hen.posy(), White, 10, north);
+            //renderLineBird(bird.posx(), bird.posy(), Red, 10  );
+            //renderLineBird(emu.posx(), emu.posy(), Blue, 10, south);
+            //renderLineBird(ostrich.posx(), ostrich.posy(), Green, 10, west );
+            //renderLineBird(hen.posx(), hen.posy(), White, 10, north);
+
+            renderLineBird( 50,50, Yellow, 20, northeast);
+            renderLineBird( 90,50, Yellow, 20, northwest);
+            renderLineBird( 50,90, Yellow, 20, southeast);
+            renderLineBird( 90,90, Yellow, 20, southwest);
+
+            renderLineBird( 150,150, Yellow, 20, north);
+            renderLineBird( 190,150, Yellow, 20, west);
+            renderLineBird( 150,190, Yellow, 20, east);
+            renderLineBird( 190,190, Yellow, 20, south);
 
             emu.sety(emu.posy() + 1);
             hen.sety(hen.posy() - 1);
@@ -207,45 +223,89 @@ void renderLineBird(int x, int y, customcolour colour, int width, direction_t di
         case east:
         {
             // East
-            bx = x;
-            by = y;
-            ax = x - width;
+            ax = x - (width/2);
             ay = y - (width/2);
-            cx = x - width;
+            bx = x + (width/2);
+            by = y;
+            cx = x - (width/2);
             cy = y + (width/2);
             break;
         }
         case south:
         {
             // South
-            bx = x;
-            by = y;
-            ax = x + (width/2);
-            ay = y - width;
-            cx = x - (width/2);
-            cy = y - width ;
+            ax = x - (width/2);
+            ay = y - (width/2);
+            bx = x + (width/2);
+            by = y - (width/2);
+            cx = x ;
+            cy = y + (width/2);
             break;
         }
         case west:
         {
             // West
-            ax = x;
+            ax = x - (width/2);
             ay = y;
-            bx = x + width;
+            bx = x + (width/2);
             by = y - (width/2);
-            cx = x + width;
-            cy = y + (width/2) ;
+            cx = x + (width/2);
+            cy = y + (width/2);
             break;
         }
         case north:
         {
             // North
             ax = x;
-            ay = y;
+            ay = y - (width/2);
             bx = x + (width/2);
-            by = y + width;
+            by = y + (width/2);
             cx = x - (width/2);
-            cy = y + width ;
+            cy = y + (width/2) ;
+            break;
+        }
+        case northeast:
+        {
+            // North East
+            ax = x + (width/2);
+            ay = y - (width/2);
+            bx = x;
+            by = y + (width/2);
+            cx = x - (width/2);
+            cy = y;
+            break;
+        }
+        case northwest:
+        {
+            // North West
+            ax = x - (width/2);
+            ay = y - (width/2);
+            bx = x + (width/2);
+            by = y;
+            cx = x;
+            cy = y + (width/2);
+            break;
+        }
+        case southeast:
+        {
+            // South East
+            ax = x;
+            ay = y - (width/2);
+            bx = x + (width/2);
+            by = y + (width/2);
+            cx = x - (width/2);
+            cy = y ;
+            break;
+        }
+        case southwest:
+        {
+            // South West
+            ax = x;
+            ay = y - (width/2);
+            bx = x + (width/2);
+            by = y;
+            cx = x - (width/2);
+            cy = y + (width/2) ;
             break;
         }
      }
