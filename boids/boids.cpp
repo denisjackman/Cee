@@ -42,6 +42,7 @@ Reference Material
 006 https://codea.io/talk/discussion/697/boids-a-simple-implementation-of-flocking-behaviors
 007 http://natureofcode.com/book/chapter-6-autonomous-agents/
 008 http://lyndonarmitage.com/boids-flocking-behaviour-tutorial-part-1-the-engine/
+007 http://groups.csail.mit.edu/graphics/classes/6.837/F98/Lecture6/circle.html
 */
 
 /*
@@ -120,6 +121,7 @@ using namespace mapping;
 
 void renderBird(int x, int y, customcolour colour, int width = 5);
 void renderLineBird(int x, int y, customcolour colour, int width = 5, direction_t dir = east);
+void drawCircle( int x, int y, int r, customcolour colour);
 
 //Main code
 int main (int argc, char* args[] )
@@ -133,9 +135,6 @@ int main (int argc, char* args[] )
     MEDIAFILE           = "../files/texture.png";
     int                 flock = 100;
     Boid                bird[100];
-    int                 newheading = 0;
-    int                 timing= 100;
-
 
   	Print(" -- " + string(NAME_PROGRAM) + " " + string(VERSION) + " (Test) -- ");
 	Print(" --- Starting ---");
@@ -168,7 +167,7 @@ int main (int argc, char* args[] )
 			SDL_RenderClear( gRenderer );
             for(int loop = 0; loop < flock; loop++)
             {
-        
+                drawCircle(bird[loop].posx(),bird[loop].posy(),30,Red);
                 renderLineBird(bird[loop].posx(), bird[loop].posy(), Yellow, 20, direction_t(bird[loop].heading()) );
     
                 switch(bird[loop].heading())
@@ -244,13 +243,9 @@ int main (int argc, char* args[] )
                 {
                     bird[loop].setx(SCREEN_WIDTH);
                 }
-                timing = timing - 1;
-                if (timing < 0)
-                {
-                    timing = 100;
-                    bird[loop].setdirection(rand() % 8);
-                }
+                bird[loop].decrease();
              }
+
             //Render texture to screen
 			SDL_RenderCopy( gRenderer, gTexture, NULL, NULL );
 
@@ -374,4 +369,21 @@ void renderLineBird(int x, int y, customcolour colour, int width, direction_t di
     SDL_RenderDrawLine( gRenderer, bx, by, cx, cy );
     SDL_RenderDrawLine( gRenderer, cx, cy, ax, ay );
 
+}
+
+
+void drawCircle( int x, int y, int r, customcolour colour)
+{
+    int r2;
+    int tx;
+    int ty;
+    r2 = r * r;
+    for (tx = -r; tx <= r; tx++)
+    {
+        ty = (int) sqrt(r2 - tx * tx) + 0.5;
+        PlotPixel( x+tx , y+ty, colour );
+        PlotPixel( x+tx , y-ty, colour);
+
+    }
+    PlotPixel( x, y, colour);
 }

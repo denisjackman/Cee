@@ -11,11 +11,14 @@ public:
     int posy(){return y;};
     int heading(){return direction;}
     bool isLeader(){return leader;};
+    void decrease();
 private:
     int     x;
     int     y;
     bool    leader;
     int     direction;
+    int     timer;
+
 };
 
 Boid::Boid ()
@@ -24,6 +27,7 @@ Boid::Boid ()
     y = rand() % SCREEN_HEIGHT + 1;
     direction = rand() % 8;
     leader = false;
+    timer = rand() % 1000 + 20;
 }
 Boid::Boid (int tx, int ty, bool tleader = false, int tdirection = 0)
 {
@@ -31,6 +35,17 @@ Boid::Boid (int tx, int ty, bool tleader = false, int tdirection = 0)
     y = ty;
     leader = tleader;
     direction = tdirection;
+    timer = rand() % 1000 + 20;
+}
+
+void Boid::decrease()
+{
+    timer--;
+    if (timer < 0)
+    {
+        timer = rand() % 1000 + 20;
+        direction = rand() % 8;
+    }
 }
 
 void Boid::sety(int ty)
