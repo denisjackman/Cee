@@ -120,10 +120,9 @@ namespace mapping
 
 using namespace std;
 using namespace mapping;
-double distancelength(int x1,int y1, int x2, int y2);
+
 void renderBird(int x, int y, customcolour colour, int width = 5);
 void renderLineBird(int x, int y, customcolour colour, int width = 5, direction_t dir = east);
-void drawCircle( int x, int y, int r, customcolour colour);
 
 //Main code
 int main (int argc, char* args[] )
@@ -382,29 +381,3 @@ void renderLineBird(int x, int y, customcolour colour, int width, direction_t di
 }
 
 
-void drawCircle( int x, int y, int r, customcolour colour)
-{
-    int r2;
-    int tx;
-    int ty;
-    r2 = r * r;
-    for (tx = -r; tx <= r; tx++)
-    {
-        ty = (int) sqrt(r2 - tx * tx) + 0.5;
-        PlotPixel( x+tx , y+ty, colour );
-        PlotPixel( x+tx , y-ty, colour);
-
-    }
-    PlotPixel( x, y, colour);
-}
-
-double distancelength(int x1,int y1, int x2, int y2)
-{
-    double result;
-    int distancex = (x2 - x1) * (x2 - x1);
-    int distancey = (y2 - y1) * (y2 - y1);
-
-    result = sqrt(distancex - distancey);
-
-    return result;
-}

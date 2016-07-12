@@ -228,3 +228,20 @@ SDL_Texture* LoadFont(string path, string text, customcolour col, int size)
     TTF_CloseFont( Font );
     return fTexture;
 }
+
+
+void drawCircle( int x, int y, int r, customcolour colour)
+{
+    int r2;
+    int tx;
+    int ty;
+    r2 = r * r;
+    for (tx = -r; tx <= r; tx++)
+    {
+        ty = (int) sqrt(r2 - tx * tx) + 0.5;
+        PlotPixel( x+tx , y+ty, colour );
+        PlotPixel( x+tx , y-ty, colour);
+
+    }
+    PlotPixel( x, y, colour);
+}
