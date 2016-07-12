@@ -122,7 +122,7 @@ using namespace std;
 using namespace mapping;
 
 void renderBird(int x, int y, customcolour colour, int width = 5);
-void renderLineBird(int x, int y, customcolour colour, int width = 5, direction_t dir = east);
+void renderLineBird(int x, int y, customcolour colour, int width = 5, mapping::direction_t dir = mapping::east);
 
 //Main code
 int main (int argc, char* args[] )
@@ -267,6 +267,7 @@ int main (int argc, char* args[] )
   	return 0;
 }
 
+
 void renderBird(int x, int y, customcolour colour, int width)
 {
     SDL_Rect birdRect = { x, y, width , width  };
@@ -274,7 +275,7 @@ void renderBird(int x, int y, customcolour colour, int width)
     SDL_RenderFillRect( gRenderer, &birdRect );
 }
 
-void renderLineBird(int x, int y, customcolour colour, int width, direction_t dir  )
+void renderLineBird(int x, int y, customcolour colour, int width, mapping::direction_t dir  )
 {
     int ax;
     int ay;

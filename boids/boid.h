@@ -1,3 +1,5 @@
+#ifndef BOID_H
+#define BOID_H
 
 class Boid{
 public:
@@ -67,3 +69,6 @@ void Boid::setdirection(int tdirection)
 {
     direction = tdirection;
 }
+
+
+#endif
