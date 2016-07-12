@@ -148,6 +148,7 @@ int main (int argc, char* args[] )
     {
         //Main loop flag
         bool boidLoop = true;
+        bird[rand() % 100].setleader(true);
         //Event handler
         SDL_Event boidEvent;
         //While application is running
@@ -167,9 +168,16 @@ int main (int argc, char* args[] )
 			SDL_RenderClear( gRenderer );
             for(int loop = 0; loop < flock; loop++)
             {
-                drawCircle(bird[loop].posx(),bird[loop].posy(),30,Red);
-                renderLineBird(bird[loop].posx(), bird[loop].posy(), Yellow, 20, direction_t(bird[loop].heading()) );
-    
+                if (bird[loop].isLeader())
+                {
+                    drawCircle(bird[loop].posx(), bird[loop].posy(), 30, Blue);
+                    renderLineBird(bird[loop].posx(), bird[loop].posy(), Green, 20, direction_t(bird[loop].heading()) );
+                }
+                else
+                {
+                    drawCircle(bird[loop].posx(),bird[loop].posy(),30,Red);
+                    renderLineBird(bird[loop].posx(), bird[loop].posy(), Yellow, 20, direction_t(bird[loop].heading()) );
+                }
                 switch(bird[loop].heading())
                 {
                     case east:
