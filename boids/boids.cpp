@@ -43,6 +43,8 @@ Reference Material
 007 http://natureofcode.com/book/chapter-6-autonomous-agents/
 008 http://lyndonarmitage.com/boids-flocking-behaviour-tutorial-part-1-the-engine/
 007 http://groups.csail.mit.edu/graphics/classes/6.837/F98/Lecture6/circle.html
+008 http://www.vergenet.net/~conrad/boids/index.html
+
 */
 
 /*
@@ -118,7 +120,7 @@ namespace mapping
 
 using namespace std;
 using namespace mapping;
-
+double distancelength(int x1,int y1, int x2, int y2);
 void renderBird(int x, int y, customcolour colour, int width = 5);
 void renderLineBird(int x, int y, customcolour colour, int width = 5, direction_t dir = east);
 void drawCircle( int x, int y, int r, customcolour colour);
@@ -394,4 +396,15 @@ void drawCircle( int x, int y, int r, customcolour colour)
 
     }
     PlotPixel( x, y, colour);
+}
+
+double distancelength(int x1,int y1, int x2, int y2)
+{
+    double result;
+    int distancex = (x2 - x1) * (x2 - x1);
+    int distancey = (y2 - y1) * (y2 - y1);
+
+    result = sqrt(distancex - distancey);
+
+    return result;
 }
