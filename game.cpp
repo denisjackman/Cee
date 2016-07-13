@@ -34,6 +34,10 @@ SDL_Renderer*   lRenderer           = NULL;
 SDL_Texture*    lTexture            = NULL;
 int             gWindowID;
 int             lWindowID;
+//Main loop flag
+bool            gameLoop            = true;
+bool            gWindowFlag         = false;
+bool            lWindowFlag         = false;
 
 //Main code
 int main (int argc, char* args[] )
@@ -63,8 +67,7 @@ int main (int argc, char* args[] )
         }
         else
         {
-            //Main loop flag
-            bool gameLoop = true;
+
             //Event handler
             SDL_Event gameEvent;
             //While application is running
@@ -78,55 +81,12 @@ int main (int argc, char* args[] )
 			        {
 				        gameLoop = false;
 			        }
-                    ghandleEvent(gameEvent);
-				    if( gameEvent.type == SDL_KEYDOWN )
-				    {
-					    switch( gameEvent.key.keysym.sym )
-					    {
-						    case SDLK_1:
-						        SDL_ShowWindow( gWindow );
-	                            //Move window forward
-	                            SDL_RaiseWindow( gWindow );
-						        break;
-
-						    case SDLK_2:
-						        SDL_ShowWindow( gWindow );
-	                            //Move window forward
-	                            SDL_RaiseWindow( gWindow );
-						        break;
-							
-						    case SDLK_3:
-						        SDL_ShowWindow( gWindow );
-	                            //Move window forward
-	                            SDL_RaiseWindow( gWindow );
-						        break;
-					    }
-					}
+			        ghandleEvent(gameEvent);
                     lhandleEvent(gameEvent);
-
-				    if( gameEvent.type == SDL_KEYDOWN )
-				    {
-					    switch( gameEvent.key.keysym.sym )
-					    {
-						    case SDLK_1:
-						        SDL_ShowWindow( lWindow );
-	                            //Move window forward
-	                            SDL_RaiseWindow( lWindow );
-						        break;
-
-						    case SDLK_2:
-						        SDL_ShowWindow( lWindow );
-	                            //Move window forward
-	                            SDL_RaiseWindow( lWindow );
-						        break;
-							
-						    case SDLK_3:
-						        SDL_ShowWindow( lWindow );
-	                            //Move window forward
-	                            SDL_RaiseWindow( lWindow );
-						        break;
-					    }
-				    }
+                    if (lWindowFlag && gWindowFlag )
+                    {
+                        gameLoop = false;
+                    }
 		        }
 
 				//Clear screen
@@ -185,15 +145,18 @@ void Windowfree()
 
 void ghandleEvent( SDL_Event& e )
 {
+    //User requests quit
+	if ( e.type == SDL_QUIT && e.window.windowID == gWindowID )
+	{
+	    cout << "quit " << endl;
+	    gameLoop = false;
+	}
+
 	//If an event was detected for this window
 	if( e.type == SDL_WINDOWEVENT && e.window.windowID == gWindowID )
 	{
-		//Caption update flag
-		bool updateCaption = false;
-
 		switch( e.window.event )
 		{
-
 			//Get new dimensions and repaint
 			case SDL_WINDOWEVENT_SIZE_CHANGED:
 			    SDL_RenderPresent( gRenderer );
@@ -207,6 +170,30 @@ void ghandleEvent( SDL_Event& e )
 			//Hide on close
 			case SDL_WINDOWEVENT_CLOSE:
 			    SDL_HideWindow( gWindow );
+			    gWindowFlag = true;
+			    break;
+		}
+	}
+	if( e.type == SDL_KEYDOWN )
+    {
+	    switch( e.key.keysym.sym )
+		{
+		    case SDLK_1:
+			    SDL_ShowWindow( gWindow );
+	            //Move window forward
+	            SDL_RaiseWindow( gWindow );
+				break;
+
+		    case SDLK_2:
+			    SDL_ShowWindow( gWindow );
+	            //Move window forward
+	            SDL_RaiseWindow( gWindow );
+			    break;
+
+			case SDLK_3:
+			    SDL_ShowWindow( gWindow );
+	            //Move window forward
+	            SDL_RaiseWindow( gWindow );
 			    break;
 		}
 	}
@@ -217,12 +204,8 @@ void lhandleEvent( SDL_Event& e )
 	//If an event was detected for this window
 	if( e.type == SDL_WINDOWEVENT && e.window.windowID == lWindowID )
 	{
-		//Caption update flag
-		bool updateCaption = false;
-
 		switch( e.window.event )
 		{
-
 			//Get new dimensions and repaint
 			case SDL_WINDOWEVENT_SIZE_CHANGED:
 			    SDL_RenderPresent( lRenderer );
@@ -236,6 +219,30 @@ void lhandleEvent( SDL_Event& e )
 			//Hide on close
 			case SDL_WINDOWEVENT_CLOSE:
 			    SDL_HideWindow( lWindow );
+                lWindowFlag = true;
+			    break;
+		}
+	}
+	if( e.type == SDL_KEYDOWN )
+    {
+	    switch( e.key.keysym.sym )
+		{
+		    case SDLK_1:
+			    SDL_ShowWindow( gWindow );
+	            //Move window forward
+	            SDL_RaiseWindow( gWindow );
+				break;
+
+		    case SDLK_2:
+			    SDL_ShowWindow( gWindow );
+	            //Move window forward
+	            SDL_RaiseWindow( gWindow );
+			    break;
+
+			case SDLK_3:
+			    SDL_ShowWindow( gWindow );
+	            //Move window forward
+	            SDL_RaiseWindow( gWindow );
 			    break;
 		}
 	}
