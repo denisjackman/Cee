@@ -22,6 +22,19 @@
 
 using namespace std;
 
+bool windowInit();
+void Windowfree();
+void ghandleEvent( SDL_Event& e );
+void lhandleEvent( SDL_Event& e );
+
+
+SDL_Window*     lWindow             = NULL;
+SDL_Surface*    lScreenSurface      = NULL;
+SDL_Renderer*   lRenderer           = NULL;
+SDL_Texture*    lTexture            = NULL;
+int             gWindowID;
+int             lWindowID;
+
 //Main code
 int main (int argc, char* args[] )
 {
@@ -41,6 +54,9 @@ int main (int argc, char* args[] )
     }
     else
     {
+        windowInit();
+        gWindowID = SDL_GetWindowID( gWindow );
+		lWindowID = SDL_GetWindowID( lWindow );
         if (!LoadMedia(MEDIAFILE))
         {
             Print("Game failed to load media ! - " + string(MEDIAFILE ));
@@ -62,6 +78,55 @@ int main (int argc, char* args[] )
 			        {
 				        gameLoop = false;
 			        }
+                    ghandleEvent(gameEvent);
+				    if( gameEvent.type == SDL_KEYDOWN )
+				    {
+					    switch( gameEvent.key.keysym.sym )
+					    {
+						    case SDLK_1:
+						        SDL_ShowWindow( gWindow );
+	                            //Move window forward
+	                            SDL_RaiseWindow( gWindow );
+						        break;
+
+						    case SDLK_2:
+						        SDL_ShowWindow( gWindow );
+	                            //Move window forward
+	                            SDL_RaiseWindow( gWindow );
+						        break;
+							
+						    case SDLK_3:
+						        SDL_ShowWindow( gWindow );
+	                            //Move window forward
+	                            SDL_RaiseWindow( gWindow );
+						        break;
+					    }
+					}
+                    lhandleEvent(gameEvent);
+
+				    if( gameEvent.type == SDL_KEYDOWN )
+				    {
+					    switch( gameEvent.key.keysym.sym )
+					    {
+						    case SDLK_1:
+						        SDL_ShowWindow( lWindow );
+	                            //Move window forward
+	                            SDL_RaiseWindow( lWindow );
+						        break;
+
+						    case SDLK_2:
+						        SDL_ShowWindow( lWindow );
+	                            //Move window forward
+	                            SDL_RaiseWindow( lWindow );
+						        break;
+							
+						    case SDLK_3:
+						        SDL_ShowWindow( lWindow );
+	                            //Move window forward
+	                            SDL_RaiseWindow( lWindow );
+						        break;
+					    }
+				    }
 		        }
 
 				//Clear screen
@@ -75,7 +140,103 @@ int main (int argc, char* args[] )
 	        }
 	     }
 	}
+	Windowfree();
 	GameTerminate();
 	Print(" --- Ending ---");
   	return 0;
+}
+
+bool windowInit()
+{
+	//Create window
+	lWindow = SDL_CreateWindow( "SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE );
+	if( lWindow != NULL )
+	{
+
+		//Create renderer for window
+		lRenderer = SDL_CreateRenderer( lWindow, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC );
+		if( lRenderer == NULL )
+		{
+			printf( "Renderer could not be created! SDL Error: %s\n", SDL_GetError() );
+			SDL_DestroyWindow( lWindow );
+			lWindow = NULL;
+		}
+		else
+		{
+			//Initialize renderer color
+			SDL_SetRenderDrawColor( lRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
+
+		}
+	}
+	else
+	{
+		printf( "Window could not be created! SDL Error: %s\n", SDL_GetError() );
+	}
+
+	return lWindow != NULL && lRenderer != NULL;
+}
+void Windowfree()
+{
+	if( lWindow != NULL )
+	{
+		SDL_DestroyWindow( lWindow );
+	}
+}
+
+void ghandleEvent( SDL_Event& e )
+{
+	//If an event was detected for this window
+	if( e.type == SDL_WINDOWEVENT && e.window.windowID == gWindowID )
+	{
+		//Caption update flag
+		bool updateCaption = false;
+
+		switch( e.window.event )
+		{
+
+			//Get new dimensions and repaint
+			case SDL_WINDOWEVENT_SIZE_CHANGED:
+			    SDL_RenderPresent( gRenderer );
+			    break;
+
+			//Repaint on expose
+			case SDL_WINDOWEVENT_EXPOSED:
+			    SDL_RenderPresent( gRenderer );
+			    break;
+			
+			//Hide on close
+			case SDL_WINDOWEVENT_CLOSE:
+			    SDL_HideWindow( gWindow );
+			    break;
+		}
+	}
+}
+
+void lhandleEvent( SDL_Event& e )
+{
+	//If an event was detected for this window
+	if( e.type == SDL_WINDOWEVENT && e.window.windowID == lWindowID )
+	{
+		//Caption update flag
+		bool updateCaption = false;
+
+		switch( e.window.event )
+		{
+
+			//Get new dimensions and repaint
+			case SDL_WINDOWEVENT_SIZE_CHANGED:
+			    SDL_RenderPresent( lRenderer );
+			    break;
+
+			//Repaint on expose
+			case SDL_WINDOWEVENT_EXPOSED:
+			    SDL_RenderPresent( lRenderer );
+			    break;
+
+			//Hide on close
+			case SDL_WINDOWEVENT_CLOSE:
+			    SDL_HideWindow( lWindow );
+			    break;
+		}
+	}
 }
