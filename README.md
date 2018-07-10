@@ -1,5 +1,6 @@
 # Game
 ======
+
 This holds the code and notes for a rough game idea I have.
 I will do this in C++. Using Travis CI and Coverall as tools to run the project. Maybe trello too.
 
@@ -20,6 +21,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 |2016-05-27|Denis Jackman|02.03|Added numerous functions to the library |
 |2016-06-07|Denis Jackman|02.04|Added more detail to the reference mark down pages |
 |2016-06-14|Denis Jackman|02.05|Added in Coverity and kings game |
+|2018-07-10|Denis Jackman|02.06|Tidied up and checked it out |
 
 ## TODO
 * Start coding part 8 of the tutorials 
