@@ -1,17 +1,15 @@
 # Game
-======
 
 This holds the code and notes for a rough game idea I have.
 I will do this in C++. Using Travis CI and Coverall as tools to run the project. Maybe trello too.
 
 # Badges
-========
 * Game      : ![Game Status](https://img.shields.io/badge/game-progressing-yellow.svg)
 * Coveralls : [![Coverage Status](https://coveralls.io/repos/github/denisjackman/game/badge.svg?branch=master)](https://coveralls.io/github/denisjackman/game?branch=master)
 * Travis CI : [![Build Status](https://travis-ci.org/denisjackman/game.svg?branch=master)](https://travis-ci.org/denisjackman/game)
 * Coverity  : <a href="https://scan.coverity.com/projects/denisjackman-game"><img alt="Coverity Scan Build Status"src="https://scan.coverity.com/projects/9143/badge.svg"/></a>
 
-## Version History 
+## Version History
 |Date |Author|Version|Reason|
 |----------|-------------|-----|--------------------------------------|
 |2016-05-12|Denis Jackman|01.00|Original Version |
@@ -22,6 +20,7 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 |2016-06-07|Denis Jackman|02.04|Added more detail to the reference mark down pages |
 |2016-06-14|Denis Jackman|02.05|Added in Coverity and kings game |
 |2018-07-10|Denis Jackman|02.06|Tidied up and checked it out |
+|2022-03-24|Denis Jackman|02.07|new ide new check out|
 
 ## TODO
 * Start coding part 8 of the tutorials 
@@ -38,10 +37,11 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * Look at NetHack code - http://git.code.sf.net/p/nethack/NetHack - (maybe fork it )
 * Look at Angbad code  - https://github.com/angband/angband/tree/AngbandBase - (maybe fork it )
 * fix -  --- Starting ---
-Unable to create texture from files/texture.png! SDL Error: Invalid renderer
-Failed to load texture image!
-Game failed to load media !
-
+	- Unable to create texture from files/texture.png! SDL Error: Invalid renderer
+	- Failed to load texture image!
+	- Game failed to load media !
+* Project to-do 
+	- add to Trello 
 
 ## Links
 * [Game Programming](http://gameprogrammingpatterns.com/)
@@ -60,7 +60,7 @@ Game failed to load media !
 * [0AD](https://gitlab.com/0ad)
 * [Moria](http://beej.us/moria/)
 
-## Games Reference 
+## Games Reference
 * [Lists](http://roll1d12.blogspot.co.uk/)
 * [Lists](http://drumsofwar.wikia.com/wiki/Drums_of_War_Wiki)
 * [Dungeon Building](http://roguelikedeveloper.blogspot.co.uk/2007/11/unangband-dungeon-generation-part-one.html)
@@ -68,11 +68,11 @@ Game failed to load media !
 * [Maps](https://endevagames.wordpress.com/2015/05/29/randomly-generated-maps/)
 * [Maps](http://divingintodart.blogspot.co.uk/2015/01/procedural-generation-part-one-making.html)
 
-## Forums/Groups 
+## Forums/Groups
 * [Temple of the Roguelike](http://forums.roguetemple.com/index.php)
 * [Angband Forum](http://angband.oook.cz/forum/index.php)
 
-### Tools 
+### Tools
 * [Github](https://github.com/)
 * [Gitlab](https://gitlab.com/)
 * [Trello](https://trello.com/b/pCvSF4QZ/games-project)
@@ -112,8 +112,7 @@ Game failed to load media !
 * [C++ Awesomeness](http://ironalbatross.net/wiki/index.php?title=C%2B%2B)
 * [C++ Best Practices](http://ironalbatross.net/wiki/index.php?title=C%2B%2B_Best_Practices)
 
-
-## Books 
+## Books
 * Game Programming in C++ 
 * Focus on SDL
 * Programming Linux Games
@@ -121,8 +120,8 @@ Game failed to load media !
 * C++ For Game Programmers.
 * Design Patterns 
 
-## Branches 
-* new-feature-test (from the work machine)
+## Branches
+* none
 
-## Licence 
+## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
