@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Breakpoints\Breakpoints\bin\Debug\Breakpoints.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Breakpoints\Breakpoints\bin\Debug\Breakpoints.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Breakpoints\Breakpoints\bin\Debug\Breakpoints.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Breakpoints\Breakpoints\obj\Debug\Breakpoints.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Breakpoints\Breakpoints\obj\Debug\Breakpoints.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Breakpoints\Breakpoints\obj\Debug\Breakpoints.pdb
+C:\MyCSharp\Projects\Breakpoints\Breakpoints\bin\Debug\Breakpoints.exe.config
+C:\MyCSharp\Projects\Breakpoints\Breakpoints\bin\Debug\Breakpoints.exe
+C:\MyCSharp\Projects\Breakpoints\Breakpoints\bin\Debug\Breakpoints.pdb
+C:\MyCSharp\Projects\Breakpoints\Breakpoints\obj\Debug\Breakpoints.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Breakpoints\Breakpoints\obj\Debug\Breakpoints.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Breakpoints\Breakpoints\obj\Debug\Breakpoints.exe
+C:\MyCSharp\Projects\Breakpoints\Breakpoints\obj\Debug\Breakpoints.pdb

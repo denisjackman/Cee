@@ -1,0 +1,19 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Joined\Joined\bin\Debug\Joined.exe.config
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Joined\Joined\bin\Debug\Joined.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Joined\Joined\bin\Debug\Joined.pdb
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Joined\Joined\obj\Debug\Joined.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Joined\Joined\obj\Debug\Joined.pdb
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Joined\Joined\obj\Debug\Joined.csprojResolveAssemblyReference.cache
+C:\Users\mike_\Desktop\Projects\Joined\Joined\bin\Debug\Joined.exe.config
+C:\Users\mike_\Desktop\Projects\Joined\Joined\obj\Debug\Joined.exe
+C:\Users\mike_\Desktop\Projects\Joined\Joined\obj\Debug\Joined.pdb
+C:\Users\mike_\Desktop\Projects\Joined\Joined\bin\Debug\Joined.exe
+C:\Users\mike_\Desktop\Projects\Joined\Joined\bin\Debug\Joined.pdb
+C:\Users\mike_\Desktop\Projects\Joined\Joined\obj\Debug\Joined.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Joined\Joined\bin\Debug\Joined.exe.config
+C:\MyCSharp\Projects\Joined\Joined\bin\Debug\Joined.exe
+C:\MyCSharp\Projects\Joined\Joined\bin\Debug\Joined.pdb
+C:\MyCSharp\Projects\Joined\Joined\obj\Debug\Joined.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Joined\Joined\obj\Debug\Joined.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Joined\Joined\obj\Debug\Joined.exe
+C:\MyCSharp\Projects\Joined\Joined\obj\Debug\Joined.pdb

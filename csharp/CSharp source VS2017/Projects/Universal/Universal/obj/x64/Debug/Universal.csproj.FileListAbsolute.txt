@@ -1,0 +1,385 @@
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\App.xbf
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\MainPage.xbf
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\Universal.xr.xml
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\Universal.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\Universal.pdb
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\resources.pri
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\AppxManifest.xml
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\Core\Universal.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\Universal.build.appxrecipe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\Microsoft.CSharp.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Core.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Net.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Numerics.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Serialization.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.Web.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Windows.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Xml.Linq.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Xml.Serialization.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Xml.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\Microsoft.VisualBasic.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Private.DataContractSerialization.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.AppContext.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Collections.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Collections.Concurrent.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Collections.Immutable.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Collections.NonGeneric.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Collections.Specialized.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ComponentModel.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ComponentModel.Annotations.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Data.Common.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Diagnostics.Contracts.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Diagnostics.Debug.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Diagnostics.Tools.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Diagnostics.Tracing.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Dynamic.Runtime.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Globalization.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Globalization.Calendars.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Globalization.Extensions.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.IO.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.IO.Compression.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\ClrCompression.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.IO.FileSystem.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.IO.IsolatedStorage.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Linq.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Linq.Expressions.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Linq.Parallel.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Linq.Queryable.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Net.Http.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Net.Http.Rtc.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Net.NetworkInformation.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Net.Primitives.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Net.Requests.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Net.Sockets.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Numerics.Vectors.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ObjectModel.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Private.Networking.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Private.ServiceModel.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Private.Uri.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Context.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Emit.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Extensions.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Metadata.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Primitives.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Resources.ResourceManager.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Extensions.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Handles.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.InteropServices.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Numerics.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Security.Claims.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Security.Principal.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.Duplex.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.Http.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.Primitives.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.Security.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Text.Encoding.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Text.RegularExpressions.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Threading.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Threading.Overlapped.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Threading.Tasks.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Threading.Timer.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Xml.ReaderWriter.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Xml.XDocument.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Xml.XmlDocument.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\bin\x64\Debug\System.Xml.XmlSerializer.dll
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\Universal.csprojResolveAssemblyReference.cache
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\App.g.i.cs
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\App.g.cs
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\MainPage.g.cs
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\App.xaml
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\MainPage.xaml
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\App.xbf
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\MainPage.xbf
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\Universal.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\Universal.pdb
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Collections.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Linq.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Threading.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\priconfig.xml
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\layout.resfiles
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\layout.resfiles.intermediate
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\resources.resfiles
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\pri.resfiles
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\qualifiers.txt
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Universal\Universal\obj\x64\Debug\ProjectArchitectures.txt
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\App.xbf
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\MainPage.xbf
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\Universal.xr.xml
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\Universal.exe
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\Universal.pdb
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\resources.pri
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\AppxManifest.xml
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\Core\AppxManifest.xml
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\Core\Universal.exe
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\Universal.build.appxrecipe
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\Microsoft.CSharp.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Core.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Net.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Numerics.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Serialization.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.Web.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Windows.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Xml.Linq.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Xml.Serialization.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Xml.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\Microsoft.VisualBasic.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Private.DataContractSerialization.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.AppContext.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Collections.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Collections.Concurrent.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Collections.Immutable.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Collections.NonGeneric.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Collections.Specialized.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ComponentModel.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ComponentModel.Annotations.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Data.Common.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Diagnostics.Contracts.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Diagnostics.Debug.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Diagnostics.Tools.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Diagnostics.Tracing.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Dynamic.Runtime.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Globalization.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Globalization.Calendars.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Globalization.Extensions.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.IO.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.IO.Compression.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\ClrCompression.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.IO.FileSystem.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.IO.IsolatedStorage.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Linq.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Linq.Expressions.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Linq.Parallel.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Linq.Queryable.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Net.Http.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Net.Http.Rtc.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Net.NetworkInformation.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Net.Primitives.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Net.Requests.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Net.Sockets.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Numerics.Vectors.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ObjectModel.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Private.Networking.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Private.ServiceModel.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Private.Uri.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Context.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Emit.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Extensions.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Metadata.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.Primitives.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Resources.ResourceManager.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Extensions.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Handles.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.InteropServices.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Numerics.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Security.Claims.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Security.Principal.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.Duplex.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.Http.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.Primitives.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.ServiceModel.Security.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Text.Encoding.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Text.RegularExpressions.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Threading.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Threading.Overlapped.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Threading.Tasks.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Threading.Timer.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Xml.ReaderWriter.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Xml.XDocument.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Xml.XmlDocument.dll
+C:\MyCSharp\Projects\Universal\Universal\bin\x64\Debug\System.Xml.XmlSerializer.dll
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\Universal.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\App.g.i.cs
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\App.g.cs
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\MainPage.g.i.cs
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\MainPage.g.cs
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\App.xaml
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\MainPage.xaml
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\App.xbf
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\MainPage.xbf
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\XamlSaveStateFile.xml
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\Universal.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\Universal.exe
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\Universal.pdb
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\ResourceHandlingTask.state
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Collections.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Linq.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Threading.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\priconfig.xml
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\priconfig.xml.intermediate
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\layout.resfiles
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\layout.resfiles.intermediate
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\resources.resfiles
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\resources.resfiles.intermediate
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\pri.resfiles
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\pri.resfiles.intermediate
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\qualifiers.txt
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\qualifiers.txt.intermediate
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\MyCSharp\Projects\Universal\Universal\obj\x64\Debug\ProjectArchitectures.txt

@@ -1,0 +1,27 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\bin\Debug\Lotto.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\obj\Debug\Lotto.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\obj\Debug\Lotto.Form1.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\obj\Debug\Lotto.Properties.Resources.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\obj\Debug\Lotto.csproj.GenerateResource.Cache
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\bin\Debug\Lotto.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\bin\Debug\Lotto.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\obj\Debug\Lotto.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\obj\Debug\Lotto.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\bin\Debug\Lotto.exe.manifest
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\bin\Debug\Lotto.application
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\obj\Debug\Lotto.exe.manifest
+c:\users\mike_\documents\visual studio 2015\Projects\Lotto\Lotto\obj\Debug\Lotto.application
+C:\MyCSharp\Projects\Lotto\Lotto\obj\Debug\Lotto.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Lotto\Lotto\obj\Debug\Lotto.Form1.resources
+C:\MyCSharp\Projects\Lotto\Lotto\obj\Debug\Lotto.Properties.Resources.resources
+C:\MyCSharp\Projects\Lotto\Lotto\obj\Debug\Lotto.csproj.GenerateResource.Cache
+C:\MyCSharp\Projects\Lotto\Lotto\obj\Debug\Lotto.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Lotto\Lotto\obj\Debug\Lotto.exe
+C:\MyCSharp\Projects\Lotto\Lotto\obj\Debug\Lotto.pdb
+C:\MyCSharp\Projects\Lotto\Lotto\bin\Debug\Lotto.exe.config
+C:\MyCSharp\Projects\Lotto\Lotto\bin\Debug\Lotto.exe.manifest
+C:\MyCSharp\Projects\Lotto\Lotto\bin\Debug\Lotto.application
+C:\MyCSharp\Projects\Lotto\Lotto\bin\Debug\Lotto.exe
+C:\MyCSharp\Projects\Lotto\Lotto\bin\Debug\Lotto.pdb
+C:\MyCSharp\Projects\Lotto\Lotto\obj\Debug\Lotto.exe.manifest
+C:\MyCSharp\Projects\Lotto\Lotto\obj\Debug\Lotto.application

@@ -1,0 +1,3 @@
+OpenGL is running
+Main Loop has started
+Main Loop has finished

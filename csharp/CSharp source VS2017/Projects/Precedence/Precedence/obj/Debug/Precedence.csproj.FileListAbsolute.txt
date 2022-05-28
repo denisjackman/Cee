@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Precedence\Precedence\bin\Debug\Precedence.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Precedence\Precedence\bin\Debug\Precedence.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Precedence\Precedence\bin\Debug\Precedence.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Precedence\Precedence\obj\Debug\Precedence.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Precedence\Precedence\obj\Debug\Precedence.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Precedence\Precedence\obj\Debug\Precedence.pdb
+C:\MyCSharp\Projects\Precedence\Precedence\bin\Debug\Precedence.exe.config
+C:\MyCSharp\Projects\Precedence\Precedence\bin\Debug\Precedence.exe
+C:\MyCSharp\Projects\Precedence\Precedence\bin\Debug\Precedence.pdb
+C:\MyCSharp\Projects\Precedence\Precedence\obj\Debug\Precedence.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Precedence\Precedence\obj\Debug\Precedence.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Precedence\Precedence\obj\Debug\Precedence.exe
+C:\MyCSharp\Projects\Precedence\Precedence\obj\Debug\Precedence.pdb

@@ -1,0 +1,7 @@
+g:\workspace\csharp\GettingStarted\GettingStarted\bin\Debug\GettingStarted.exe.config
+g:\workspace\csharp\GettingStarted\GettingStarted\bin\Debug\GettingStarted.exe
+g:\workspace\csharp\GettingStarted\GettingStarted\bin\Debug\GettingStarted.pdb
+g:\workspace\csharp\GettingStarted\GettingStarted\obj\Debug\GettingStarted.exe
+g:\workspace\csharp\GettingStarted\GettingStarted\obj\Debug\GettingStarted.pdb
+G:\workspace\csharp\GettingStarted\GettingStarted\obj\Debug\GettingStarted.csprojAssemblyReference.cache
+G:\workspace\csharp\GettingStarted\GettingStarted\obj\Debug\GettingStarted.csproj.CoreCompileInputs.cache

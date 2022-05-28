@@ -1,0 +1,6 @@
+g:\workspace\csharp\Variables\Variables\bin\Debug\Variables.exe.config
+g:\workspace\csharp\Variables\Variables\bin\Debug\Variables.exe
+g:\workspace\csharp\Variables\Variables\bin\Debug\Variables.pdb
+g:\workspace\csharp\Variables\Variables\obj\Debug\Variables.csprojResolveAssemblyReference.cache
+g:\workspace\csharp\Variables\Variables\obj\Debug\Variables.exe
+g:\workspace\csharp\Variables\Variables\obj\Debug\Variables.pdb

@@ -1,0 +1,19 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Message\Message\bin\Debug\Message.exe.config
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Message\Message\bin\Debug\Message.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Message\Message\bin\Debug\Message.pdb
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Message\Message\obj\Debug\Message.csprojResolveAssemblyReference.cache
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Message\Message\obj\Debug\Message.Form1.resources
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Message\Message\obj\Debug\Message.Properties.Resources.resources
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Message\Message\obj\Debug\Message.csproj.GenerateResource.Cache
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Message\Message\obj\Debug\Message.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Message\Message\obj\Debug\Message.pdb
+C:\MyCSharp\Projects\Message\Message\bin\Debug\Message.exe.config
+C:\MyCSharp\Projects\Message\Message\bin\Debug\Message.exe
+C:\MyCSharp\Projects\Message\Message\bin\Debug\Message.pdb
+C:\MyCSharp\Projects\Message\Message\obj\Debug\Message.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Message\Message\obj\Debug\Message.Form1.resources
+C:\MyCSharp\Projects\Message\Message\obj\Debug\Message.Properties.Resources.resources
+C:\MyCSharp\Projects\Message\Message\obj\Debug\Message.csproj.GenerateResource.Cache
+C:\MyCSharp\Projects\Message\Message\obj\Debug\Message.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Message\Message\obj\Debug\Message.exe
+C:\MyCSharp\Projects\Message\Message\obj\Debug\Message.pdb

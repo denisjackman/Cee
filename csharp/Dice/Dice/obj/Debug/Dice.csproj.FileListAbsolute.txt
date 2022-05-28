@@ -1,0 +1,1 @@
+g:\workspace\csharp\Dice\Dice\bin\Debug\Dice.exe.config

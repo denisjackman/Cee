@@ -1,0 +1,19 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Dialog\Dialog\bin\Debug\Dialog.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Dialog\Dialog\bin\Debug\Dialog.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Dialog\Dialog\bin\Debug\Dialog.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Dialog\Dialog\obj\Debug\Dialog.Form1.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Dialog\Dialog\obj\Debug\Dialog.Properties.Resources.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Dialog\Dialog\obj\Debug\Dialog.csproj.GenerateResource.Cache
+c:\users\mike_\documents\visual studio 2015\Projects\Dialog\Dialog\obj\Debug\Dialog.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Dialog\Dialog\obj\Debug\Dialog.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Dialog\Dialog\obj\Debug\Dialog.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Dialog\Dialog\bin\Debug\Dialog.exe.config
+C:\MyCSharp\Projects\Dialog\Dialog\bin\Debug\Dialog.exe
+C:\MyCSharp\Projects\Dialog\Dialog\bin\Debug\Dialog.pdb
+C:\MyCSharp\Projects\Dialog\Dialog\obj\Debug\Dialog.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Dialog\Dialog\obj\Debug\Dialog.Form1.resources
+C:\MyCSharp\Projects\Dialog\Dialog\obj\Debug\Dialog.Properties.Resources.resources
+C:\MyCSharp\Projects\Dialog\Dialog\obj\Debug\Dialog.csproj.GenerateResource.Cache
+C:\MyCSharp\Projects\Dialog\Dialog\obj\Debug\Dialog.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Dialog\Dialog\obj\Debug\Dialog.exe
+C:\MyCSharp\Projects\Dialog\Dialog\obj\Debug\Dialog.pdb

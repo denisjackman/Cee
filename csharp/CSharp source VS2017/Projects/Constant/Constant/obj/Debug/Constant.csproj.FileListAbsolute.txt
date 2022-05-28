@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Constant\Constant\bin\Debug\Constant.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Constant\Constant\bin\Debug\Constant.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Constant\Constant\bin\Debug\Constant.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Constant\Constant\obj\Debug\Constant.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Constant\Constant\obj\Debug\Constant.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Constant\Constant\obj\Debug\Constant.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Constant\Constant\bin\Debug\Constant.exe.config
+C:\MyCSharp\Projects\Constant\Constant\bin\Debug\Constant.exe
+C:\MyCSharp\Projects\Constant\Constant\bin\Debug\Constant.pdb
+C:\MyCSharp\Projects\Constant\Constant\obj\Debug\Constant.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Constant\Constant\obj\Debug\Constant.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Constant\Constant\obj\Debug\Constant.exe
+C:\MyCSharp\Projects\Constant\Constant\obj\Debug\Constant.pdb

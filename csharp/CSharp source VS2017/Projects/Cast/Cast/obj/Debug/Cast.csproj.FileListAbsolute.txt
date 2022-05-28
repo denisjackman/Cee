@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Cast\Cast\bin\Debug\Cast.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Cast\Cast\bin\Debug\Cast.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Cast\Cast\bin\Debug\Cast.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Cast\Cast\obj\Debug\Cast.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Cast\Cast\obj\Debug\Cast.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Cast\Cast\obj\Debug\Cast.pdb
+C:\MyCSharp\Projects\Cast\Cast\bin\Debug\Cast.exe.config
+C:\MyCSharp\Projects\Cast\Cast\bin\Debug\Cast.exe
+C:\MyCSharp\Projects\Cast\Cast\bin\Debug\Cast.pdb
+C:\MyCSharp\Projects\Cast\Cast\obj\Debug\Cast.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Cast\Cast\obj\Debug\Cast.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Cast\Cast\obj\Debug\Cast.exe
+C:\MyCSharp\Projects\Cast\Cast\obj\Debug\Cast.pdb

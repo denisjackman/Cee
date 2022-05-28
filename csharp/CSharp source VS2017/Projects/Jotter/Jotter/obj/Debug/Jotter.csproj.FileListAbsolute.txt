@@ -1,0 +1,19 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Jotter\Jotter\bin\Debug\Jotter.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Jotter\Jotter\bin\Debug\Jotter.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Jotter\Jotter\bin\Debug\Jotter.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Jotter\Jotter\obj\Debug\Jotter.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Jotter\Jotter\obj\Debug\Jotter.Form1.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Jotter\Jotter\obj\Debug\Jotter.Properties.Resources.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Jotter\Jotter\obj\Debug\Jotter.csproj.GenerateResource.Cache
+c:\users\mike_\documents\visual studio 2015\Projects\Jotter\Jotter\obj\Debug\Jotter.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Jotter\Jotter\obj\Debug\Jotter.pdb
+C:\MyCSharp\Projects\Jotter\Jotter\bin\Debug\Jotter.exe.config
+C:\MyCSharp\Projects\Jotter\Jotter\bin\Debug\Jotter.exe
+C:\MyCSharp\Projects\Jotter\Jotter\bin\Debug\Jotter.pdb
+C:\MyCSharp\Projects\Jotter\Jotter\obj\Debug\Jotter.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Jotter\Jotter\obj\Debug\Jotter.Form1.resources
+C:\MyCSharp\Projects\Jotter\Jotter\obj\Debug\Jotter.Properties.Resources.resources
+C:\MyCSharp\Projects\Jotter\Jotter\obj\Debug\Jotter.csproj.GenerateResource.Cache
+C:\MyCSharp\Projects\Jotter\Jotter\obj\Debug\Jotter.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Jotter\Jotter\obj\Debug\Jotter.exe
+C:\MyCSharp\Projects\Jotter\Jotter\obj\Debug\Jotter.pdb

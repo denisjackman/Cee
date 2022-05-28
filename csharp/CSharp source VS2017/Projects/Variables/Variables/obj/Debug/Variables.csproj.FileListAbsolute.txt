@@ -1,0 +1,11 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Variables\Variables\bin\Debug\Variables.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Variables\Variables\bin\Debug\Variables.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Variables\Variables\bin\Debug\Variables.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Variables\Variables\obj\Debug\Variables.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Variables\Variables\obj\Debug\Variables.pdb
+C:\MyCSharp\Projects\Variables\Variables\bin\Debug\Variables.exe.config
+C:\MyCSharp\Projects\Variables\Variables\bin\Debug\Variables.exe
+C:\MyCSharp\Projects\Variables\Variables\bin\Debug\Variables.pdb
+C:\MyCSharp\Projects\Variables\Variables\obj\Debug\Variables.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Variables\Variables\obj\Debug\Variables.exe
+C:\MyCSharp\Projects\Variables\Variables\obj\Debug\Variables.pdb

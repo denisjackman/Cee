@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\ErrorHandling\ErrorHandling\bin\Debug\ErrorHandling.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\ErrorHandling\ErrorHandling\bin\Debug\ErrorHandling.exe
+c:\users\mike_\documents\visual studio 2015\Projects\ErrorHandling\ErrorHandling\bin\Debug\ErrorHandling.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\ErrorHandling\ErrorHandling\obj\Debug\ErrorHandling.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\ErrorHandling\ErrorHandling\obj\Debug\ErrorHandling.exe
+c:\users\mike_\documents\visual studio 2015\Projects\ErrorHandling\ErrorHandling\obj\Debug\ErrorHandling.pdb
+C:\MyCSharp\Projects\ErrorHandling\ErrorHandling\bin\Debug\ErrorHandling.exe.config
+C:\MyCSharp\Projects\ErrorHandling\ErrorHandling\bin\Debug\ErrorHandling.exe
+C:\MyCSharp\Projects\ErrorHandling\ErrorHandling\bin\Debug\ErrorHandling.pdb
+C:\MyCSharp\Projects\ErrorHandling\ErrorHandling\obj\Debug\ErrorHandling.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\ErrorHandling\ErrorHandling\obj\Debug\ErrorHandling.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\ErrorHandling\ErrorHandling\obj\Debug\ErrorHandling.exe
+C:\MyCSharp\Projects\ErrorHandling\ErrorHandling\obj\Debug\ErrorHandling.pdb

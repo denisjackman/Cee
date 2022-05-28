@@ -1,0 +1,19 @@
+c:\users\mike_\documents\visual studio 2015\Projects\DateFormat\DateFormat\bin\Debug\DateFormat.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\DateFormat\DateFormat\obj\Debug\DateFormat.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\DateFormat\DateFormat\bin\Debug\DateFormat.exe
+c:\users\mike_\documents\visual studio 2015\Projects\DateFormat\DateFormat\bin\Debug\DateFormat.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\DateFormat\DateFormat\obj\Debug\DateFormat.exe
+c:\users\mike_\documents\visual studio 2015\Projects\DateFormat\DateFormat\obj\Debug\DateFormat.pdb
+C:\Users\mike_\Desktop\Projects\DateFormat\DateFormat\bin\Debug\DateFormat.exe.config
+C:\Users\mike_\Desktop\Projects\DateFormat\DateFormat\obj\Debug\DateFormat.exe
+C:\Users\mike_\Desktop\Projects\DateFormat\DateFormat\obj\Debug\DateFormat.pdb
+C:\Users\mike_\Desktop\Projects\DateFormat\DateFormat\bin\Debug\DateFormat.exe
+C:\Users\mike_\Desktop\Projects\DateFormat\DateFormat\bin\Debug\DateFormat.pdb
+C:\Users\mike_\Desktop\Projects\DateFormat\DateFormat\obj\Debug\DateFormat.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\DateFormat\DateFormat\bin\Debug\DateFormat.exe.config
+C:\MyCSharp\Projects\DateFormat\DateFormat\bin\Debug\DateFormat.exe
+C:\MyCSharp\Projects\DateFormat\DateFormat\bin\Debug\DateFormat.pdb
+C:\MyCSharp\Projects\DateFormat\DateFormat\obj\Debug\DateFormat.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\DateFormat\DateFormat\obj\Debug\DateFormat.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\DateFormat\DateFormat\obj\Debug\DateFormat.exe
+C:\MyCSharp\Projects\DateFormat\DateFormat\obj\Debug\DateFormat.pdb

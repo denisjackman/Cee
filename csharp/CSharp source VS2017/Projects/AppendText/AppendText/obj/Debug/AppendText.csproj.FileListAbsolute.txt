@@ -1,0 +1,16 @@
+c:\users\mike_\documents\visual studio 2015\Projects\AppendText\AppendText\bin\Debug\AppendText.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\AppendText\AppendText\bin\Debug\AppendText.exe
+c:\users\mike_\documents\visual studio 2015\Projects\AppendText\AppendText\bin\Debug\AppendText.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\AppendText\AppendText\obj\Debug\AppendText.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\AppendText\AppendText\obj\Debug\AppendText.exe
+c:\users\mike_\documents\visual studio 2015\Projects\AppendText\AppendText\obj\Debug\AppendText.pdb
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\AppendText\AppendText\bin\Debug\AppendText.exe.config
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\AppendText\AppendText\obj\Debug\AppendText.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\AppendText\AppendText\obj\Debug\AppendText.pdb
+C:\MyCSharp\Projects\AppendText\AppendText\bin\Debug\AppendText.exe.config
+C:\MyCSharp\Projects\AppendText\AppendText\bin\Debug\AppendText.exe
+C:\MyCSharp\Projects\AppendText\AppendText\bin\Debug\AppendText.pdb
+C:\MyCSharp\Projects\AppendText\AppendText\obj\Debug\AppendText.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\AppendText\AppendText\obj\Debug\AppendText.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\AppendText\AppendText\obj\Debug\AppendText.exe
+C:\MyCSharp\Projects\AppendText\AppendText\obj\Debug\AppendText.pdb

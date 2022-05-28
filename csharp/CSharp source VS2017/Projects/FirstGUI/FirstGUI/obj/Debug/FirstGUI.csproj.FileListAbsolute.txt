@@ -1,0 +1,22 @@
+c:\users\mike_\documents\visual studio 2015\Projects\FirstGUI\FirstGUI\bin\Debug\FirstGUI.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\FirstGUI\FirstGUI\bin\Debug\FirstGUI.exe
+c:\users\mike_\documents\visual studio 2015\Projects\FirstGUI\FirstGUI\bin\Debug\FirstGUI.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.Properties.Resources.resources
+c:\users\mike_\documents\visual studio 2015\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.csproj.GenerateResource.Cache
+c:\users\mike_\documents\visual studio 2015\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.exe
+c:\users\mike_\documents\visual studio 2015\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.Form1.resources
+C:\Users\mike_\Desktop\Projects\FirstGUI\FirstGUI\bin\Debug\FirstGUI.exe.config
+C:\Users\mike_\Desktop\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.exe
+C:\Users\mike_\Desktop\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.pdb
+C:\MyCSharp\Projects\FirstGUI\FirstGUI\bin\Debug\FirstGUI.exe.config
+C:\MyCSharp\Projects\FirstGUI\FirstGUI\bin\Debug\FirstGUI.exe
+C:\MyCSharp\Projects\FirstGUI\FirstGUI\bin\Debug\FirstGUI.pdb
+C:\MyCSharp\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.Form1.resources
+C:\MyCSharp\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.Properties.Resources.resources
+C:\MyCSharp\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.csproj.GenerateResource.Cache
+C:\MyCSharp\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.exe
+C:\MyCSharp\Projects\FirstGUI\FirstGUI\obj\Debug\FirstGUI.pdb

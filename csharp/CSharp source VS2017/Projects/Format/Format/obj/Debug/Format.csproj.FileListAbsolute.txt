@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Format\Format\bin\Debug\Format.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Format\Format\bin\Debug\Format.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Format\Format\bin\Debug\Format.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Format\Format\obj\Debug\Format.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Format\Format\obj\Debug\Format.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Format\Format\obj\Debug\Format.pdb
+C:\MyCSharp\Projects\Format\Format\bin\Debug\Format.exe.config
+C:\MyCSharp\Projects\Format\Format\bin\Debug\Format.exe
+C:\MyCSharp\Projects\Format\Format\bin\Debug\Format.pdb
+C:\MyCSharp\Projects\Format\Format\obj\Debug\Format.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Format\Format\obj\Debug\Format.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Format\Format\obj\Debug\Format.exe
+C:\MyCSharp\Projects\Format\Format\obj\Debug\Format.pdb

@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\WriteText\WriteText\bin\Debug\WriteText.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\WriteText\WriteText\obj\Debug\WriteText.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\WriteText\WriteText\bin\Debug\WriteText.exe
+c:\users\mike_\documents\visual studio 2015\Projects\WriteText\WriteText\bin\Debug\WriteText.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\WriteText\WriteText\obj\Debug\WriteText.exe
+c:\users\mike_\documents\visual studio 2015\Projects\WriteText\WriteText\obj\Debug\WriteText.pdb
+C:\MyCSharp\Projects\WriteText\WriteText\bin\Debug\WriteText.exe.config
+C:\MyCSharp\Projects\WriteText\WriteText\bin\Debug\WriteText.exe
+C:\MyCSharp\Projects\WriteText\WriteText\bin\Debug\WriteText.pdb
+C:\MyCSharp\Projects\WriteText\WriteText\obj\Debug\WriteText.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\WriteText\WriteText\obj\Debug\WriteText.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\WriteText\WriteText\obj\Debug\WriteText.exe
+C:\MyCSharp\Projects\WriteText\WriteText\obj\Debug\WriteText.pdb

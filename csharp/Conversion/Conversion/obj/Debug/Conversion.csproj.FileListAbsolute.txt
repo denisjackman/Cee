@@ -1,0 +1,5 @@
+g:\workspace\csharp\Conversion\Conversion\bin\Debug\Conversion.exe.config
+g:\workspace\csharp\Conversion\Conversion\bin\Debug\Conversion.exe
+g:\workspace\csharp\Conversion\Conversion\bin\Debug\Conversion.pdb
+g:\workspace\csharp\Conversion\Conversion\obj\Debug\Conversion.exe
+g:\workspace\csharp\Conversion\Conversion\obj\Debug\Conversion.pdb

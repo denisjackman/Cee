@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Conversion\Conversion\bin\Debug\Conversion.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Conversion\Conversion\bin\Debug\Conversion.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Conversion\Conversion\bin\Debug\Conversion.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Conversion\Conversion\obj\Debug\Conversion.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Conversion\Conversion\obj\Debug\Conversion.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Conversion\Conversion\obj\Debug\Conversion.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Conversion\Conversion\bin\Debug\Conversion.exe.config
+C:\MyCSharp\Projects\Conversion\Conversion\bin\Debug\Conversion.exe
+C:\MyCSharp\Projects\Conversion\Conversion\bin\Debug\Conversion.pdb
+C:\MyCSharp\Projects\Conversion\Conversion\obj\Debug\Conversion.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Conversion\Conversion\obj\Debug\Conversion.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Conversion\Conversion\obj\Debug\Conversion.exe
+C:\MyCSharp\Projects\Conversion\Conversion\obj\Debug\Conversion.pdb

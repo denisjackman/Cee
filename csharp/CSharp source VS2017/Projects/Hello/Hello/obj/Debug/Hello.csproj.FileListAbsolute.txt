@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Hello\Hello\bin\Debug\Hello.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Hello\Hello\bin\Debug\Hello.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Hello\Hello\bin\Debug\Hello.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Hello\Hello\obj\Debug\Hello.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Hello\Hello\obj\Debug\Hello.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Hello\Hello\obj\Debug\Hello.pdb
+C:\MyCSharp\Projects\Hello\Hello\bin\Debug\Hello.exe.config
+C:\MyCSharp\Projects\Hello\Hello\bin\Debug\Hello.exe
+C:\MyCSharp\Projects\Hello\Hello\bin\Debug\Hello.pdb
+C:\MyCSharp\Projects\Hello\Hello\obj\Debug\Hello.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Hello\Hello\obj\Debug\Hello.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Hello\Hello\obj\Debug\Hello.exe
+C:\MyCSharp\Projects\Hello\Hello\obj\Debug\Hello.pdb

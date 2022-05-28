@@ -1,0 +1,22 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Method\Method\bin\Debug\Method.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Method\Method\obj\Debug\Method.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Method\Method\bin\Debug\Method.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Method\Method\bin\Debug\Method.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Method\Method\obj\Debug\Method.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Method\Method\obj\Debug\Method.pdb
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\Method\Method\bin\Debug\Method.exe.config
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\Method\Method\obj\Debug\Method.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\Method\Method\obj\Debug\Method.pdb
+C:\Users\mike_\Desktop\Projects\Method\Method\bin\Debug\Method.exe.config
+C:\Users\mike_\Desktop\Projects\Method\Method\obj\Debug\Method.exe
+C:\Users\mike_\Desktop\Projects\Method\Method\obj\Debug\Method.pdb
+C:\Users\mike_\Desktop\Projects\Method\Method\bin\Debug\Method.exe
+C:\Users\mike_\Desktop\Projects\Method\Method\bin\Debug\Method.pdb
+C:\Users\mike_\Desktop\Projects\Method\Method\obj\Debug\Method.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Method\Method\bin\Debug\Method.exe.config
+C:\MyCSharp\Projects\Method\Method\bin\Debug\Method.exe
+C:\MyCSharp\Projects\Method\Method\bin\Debug\Method.pdb
+C:\MyCSharp\Projects\Method\Method\obj\Debug\Method.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Method\Method\obj\Debug\Method.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Method\Method\obj\Debug\Method.exe
+C:\MyCSharp\Projects\Method\Method\obj\Debug\Method.pdb

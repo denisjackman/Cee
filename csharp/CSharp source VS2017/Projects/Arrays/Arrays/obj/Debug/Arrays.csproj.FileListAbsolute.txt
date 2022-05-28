@@ -1,0 +1,16 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Arrays\Arrays\bin\Debug\Arrays.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Arrays\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Arrays\Arrays\bin\Debug\Arrays.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Arrays\Arrays\bin\Debug\Arrays.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Arrays\Arrays\obj\Debug\Arrays.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Arrays\Arrays\obj\Debug\Arrays.pdb
+C:\Users\mike_\Desktop\Projects\Arrays\Arrays\bin\Debug\Arrays.exe.config
+C:\Users\mike_\Desktop\Projects\Arrays\Arrays\obj\Debug\Arrays.exe
+C:\Users\mike_\Desktop\Projects\Arrays\Arrays\obj\Debug\Arrays.pdb
+C:\MyCSharp\Projects\Arrays\Arrays\bin\Debug\Arrays.exe.config
+C:\MyCSharp\Projects\Arrays\Arrays\bin\Debug\Arrays.exe
+C:\MyCSharp\Projects\Arrays\Arrays\bin\Debug\Arrays.pdb
+C:\MyCSharp\Projects\Arrays\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Arrays\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Arrays\Arrays\obj\Debug\Arrays.exe
+C:\MyCSharp\Projects\Arrays\Arrays\obj\Debug\Arrays.pdb

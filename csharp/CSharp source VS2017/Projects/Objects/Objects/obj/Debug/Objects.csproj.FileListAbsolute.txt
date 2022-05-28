@@ -1,0 +1,16 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Objects\Objects\bin\Debug\Objects.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Objects\Objects\bin\Debug\Objects.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Objects\Objects\bin\Debug\Objects.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Objects\Objects\obj\Debug\Objects.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Objects\Objects\obj\Debug\Objects.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Objects\Objects\obj\Debug\Objects.pdb
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\Objects\Objects\bin\Debug\Objects.exe.config
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\Objects\Objects\obj\Debug\Objects.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\Objects\Objects\obj\Debug\Objects.pdb
+C:\MyCSharp\Projects\Objects\Objects\bin\Debug\Objects.exe.config
+C:\MyCSharp\Projects\Objects\Objects\bin\Debug\Objects.exe
+C:\MyCSharp\Projects\Objects\Objects\bin\Debug\Objects.pdb
+C:\MyCSharp\Projects\Objects\Objects\obj\Debug\Objects.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Objects\Objects\obj\Debug\Objects.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Objects\Objects\obj\Debug\Objects.exe
+C:\MyCSharp\Projects\Objects\Objects\obj\Debug\Objects.pdb

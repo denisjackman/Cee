@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Input\Input\bin\Debug\Input.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Input\Input\bin\Debug\Input.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Input\Input\bin\Debug\Input.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Input\Input\obj\Debug\Input.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Input\Input\obj\Debug\Input.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Input\Input\obj\Debug\Input.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Input\Input\bin\Debug\Input.exe.config
+C:\MyCSharp\Projects\Input\Input\bin\Debug\Input.exe
+C:\MyCSharp\Projects\Input\Input\bin\Debug\Input.pdb
+C:\MyCSharp\Projects\Input\Input\obj\Debug\Input.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Input\Input\obj\Debug\Input.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Input\Input\obj\Debug\Input.exe
+C:\MyCSharp\Projects\Input\Input\obj\Debug\Input.pdb

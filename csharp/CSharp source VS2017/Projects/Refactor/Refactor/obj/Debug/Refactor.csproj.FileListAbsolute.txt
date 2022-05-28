@@ -1,0 +1,19 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Refactor\Refactor\bin\Debug\Refactor.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Refactor\Refactor\obj\Debug\Refactor.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Refactor\Refactor\bin\Debug\Refactor.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Refactor\Refactor\bin\Debug\Refactor.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Refactor\Refactor\obj\Debug\Refactor.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Refactor\Refactor\obj\Debug\Refactor.pdb
+C:\Users\mike_\Desktop\Projects\Refactor\Refactor\bin\Debug\Refactor.exe.config
+C:\Users\mike_\Desktop\Projects\Refactor\Refactor\obj\Debug\Refactor.exe
+C:\Users\mike_\Desktop\Projects\Refactor\Refactor\obj\Debug\Refactor.pdb
+C:\Users\mike_\Desktop\Projects\Refactor\Refactor\bin\Debug\Refactor.exe
+C:\Users\mike_\Desktop\Projects\Refactor\Refactor\bin\Debug\Refactor.pdb
+C:\Users\mike_\Desktop\Projects\Refactor\Refactor\obj\Debug\Refactor.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Refactor\Refactor\bin\Debug\Refactor.exe.config
+C:\MyCSharp\Projects\Refactor\Refactor\bin\Debug\Refactor.exe
+C:\MyCSharp\Projects\Refactor\Refactor\bin\Debug\Refactor.pdb
+C:\MyCSharp\Projects\Refactor\Refactor\obj\Debug\Refactor.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Refactor\Refactor\obj\Debug\Refactor.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Refactor\Refactor\obj\Debug\Refactor.exe
+C:\MyCSharp\Projects\Refactor\Refactor\obj\Debug\Refactor.pdb

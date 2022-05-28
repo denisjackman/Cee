@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\ReadStream\ReadStream\bin\Debug\ReadStream.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\ReadStream\ReadStream\obj\Debug\ReadStream.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\ReadStream\ReadStream\bin\Debug\ReadStream.exe
+c:\users\mike_\documents\visual studio 2015\Projects\ReadStream\ReadStream\bin\Debug\ReadStream.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\ReadStream\ReadStream\obj\Debug\ReadStream.exe
+c:\users\mike_\documents\visual studio 2015\Projects\ReadStream\ReadStream\obj\Debug\ReadStream.pdb
+C:\MyCSharp\Projects\ReadStream\ReadStream\bin\Debug\ReadStream.exe.config
+C:\MyCSharp\Projects\ReadStream\ReadStream\bin\Debug\ReadStream.exe
+C:\MyCSharp\Projects\ReadStream\ReadStream\bin\Debug\ReadStream.pdb
+C:\MyCSharp\Projects\ReadStream\ReadStream\obj\Debug\ReadStream.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\ReadStream\ReadStream\obj\Debug\ReadStream.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\ReadStream\ReadStream\obj\Debug\ReadStream.exe
+C:\MyCSharp\Projects\ReadStream\ReadStream\obj\Debug\ReadStream.pdb

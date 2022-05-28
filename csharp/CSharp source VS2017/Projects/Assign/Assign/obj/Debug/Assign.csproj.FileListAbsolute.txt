@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Assign\Assign\bin\Debug\Assign.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Assign\Assign\obj\Debug\Assign.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Assign\Assign\bin\Debug\Assign.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Assign\Assign\bin\Debug\Assign.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Assign\Assign\obj\Debug\Assign.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Assign\Assign\obj\Debug\Assign.pdb
+C:\MyCSharp\Projects\Assign\Assign\bin\Debug\Assign.exe.config
+C:\MyCSharp\Projects\Assign\Assign\bin\Debug\Assign.exe
+C:\MyCSharp\Projects\Assign\Assign\bin\Debug\Assign.pdb
+C:\MyCSharp\Projects\Assign\Assign\obj\Debug\Assign.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Assign\Assign\obj\Debug\Assign.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Assign\Assign\obj\Debug\Assign.exe
+C:\MyCSharp\Projects\Assign\Assign\obj\Debug\Assign.pdb

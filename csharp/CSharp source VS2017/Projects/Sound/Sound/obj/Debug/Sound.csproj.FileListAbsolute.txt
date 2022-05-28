@@ -1,0 +1,19 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Sound\Sound\bin\Debug\Sound.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Sound\Sound\bin\Debug\Sound.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Sound\Sound\bin\Debug\Sound.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Sound\Sound\obj\Debug\Sound.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Sound\Sound\obj\Debug\Sound.Form1.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Sound\Sound\obj\Debug\Sound.Properties.Resources.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Sound\Sound\obj\Debug\Sound.csproj.GenerateResource.Cache
+c:\users\mike_\documents\visual studio 2015\Projects\Sound\Sound\obj\Debug\Sound.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Sound\Sound\obj\Debug\Sound.pdb
+C:\MyCSharp\Projects\Sound\Sound\bin\Debug\Sound.exe.config
+C:\MyCSharp\Projects\Sound\Sound\bin\Debug\Sound.exe
+C:\MyCSharp\Projects\Sound\Sound\bin\Debug\Sound.pdb
+C:\MyCSharp\Projects\Sound\Sound\obj\Debug\Sound.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Sound\Sound\obj\Debug\Sound.Form1.resources
+C:\MyCSharp\Projects\Sound\Sound\obj\Debug\Sound.Properties.Resources.resources
+C:\MyCSharp\Projects\Sound\Sound\obj\Debug\Sound.csproj.GenerateResource.Cache
+C:\MyCSharp\Projects\Sound\Sound\obj\Debug\Sound.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Sound\Sound\obj\Debug\Sound.exe
+C:\MyCSharp\Projects\Sound\Sound\obj\Debug\Sound.pdb

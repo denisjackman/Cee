@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\ForLoop\ForLoop\bin\Debug\ForLoop.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\ForLoop\ForLoop\bin\Debug\ForLoop.exe
+c:\users\mike_\documents\visual studio 2015\Projects\ForLoop\ForLoop\bin\Debug\ForLoop.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\ForLoop\ForLoop\obj\Debug\ForLoop.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\ForLoop\ForLoop\obj\Debug\ForLoop.exe
+c:\users\mike_\documents\visual studio 2015\Projects\ForLoop\ForLoop\obj\Debug\ForLoop.pdb
+C:\MyCSharp\Projects\ForLoop\ForLoop\bin\Debug\ForLoop.exe.config
+C:\MyCSharp\Projects\ForLoop\ForLoop\bin\Debug\ForLoop.exe
+C:\MyCSharp\Projects\ForLoop\ForLoop\bin\Debug\ForLoop.pdb
+C:\MyCSharp\Projects\ForLoop\ForLoop\obj\Debug\ForLoop.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\ForLoop\ForLoop\obj\Debug\ForLoop.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\ForLoop\ForLoop\obj\Debug\ForLoop.exe
+C:\MyCSharp\Projects\ForLoop\ForLoop\obj\Debug\ForLoop.pdb

@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Switch\Switch\bin\Debug\Switch.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Switch\Switch\bin\Debug\Switch.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Switch\Switch\bin\Debug\Switch.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Switch\Switch\obj\Debug\Switch.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Switch\Switch\obj\Debug\Switch.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Switch\Switch\obj\Debug\Switch.pdb
+C:\MyCSharp\Projects\Switch\Switch\bin\Debug\Switch.exe.config
+C:\MyCSharp\Projects\Switch\Switch\bin\Debug\Switch.exe
+C:\MyCSharp\Projects\Switch\Switch\bin\Debug\Switch.pdb
+C:\MyCSharp\Projects\Switch\Switch\obj\Debug\Switch.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Switch\Switch\obj\Debug\Switch.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Switch\Switch\obj\Debug\Switch.exe
+C:\MyCSharp\Projects\Switch\Switch\obj\Debug\Switch.pdb

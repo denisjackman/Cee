@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Base\Base\bin\Debug\Base.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Base\Base\bin\Debug\Base.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Base\Base\bin\Debug\Base.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Base\Base\obj\Debug\Base.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Base\Base\obj\Debug\Base.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Base\Base\obj\Debug\Base.pdb
+C:\MyCSharp\Projects\Base\Base\bin\Debug\Base.exe.config
+C:\MyCSharp\Projects\Base\Base\bin\Debug\Base.exe
+C:\MyCSharp\Projects\Base\Base\bin\Debug\Base.pdb
+C:\MyCSharp\Projects\Base\Base\obj\Debug\Base.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Base\Base\obj\Debug\Base.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Base\Base\obj\Debug\Base.exe
+C:\MyCSharp\Projects\Base\Base\obj\Debug\Base.pdb

@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Features\Features\bin\Debug\Features.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Features\Features\bin\Debug\Features.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Features\Features\bin\Debug\Features.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Features\Features\obj\Debug\Features.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Features\Features\obj\Debug\Features.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Features\Features\obj\Debug\Features.pdb
+C:\MyCSharp\Projects\Features\Features\bin\Debug\Features.exe.config
+C:\MyCSharp\Projects\Features\Features\bin\Debug\Features.exe
+C:\MyCSharp\Projects\Features\Features\bin\Debug\Features.pdb
+C:\MyCSharp\Projects\Features\Features\obj\Debug\Features.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Features\Features\obj\Debug\Features.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Features\Features\obj\Debug\Features.exe
+C:\MyCSharp\Projects\Features\Features\obj\Debug\Features.pdb

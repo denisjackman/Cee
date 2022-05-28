@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Condition\Condition\bin\Debug\Condition.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Condition\Condition\obj\Debug\Condition.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Condition\Condition\bin\Debug\Condition.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Condition\Condition\bin\Debug\Condition.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Condition\Condition\obj\Debug\Condition.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Condition\Condition\obj\Debug\Condition.pdb
+C:\MyCSharp\Projects\Condition\Condition\bin\Debug\Condition.exe.config
+C:\MyCSharp\Projects\Condition\Condition\bin\Debug\Condition.exe
+C:\MyCSharp\Projects\Condition\Condition\bin\Debug\Condition.pdb
+C:\MyCSharp\Projects\Condition\Condition\obj\Debug\Condition.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Condition\Condition\obj\Debug\Condition.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Condition\Condition\obj\Debug\Condition.exe
+C:\MyCSharp\Projects\Condition\Condition\obj\Debug\Condition.pdb

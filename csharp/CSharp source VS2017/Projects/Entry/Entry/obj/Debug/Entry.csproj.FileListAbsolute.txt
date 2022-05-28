@@ -1,0 +1,19 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Entry\Entry\bin\Debug\Entry.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Entry\Entry\obj\Debug\Entry.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Entry\Entry\obj\Debug\Entry.Form1.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Entry\Entry\obj\Debug\Entry.Properties.Resources.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Entry\Entry\obj\Debug\Entry.csproj.GenerateResource.Cache
+c:\users\mike_\documents\visual studio 2015\Projects\Entry\Entry\bin\Debug\Entry.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Entry\Entry\bin\Debug\Entry.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Entry\Entry\obj\Debug\Entry.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Entry\Entry\obj\Debug\Entry.pdb
+C:\MyCSharp\Projects\Entry\Entry\bin\Debug\Entry.exe.config
+C:\MyCSharp\Projects\Entry\Entry\bin\Debug\Entry.exe
+C:\MyCSharp\Projects\Entry\Entry\bin\Debug\Entry.pdb
+C:\MyCSharp\Projects\Entry\Entry\obj\Debug\Entry.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Entry\Entry\obj\Debug\Entry.Form1.resources
+C:\MyCSharp\Projects\Entry\Entry\obj\Debug\Entry.Properties.Resources.resources
+C:\MyCSharp\Projects\Entry\Entry\obj\Debug\Entry.csproj.GenerateResource.Cache
+C:\MyCSharp\Projects\Entry\Entry\obj\Debug\Entry.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Entry\Entry\obj\Debug\Entry.exe
+C:\MyCSharp\Projects\Entry\Entry\obj\Debug\Entry.pdb

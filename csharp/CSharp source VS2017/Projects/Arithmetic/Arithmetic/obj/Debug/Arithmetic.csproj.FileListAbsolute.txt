@@ -1,0 +1,16 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Arithmetic\Arithmetic\bin\Debug\Arithmetic.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Arithmetic\Arithmetic\bin\Debug\Arithmetic.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Arithmetic\Arithmetic\bin\Debug\Arithmetic.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Arithmetic\Arithmetic\obj\Debug\Arithmetic.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Arithmetic\Arithmetic\obj\Debug\Arithmetic.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Arithmetic\Arithmetic\obj\Debug\Arithmetic.pdb
+C:\Users\mike_\Desktop\Projects\Arithmetic\Arithmetic\bin\Debug\Arithmetic.exe.config
+C:\Users\mike_\Desktop\Projects\Arithmetic\Arithmetic\obj\Debug\Arithmetic.exe
+C:\Users\mike_\Desktop\Projects\Arithmetic\Arithmetic\obj\Debug\Arithmetic.pdb
+C:\MyCSharp\Projects\Arithmetic\Arithmetic\bin\Debug\Arithmetic.exe.config
+C:\MyCSharp\Projects\Arithmetic\Arithmetic\bin\Debug\Arithmetic.exe
+C:\MyCSharp\Projects\Arithmetic\Arithmetic\bin\Debug\Arithmetic.pdb
+C:\MyCSharp\Projects\Arithmetic\Arithmetic\obj\Debug\Arithmetic.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Arithmetic\Arithmetic\obj\Debug\Arithmetic.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Arithmetic\Arithmetic\obj\Debug\Arithmetic.exe
+C:\MyCSharp\Projects\Arithmetic\Arithmetic\obj\Debug\Arithmetic.pdb

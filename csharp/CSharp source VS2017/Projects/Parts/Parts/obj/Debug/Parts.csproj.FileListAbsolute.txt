@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Parts\Parts\bin\Debug\Parts.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Parts\Parts\obj\Debug\Parts.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Parts\Parts\bin\Debug\Parts.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Parts\Parts\bin\Debug\Parts.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Parts\Parts\obj\Debug\Parts.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Parts\Parts\obj\Debug\Parts.pdb
+C:\MyCSharp\Projects\Parts\Parts\bin\Debug\Parts.exe.config
+C:\MyCSharp\Projects\Parts\Parts\bin\Debug\Parts.exe
+C:\MyCSharp\Projects\Parts\Parts\bin\Debug\Parts.pdb
+C:\MyCSharp\Projects\Parts\Parts\obj\Debug\Parts.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Parts\Parts\obj\Debug\Parts.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Parts\Parts\obj\Debug\Parts.exe
+C:\MyCSharp\Projects\Parts\Parts\obj\Debug\Parts.pdb

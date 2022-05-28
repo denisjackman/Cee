@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Capability\Capability\bin\Debug\Capability.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Capability\Capability\bin\Debug\Capability.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Capability\Capability\bin\Debug\Capability.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Capability\Capability\obj\Debug\Capability.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Capability\Capability\obj\Debug\Capability.pdb
+C:\Users\mike_\documents\visual studio 2015\Projects\Capability\Capability\obj\Debug\Capability.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Capability\Capability\bin\Debug\Capability.exe.config
+C:\MyCSharp\Projects\Capability\Capability\bin\Debug\Capability.exe
+C:\MyCSharp\Projects\Capability\Capability\bin\Debug\Capability.pdb
+C:\MyCSharp\Projects\Capability\Capability\obj\Debug\Capability.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Capability\Capability\obj\Debug\Capability.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Capability\Capability\obj\Debug\Capability.exe
+C:\MyCSharp\Projects\Capability\Capability\obj\Debug\Capability.pdb

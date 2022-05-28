@@ -1,0 +1,16 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Comparison\Comparison\bin\Debug\Comparison.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Comparison\Comparison\bin\Debug\Comparison.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Comparison\Comparison\bin\Debug\Comparison.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Comparison\Comparison\obj\Debug\Comparison.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Comparison\Comparison\obj\Debug\Comparison.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Comparison\Comparison\obj\Debug\Comparison.pdb
+C:\Users\mike_\Desktop\Projects\Comparison\Comparison\bin\Debug\Comparison.exe.config
+C:\Users\mike_\Desktop\Projects\Comparison\Comparison\obj\Debug\Comparison.exe
+C:\Users\mike_\Desktop\Projects\Comparison\Comparison\obj\Debug\Comparison.pdb
+C:\MyCSharp\Projects\Comparison\Comparison\bin\Debug\Comparison.exe.config
+C:\MyCSharp\Projects\Comparison\Comparison\bin\Debug\Comparison.exe
+C:\MyCSharp\Projects\Comparison\Comparison\bin\Debug\Comparison.pdb
+C:\MyCSharp\Projects\Comparison\Comparison\obj\Debug\Comparison.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Comparison\Comparison\obj\Debug\Comparison.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Comparison\Comparison\obj\Debug\Comparison.exe
+C:\MyCSharp\Projects\Comparison\Comparison\obj\Debug\Comparison.pdb

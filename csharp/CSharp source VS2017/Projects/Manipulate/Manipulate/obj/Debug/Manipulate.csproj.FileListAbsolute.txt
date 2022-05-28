@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Manipulate\Manipulate\bin\Debug\Manipulate.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Manipulate\Manipulate\obj\Debug\Manipulate.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Manipulate\Manipulate\bin\Debug\Manipulate.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Manipulate\Manipulate\bin\Debug\Manipulate.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Manipulate\Manipulate\obj\Debug\Manipulate.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Manipulate\Manipulate\obj\Debug\Manipulate.pdb
+C:\MyCSharp\Projects\Manipulate\Manipulate\bin\Debug\Manipulate.exe.config
+C:\MyCSharp\Projects\Manipulate\Manipulate\bin\Debug\Manipulate.exe
+C:\MyCSharp\Projects\Manipulate\Manipulate\bin\Debug\Manipulate.pdb
+C:\MyCSharp\Projects\Manipulate\Manipulate\obj\Debug\Manipulate.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Manipulate\Manipulate\obj\Debug\Manipulate.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Manipulate\Manipulate\obj\Debug\Manipulate.exe
+C:\MyCSharp\Projects\Manipulate\Manipulate\obj\Debug\Manipulate.pdb

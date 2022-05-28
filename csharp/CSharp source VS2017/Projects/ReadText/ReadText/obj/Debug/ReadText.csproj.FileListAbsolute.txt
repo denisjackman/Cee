@@ -1,0 +1,16 @@
+c:\users\mike_\documents\visual studio 2015\Projects\ReadText\ReadText\bin\Debug\ReadText.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\ReadText\ReadText\bin\Debug\ReadText.exe
+c:\users\mike_\documents\visual studio 2015\Projects\ReadText\ReadText\bin\Debug\ReadText.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\ReadText\ReadText\obj\Debug\ReadText.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\ReadText\ReadText\obj\Debug\ReadText.exe
+c:\users\mike_\documents\visual studio 2015\Projects\ReadText\ReadText\obj\Debug\ReadText.pdb
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\ReadText\ReadText\bin\Debug\ReadText.exe.config
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\ReadText\ReadText\obj\Debug\ReadText.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\SourcecodeMMMMMMMMMMMM\ReadText\ReadText\obj\Debug\ReadText.pdb
+C:\MyCSharp\Projects\ReadText\ReadText\bin\Debug\ReadText.exe.config
+C:\MyCSharp\Projects\ReadText\ReadText\bin\Debug\ReadText.exe
+C:\MyCSharp\Projects\ReadText\ReadText\bin\Debug\ReadText.pdb
+C:\MyCSharp\Projects\ReadText\ReadText\obj\Debug\ReadText.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\ReadText\ReadText\obj\Debug\ReadText.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\ReadText\ReadText\obj\Debug\ReadText.exe
+C:\MyCSharp\Projects\ReadText\ReadText\obj\Debug\ReadText.pdb

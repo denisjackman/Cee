@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\ForEach\ForEach\bin\Debug\ForEach.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\ForEach\ForEach\bin\Debug\ForEach.exe
+c:\users\mike_\documents\visual studio 2015\Projects\ForEach\ForEach\bin\Debug\ForEach.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\ForEach\ForEach\obj\Debug\ForEach.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\ForEach\ForEach\obj\Debug\ForEach.exe
+c:\users\mike_\documents\visual studio 2015\Projects\ForEach\ForEach\obj\Debug\ForEach.pdb
+C:\MyCSharp\Projects\ForEach\ForEach\bin\Debug\ForEach.exe.config
+C:\MyCSharp\Projects\ForEach\ForEach\bin\Debug\ForEach.exe
+C:\MyCSharp\Projects\ForEach\ForEach\bin\Debug\ForEach.pdb
+C:\MyCSharp\Projects\ForEach\ForEach\obj\Debug\ForEach.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\ForEach\ForEach\obj\Debug\ForEach.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\ForEach\ForEach\obj\Debug\ForEach.exe
+C:\MyCSharp\Projects\ForEach\ForEach\obj\Debug\ForEach.pdb

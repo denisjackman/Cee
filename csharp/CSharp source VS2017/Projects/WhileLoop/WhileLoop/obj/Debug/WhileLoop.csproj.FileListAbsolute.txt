@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\WhileLoop\WhileLoop\bin\Debug\WhileLoop.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\WhileLoop\WhileLoop\bin\Debug\WhileLoop.exe
+c:\users\mike_\documents\visual studio 2015\Projects\WhileLoop\WhileLoop\bin\Debug\WhileLoop.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\WhileLoop\WhileLoop\obj\Debug\WhileLoop.exe
+c:\users\mike_\documents\visual studio 2015\Projects\WhileLoop\WhileLoop\obj\Debug\WhileLoop.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\WhileLoop\WhileLoop\obj\Debug\WhileLoop.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\WhileLoop\WhileLoop\bin\Debug\WhileLoop.exe.config
+C:\MyCSharp\Projects\WhileLoop\WhileLoop\bin\Debug\WhileLoop.exe
+C:\MyCSharp\Projects\WhileLoop\WhileLoop\bin\Debug\WhileLoop.pdb
+C:\MyCSharp\Projects\WhileLoop\WhileLoop\obj\Debug\WhileLoop.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\WhileLoop\WhileLoop\obj\Debug\WhileLoop.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\WhileLoop\WhileLoop\obj\Debug\WhileLoop.exe
+C:\MyCSharp\Projects\WhileLoop\WhileLoop\obj\Debug\WhileLoop.pdb

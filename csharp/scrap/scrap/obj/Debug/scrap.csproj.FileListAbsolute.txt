@@ -1,0 +1,1 @@
+g:\workspace\csharp\scrap\scrap\bin\Debug\scrap.exe.config

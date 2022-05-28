@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Override\Override\bin\Debug\Override.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Override\Override\bin\Debug\Override.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Override\Override\bin\Debug\Override.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Override\Override\obj\Debug\Override.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Override\Override\obj\Debug\Override.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Override\Override\obj\Debug\Override.pdb
+C:\MyCSharp\Projects\Override\Override\bin\Debug\Override.exe.config
+C:\MyCSharp\Projects\Override\Override\bin\Debug\Override.exe
+C:\MyCSharp\Projects\Override\Override\bin\Debug\Override.pdb
+C:\MyCSharp\Projects\Override\Override\obj\Debug\Override.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Override\Override\obj\Debug\Override.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Override\Override\obj\Debug\Override.exe
+C:\MyCSharp\Projects\Override\Override\obj\Debug\Override.pdb

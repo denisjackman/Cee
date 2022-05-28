@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Copied\Copied\bin\Debug\Copied.exe.config
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Copied\Copied\obj\Debug\Copied.csprojResolveAssemblyReference.cache
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Copied\Copied\bin\Debug\Copied.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Copied\Copied\bin\Debug\Copied.pdb
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Copied\Copied\obj\Debug\Copied.exe
+C:\Users\mike_\Documents\Visual Studio 2015\Projects\Copied\Copied\obj\Debug\Copied.pdb
+C:\MyCSharp\Projects\Copied\Copied\bin\Debug\Copied.exe.config
+C:\MyCSharp\Projects\Copied\Copied\bin\Debug\Copied.exe
+C:\MyCSharp\Projects\Copied\Copied\bin\Debug\Copied.pdb
+C:\MyCSharp\Projects\Copied\Copied\obj\Debug\Copied.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Copied\Copied\obj\Debug\Copied.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Copied\Copied\obj\Debug\Copied.exe
+C:\MyCSharp\Projects\Copied\Copied\obj\Debug\Copied.pdb

@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Inheritance\Inheritance\obj\Debug\Inheritance.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Inheritance\Inheritance\obj\Debug\Inheritance.pdb
+C:\MyCSharp\Projects\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+C:\MyCSharp\Projects\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+C:\MyCSharp\Projects\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+C:\MyCSharp\Projects\Inheritance\Inheritance\obj\Debug\Inheritance.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+C:\MyCSharp\Projects\Inheritance\Inheritance\obj\Debug\Inheritance.pdb

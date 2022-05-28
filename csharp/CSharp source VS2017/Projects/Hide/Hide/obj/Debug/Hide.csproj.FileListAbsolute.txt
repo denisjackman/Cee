@@ -1,0 +1,16 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Hide\Hide\bin\Debug\Hide.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Hide\Hide\bin\Debug\Hide.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Hide\Hide\bin\Debug\Hide.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Hide\Hide\obj\Debug\Hide.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Hide\Hide\obj\Debug\Hide.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Hide\Hide\obj\Debug\Hide.pdb
+C:\Users\mike_\Desktop\Projects\Hide\Hide\bin\Debug\Hide.exe.config
+C:\Users\mike_\Desktop\Projects\Hide\Hide\obj\Debug\Hide.exe
+C:\Users\mike_\Desktop\Projects\Hide\Hide\obj\Debug\Hide.pdb
+C:\MyCSharp\Projects\Hide\Hide\bin\Debug\Hide.exe.config
+C:\MyCSharp\Projects\Hide\Hide\bin\Debug\Hide.exe
+C:\MyCSharp\Projects\Hide\Hide\bin\Debug\Hide.pdb
+C:\MyCSharp\Projects\Hide\Hide\obj\Debug\Hide.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Hide\Hide\obj\Debug\Hide.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Hide\Hide\obj\Debug\Hide.exe
+C:\MyCSharp\Projects\Hide\Hide\obj\Debug\Hide.pdb

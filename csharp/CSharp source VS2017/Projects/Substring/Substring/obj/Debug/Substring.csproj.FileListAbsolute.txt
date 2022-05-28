@@ -1,0 +1,13 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Substring\Substring\bin\Debug\Substring.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Substring\Substring\bin\Debug\Substring.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Substring\Substring\bin\Debug\Substring.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Substring\Substring\obj\Debug\Substring.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Substring\Substring\obj\Debug\Substring.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Substring\Substring\obj\Debug\Substring.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Substring\Substring\bin\Debug\Substring.exe.config
+C:\MyCSharp\Projects\Substring\Substring\bin\Debug\Substring.exe
+C:\MyCSharp\Projects\Substring\Substring\bin\Debug\Substring.pdb
+C:\MyCSharp\Projects\Substring\Substring\obj\Debug\Substring.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Substring\Substring\obj\Debug\Substring.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Substring\Substring\obj\Debug\Substring.exe
+C:\MyCSharp\Projects\Substring\Substring\obj\Debug\Substring.pdb

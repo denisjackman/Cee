@@ -1,0 +1,19 @@
+c:\users\mike_\documents\visual studio 2015\Projects\Option\Option\bin\Debug\Option.exe.config
+c:\users\mike_\documents\visual studio 2015\Projects\Option\Option\bin\Debug\Option.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Option\Option\bin\Debug\Option.pdb
+c:\users\mike_\documents\visual studio 2015\Projects\Option\Option\obj\Debug\Option.csprojResolveAssemblyReference.cache
+c:\users\mike_\documents\visual studio 2015\Projects\Option\Option\obj\Debug\Option.Form1.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Option\Option\obj\Debug\Option.Properties.Resources.resources
+c:\users\mike_\documents\visual studio 2015\Projects\Option\Option\obj\Debug\Option.csproj.GenerateResource.Cache
+c:\users\mike_\documents\visual studio 2015\Projects\Option\Option\obj\Debug\Option.exe
+c:\users\mike_\documents\visual studio 2015\Projects\Option\Option\obj\Debug\Option.pdb
+C:\MyCSharp\Projects\Option\Option\bin\Debug\Option.exe.config
+C:\MyCSharp\Projects\Option\Option\bin\Debug\Option.exe
+C:\MyCSharp\Projects\Option\Option\bin\Debug\Option.pdb
+C:\MyCSharp\Projects\Option\Option\obj\Debug\Option.csprojResolveAssemblyReference.cache
+C:\MyCSharp\Projects\Option\Option\obj\Debug\Option.Form1.resources
+C:\MyCSharp\Projects\Option\Option\obj\Debug\Option.Properties.Resources.resources
+C:\MyCSharp\Projects\Option\Option\obj\Debug\Option.csproj.GenerateResource.Cache
+C:\MyCSharp\Projects\Option\Option\obj\Debug\Option.csproj.CoreCompileInputs.cache
+C:\MyCSharp\Projects\Option\Option\obj\Debug\Option.exe
+C:\MyCSharp\Projects\Option\Option\obj\Debug\Option.pdb
