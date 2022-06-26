@@ -21,9 +21,10 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 |2016-06-14|Denis Jackman|02.05|Added in Coverity and kings game |
 |2018-07-10|Denis Jackman|02.06|Tidied up and checked it out |
 |2022-03-24|Denis Jackman|02.07|new ide new check out|
+|2022-05-28|Denis Jackman|02.08|updated |
 
 ## TODO
-* Start coding part 8 of the tutorials 
+* Start coding part 8 of the tutorials
 * Overlay the Maze array with rooms (create a function to do so )
 * Make sure the Maze is sane (all rooms connect to each other)
 * Add Maze furniture (Doors, Stairs (up and down)) or do we treat these as objects
@@ -40,8 +41,8 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 	- Unable to create texture from files/texture.png! SDL Error: Invalid renderer
 	- Failed to load texture image!
 	- Game failed to load media !
-* Project to-do 
-	- add to Trello 
+* Project to-do
+	- add to Trello
 
 ## Links
 * [Game Programming](http://gameprogrammingpatterns.com/)
@@ -113,12 +114,12 @@ I will do this in C++. Using Travis CI and Coverall as tools to run the project.
 * [C++ Best Practices](http://ironalbatross.net/wiki/index.php?title=C%2B%2B_Best_Practices)
 
 ## Books
-* Game Programming in C++ 
+* Game Programming in C++
 * Focus on SDL
 * Programming Linux Games
 * Beginning C++ Game Programming
 * C++ For Game Programmers.
-* Design Patterns 
+* Design Patterns
 
 ## Branches
 * none
